@@ -1,0 +1,2023 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keyboard_parts:KEYSW K1
+U 1 1 5EF0B754
+P 1150 2900
+F 0 "K1" H 1150 3133 60  0000 C CNN
+F 1 "KEYSW" H 1150 2800 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1150 2900 60  0001 C CNN
+F 3 "" H 1150 2900 60  0000 C CNN
+	1    1150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D1
+U 1 1 5EF0BF42
+P 750 3200
+F 0 "D1" H 878 3150 60  0000 L CNN
+F 1 "D" V 900 3150 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 750 3200 60  0001 C CNN
+F 3 "" H 750 3200 60  0000 C CNN
+	1    750  3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K9
+U 1 1 5EF15A68
+P 1150 3700
+F 0 "K9" H 1150 3933 60  0000 C CNN
+F 1 "KEYSW" H 1150 3600 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1150 3700 60  0001 C CNN
+F 3 "" H 1150 3700 60  0000 C CNN
+	1    1150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D9
+U 1 1 5EF15A72
+P 750 4000
+F 0 "D9" H 878 3950 60  0000 L CNN
+F 1 "D" V 900 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 750 4000 60  0001 C CNN
+F 3 "" H 750 4000 60  0000 C CNN
+	1    750  4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K2
+U 1 1 5EF1C63A
+P 2150 2900
+F 0 "K2" H 2150 3133 60  0000 C CNN
+F 1 "KEYSW" H 2150 2800 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2150 2900 60  0001 C CNN
+F 3 "" H 2150 2900 60  0000 C CNN
+	1    2150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D2
+U 1 1 5EF1C644
+P 1750 3200
+F 0 "D2" H 1878 3150 60  0000 L CNN
+F 1 "D" V 1900 3150 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1750 3200 60  0001 C CNN
+F 3 "" H 1750 3200 60  0000 C CNN
+	1    1750 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K10
+U 1 1 5EF1C64E
+P 2150 3700
+F 0 "K10" H 2150 3933 60  0000 C CNN
+F 1 "KEYSW" H 2150 3600 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2150 3700 60  0001 C CNN
+F 3 "" H 2150 3700 60  0000 C CNN
+	1    2150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D10
+U 1 1 5EF1C658
+P 1750 4000
+F 0 "D10" H 1878 3950 60  0000 L CNN
+F 1 "D" V 1900 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1750 4000 60  0001 C CNN
+F 3 "" H 1750 4000 60  0000 C CNN
+	1    1750 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	850  2900 750  2900
+Wire Wire Line
+	750  2900 750  3050
+Wire Wire Line
+	1850 2900 1750 2900
+Wire Wire Line
+	1750 2900 1750 3050
+Wire Wire Line
+	1850 3700 1750 3700
+Wire Wire Line
+	1750 3700 1750 3850
+Wire Wire Line
+	850  3700 750  3700
+Wire Wire Line
+	750  3700 750  3850
+Wire Wire Line
+	750  3250 750  3350
+Wire Wire Line
+	750  3350 1750 3350
+Wire Wire Line
+	1750 3350 1750 3250
+Wire Wire Line
+	1750 4150 1750 4050
+Wire Wire Line
+	1450 2900 1450 3700
+Wire Wire Line
+	2450 2900 2450 3700
+Wire Wire Line
+	750  4050 750  4150
+Wire Wire Line
+	750  4150 1750 4150
+Connection ~ 2450 3700
+Connection ~ 1450 3700
+Connection ~ 1750 3350
+Connection ~ 1750 4150
+$Comp
+L keyboard_parts:KEYSW K20
+U 1 1 5EF43462
+P 1150 4500
+F 0 "K20" H 1150 4733 60  0000 C CNN
+F 1 "KEYSW" H 1150 4400 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1150 4500 60  0001 C CNN
+F 3 "" H 1150 4500 60  0000 C CNN
+	1    1150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D20
+U 1 1 5EF4346C
+P 750 4800
+F 0 "D20" H 878 4750 60  0000 L CNN
+F 1 "D" V 900 4750 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 750 4800 60  0001 C CNN
+F 3 "" H 750 4800 60  0000 C CNN
+	1    750  4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K31
+U 1 1 5EF43476
+P 1150 5300
+F 0 "K31" H 1150 5533 60  0000 C CNN
+F 1 "KEYSW" H 1150 5200 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1150 5300 60  0001 C CNN
+F 3 "" H 1150 5300 60  0000 C CNN
+	1    1150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D31
+U 1 1 5EF43480
+P 750 5600
+F 0 "D31" H 878 5550 60  0000 L CNN
+F 1 "D" V 900 5550 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 750 5600 60  0001 C CNN
+F 3 "" H 750 5600 60  0000 C CNN
+	1    750  5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K21
+U 1 1 5EF4348A
+P 2150 4500
+F 0 "K21" H 2150 4733 60  0000 C CNN
+F 1 "KEYSW" H 2150 4400 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2150 4500 60  0001 C CNN
+F 3 "" H 2150 4500 60  0000 C CNN
+	1    2150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D21
+U 1 1 5EF43494
+P 1750 4800
+F 0 "D21" H 1878 4750 60  0000 L CNN
+F 1 "D" V 1900 4750 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1750 4800 60  0001 C CNN
+F 3 "" H 1750 4800 60  0000 C CNN
+	1    1750 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K32
+U 1 1 5EF4349E
+P 2150 5300
+F 0 "K32" H 2150 5533 60  0000 C CNN
+F 1 "KEYSW" H 2150 5200 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2150 5300 60  0001 C CNN
+F 3 "" H 2150 5300 60  0000 C CNN
+	1    2150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D32
+U 1 1 5EF434A8
+P 1750 5600
+F 0 "D32" H 1878 5550 60  0000 L CNN
+F 1 "D" V 1900 5550 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1750 5600 60  0001 C CNN
+F 3 "" H 1750 5600 60  0000 C CNN
+	1    1750 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	850  4500 750  4500
+Wire Wire Line
+	750  4500 750  4650
+Wire Wire Line
+	1850 4500 1750 4500
+Wire Wire Line
+	1750 4500 1750 4650
+Wire Wire Line
+	1850 5300 1750 5300
+Wire Wire Line
+	1750 5300 1750 5450
+Wire Wire Line
+	850  5300 750  5300
+Wire Wire Line
+	750  5300 750  5450
+Wire Wire Line
+	750  4850 750  4950
+Wire Wire Line
+	750  4950 1750 4950
+Wire Wire Line
+	1750 4950 1750 4850
+Wire Wire Line
+	1750 5750 1750 5650
+Wire Wire Line
+	750  5650 750  5750
+Wire Wire Line
+	750  5750 1750 5750
+Connection ~ 1750 4950
+Connection ~ 1750 5750
+Wire Wire Line
+	2450 3700 2450 4500
+Wire Wire Line
+	1450 3700 1450 4500
+$Comp
+L keyboard_parts:KEYSW K42
+U 1 1 5EF51EAA
+P 1150 6050
+F 0 "K42" H 1150 6283 60  0000 C CNN
+F 1 "KEYSW" H 1150 5950 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1150 6050 60  0001 C CNN
+F 3 "" H 1150 6050 60  0000 C CNN
+	1    1150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D42
+U 1 1 5EF51EB4
+P 750 6350
+F 0 "D42" H 878 6300 60  0000 L CNN
+F 1 "D" V 900 6300 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 750 6350 60  0001 C CNN
+F 3 "" H 750 6350 60  0000 C CNN
+	1    750  6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K43
+U 1 1 5EF51EBE
+P 2150 6050
+F 0 "K43" H 2150 6283 60  0000 C CNN
+F 1 "KEYSW" H 2150 5950 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2150 6050 60  0001 C CNN
+F 3 "" H 2150 6050 60  0000 C CNN
+	1    2150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D43
+U 1 1 5EF51EC8
+P 1750 6350
+F 0 "D43" H 1878 6300 60  0000 L CNN
+F 1 "D" V 1900 6300 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1750 6350 60  0001 C CNN
+F 3 "" H 1750 6350 60  0000 C CNN
+	1    1750 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1850 6050 1750 6050
+Wire Wire Line
+	1750 6050 1750 6200
+Wire Wire Line
+	850  6050 750  6050
+Wire Wire Line
+	750  6050 750  6200
+Wire Wire Line
+	1750 6500 1750 6400
+Wire Wire Line
+	750  6400 750  6500
+Wire Wire Line
+	750  6500 1750 6500
+Connection ~ 1750 6500
+Wire Wire Line
+	1450 4500 1450 5300
+Connection ~ 1450 4500
+Wire Wire Line
+	1450 5300 1450 6050
+Connection ~ 1450 5300
+Wire Wire Line
+	2450 4500 2450 5300
+Connection ~ 2450 4500
+Wire Wire Line
+	2450 5300 2450 6050
+Connection ~ 2450 5300
+$Comp
+L keyboard_parts:KEYSW K3
+U 1 1 5EF6F0E6
+P 3150 2900
+F 0 "K3" H 3150 3133 60  0000 C CNN
+F 1 "KEYSW" H 3150 2800 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3150 2900 60  0001 C CNN
+F 3 "" H 3150 2900 60  0000 C CNN
+	1    3150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D3
+U 1 1 5EF6F0F0
+P 2750 3200
+F 0 "D3" H 2878 3150 60  0000 L CNN
+F 1 "D" V 2900 3150 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2750 3200 60  0001 C CNN
+F 3 "" H 2750 3200 60  0000 C CNN
+	1    2750 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K11
+U 1 1 5EF6F0FA
+P 3150 3700
+F 0 "K11" H 3150 3933 60  0000 C CNN
+F 1 "KEYSW" H 3150 3600 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3150 3700 60  0001 C CNN
+F 3 "" H 3150 3700 60  0000 C CNN
+	1    3150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D11
+U 1 1 5EF6F104
+P 2750 4000
+F 0 "D11" H 2878 3950 60  0000 L CNN
+F 1 "D" V 2900 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2750 4000 60  0001 C CNN
+F 3 "" H 2750 4000 60  0000 C CNN
+	1    2750 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K4
+U 1 1 5EF6F10E
+P 4150 2900
+F 0 "K4" H 4150 3133 60  0000 C CNN
+F 1 "KEYSW" H 4150 2800 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4150 2900 60  0001 C CNN
+F 3 "" H 4150 2900 60  0000 C CNN
+	1    4150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D4
+U 1 1 5EF6F118
+P 3750 3200
+F 0 "D4" H 3878 3150 60  0000 L CNN
+F 1 "D" V 3900 3150 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3750 3200 60  0001 C CNN
+F 3 "" H 3750 3200 60  0000 C CNN
+	1    3750 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K12
+U 1 1 5EF6F122
+P 4150 3700
+F 0 "K12" H 4150 3933 60  0000 C CNN
+F 1 "KEYSW" H 4150 3600 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4150 3700 60  0001 C CNN
+F 3 "" H 4150 3700 60  0000 C CNN
+	1    4150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D12
+U 1 1 5EF6F12C
+P 3750 4000
+F 0 "D12" H 3878 3950 60  0000 L CNN
+F 1 "D" V 3900 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3750 4000 60  0001 C CNN
+F 3 "" H 3750 4000 60  0000 C CNN
+	1    3750 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2850 2900 2750 2900
+Wire Wire Line
+	2750 2900 2750 3050
+Wire Wire Line
+	3850 2900 3750 2900
+Wire Wire Line
+	3750 2900 3750 3050
+Wire Wire Line
+	3850 3700 3750 3700
+Wire Wire Line
+	3750 3700 3750 3850
+Wire Wire Line
+	2850 3700 2750 3700
+Wire Wire Line
+	2750 3700 2750 3850
+Wire Wire Line
+	2750 3250 2750 3350
+Wire Wire Line
+	2750 3350 3750 3350
+Wire Wire Line
+	3750 3350 3750 3250
+Wire Wire Line
+	3750 4150 3750 4050
+Wire Wire Line
+	3450 2900 3450 3700
+Wire Wire Line
+	4450 2900 4450 3700
+Wire Wire Line
+	2750 4050 2750 4150
+Wire Wire Line
+	2750 4150 3750 4150
+Connection ~ 4450 3700
+Connection ~ 3450 3700
+Connection ~ 3750 3350
+Connection ~ 3750 4150
+$Comp
+L keyboard_parts:KEYSW K22
+U 1 1 5EF6F14C
+P 3150 4500
+F 0 "K22" H 3150 4733 60  0000 C CNN
+F 1 "KEYSW" H 3150 4400 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3150 4500 60  0001 C CNN
+F 3 "" H 3150 4500 60  0000 C CNN
+	1    3150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D22
+U 1 1 5EF6F156
+P 2750 4800
+F 0 "D22" H 2878 4750 60  0000 L CNN
+F 1 "D" V 2900 4750 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2750 4800 60  0001 C CNN
+F 3 "" H 2750 4800 60  0000 C CNN
+	1    2750 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K33
+U 1 1 5EF6F160
+P 3150 5300
+F 0 "K33" H 3150 5533 60  0000 C CNN
+F 1 "KEYSW" H 3150 5200 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3150 5300 60  0001 C CNN
+F 3 "" H 3150 5300 60  0000 C CNN
+	1    3150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D33
+U 1 1 5EF6F16A
+P 2750 5600
+F 0 "D33" H 2878 5550 60  0000 L CNN
+F 1 "D" V 2900 5550 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2750 5600 60  0001 C CNN
+F 3 "" H 2750 5600 60  0000 C CNN
+	1    2750 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K23
+U 1 1 5EF6F174
+P 4150 4500
+F 0 "K23" H 4150 4733 60  0000 C CNN
+F 1 "KEYSW" H 4150 4400 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4150 4500 60  0001 C CNN
+F 3 "" H 4150 4500 60  0000 C CNN
+	1    4150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D23
+U 1 1 5EF6F17E
+P 3750 4800
+F 0 "D23" H 3878 4750 60  0000 L CNN
+F 1 "D" V 3900 4750 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3750 4800 60  0001 C CNN
+F 3 "" H 3750 4800 60  0000 C CNN
+	1    3750 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K34
+U 1 1 5EF6F188
+P 4150 5300
+F 0 "K34" H 4150 5533 60  0000 C CNN
+F 1 "KEYSW" H 4150 5200 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4150 5300 60  0001 C CNN
+F 3 "" H 4150 5300 60  0000 C CNN
+	1    4150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D34
+U 1 1 5EF6F192
+P 3750 5600
+F 0 "D34" H 3878 5550 60  0000 L CNN
+F 1 "D" V 3900 5550 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3750 5600 60  0001 C CNN
+F 3 "" H 3750 5600 60  0000 C CNN
+	1    3750 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2850 4500 2750 4500
+Wire Wire Line
+	2750 4500 2750 4650
+Wire Wire Line
+	3850 4500 3750 4500
+Wire Wire Line
+	3750 4500 3750 4650
+Wire Wire Line
+	3850 5300 3750 5300
+Wire Wire Line
+	3750 5300 3750 5450
+Wire Wire Line
+	2850 5300 2750 5300
+Wire Wire Line
+	2750 5300 2750 5450
+Wire Wire Line
+	2750 4850 2750 4950
+Wire Wire Line
+	2750 4950 3750 4950
+Wire Wire Line
+	3750 4950 3750 4850
+Wire Wire Line
+	3750 5750 3750 5650
+Wire Wire Line
+	2750 5650 2750 5750
+Wire Wire Line
+	2750 5750 3750 5750
+Connection ~ 3750 4950
+Connection ~ 3750 5750
+Wire Wire Line
+	4450 3700 4450 4500
+Wire Wire Line
+	3450 3700 3450 4500
+$Comp
+L keyboard_parts:KEYSW K44
+U 1 1 5EF6F1B0
+P 3150 6050
+F 0 "K44" H 3150 6283 60  0000 C CNN
+F 1 "KEYSW" H 3150 5950 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3150 6050 60  0001 C CNN
+F 3 "" H 3150 6050 60  0000 C CNN
+	1    3150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D44
+U 1 1 5EF6F1BA
+P 2750 6350
+F 0 "D44" H 2878 6300 60  0000 L CNN
+F 1 "D" V 2900 6300 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2750 6350 60  0001 C CNN
+F 3 "" H 2750 6350 60  0000 C CNN
+	1    2750 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K45
+U 1 1 5EF6F1C4
+P 4150 6050
+F 0 "K45" H 4150 6283 60  0000 C CNN
+F 1 "KEYSW" H 4150 5950 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4150 6050 60  0001 C CNN
+F 3 "" H 4150 6050 60  0000 C CNN
+	1    4150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D45
+U 1 1 5EF6F1CE
+P 3750 6350
+F 0 "D45" H 3878 6300 60  0000 L CNN
+F 1 "D" V 3900 6300 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3750 6350 60  0001 C CNN
+F 3 "" H 3750 6350 60  0000 C CNN
+	1    3750 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 6050 3750 6050
+Wire Wire Line
+	3750 6050 3750 6200
+Wire Wire Line
+	2850 6050 2750 6050
+Wire Wire Line
+	2750 6050 2750 6200
+Wire Wire Line
+	3750 6500 3750 6400
+Wire Wire Line
+	2750 6400 2750 6500
+Wire Wire Line
+	2750 6500 3750 6500
+Connection ~ 3750 6500
+Wire Wire Line
+	3450 4500 3450 5300
+Connection ~ 3450 4500
+Wire Wire Line
+	3450 5300 3450 6050
+Connection ~ 3450 5300
+Wire Wire Line
+	4450 4500 4450 5300
+Connection ~ 4450 4500
+Wire Wire Line
+	4450 5300 4450 6050
+Connection ~ 4450 5300
+$Comp
+L keyboard_parts:KEYSW K5
+U 1 1 5EF86AA8
+P 5150 2900
+F 0 "K5" H 5150 3133 60  0000 C CNN
+F 1 "KEYSW" H 5150 2800 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 5150 2900 60  0001 C CNN
+F 3 "" H 5150 2900 60  0000 C CNN
+	1    5150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D5
+U 1 1 5EF86AB2
+P 4750 3200
+F 0 "D5" H 4878 3150 60  0000 L CNN
+F 1 "D" V 4900 3150 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4750 3200 60  0001 C CNN
+F 3 "" H 4750 3200 60  0000 C CNN
+	1    4750 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K13
+U 1 1 5EF86ABC
+P 5150 3700
+F 0 "K13" H 5150 3933 60  0000 C CNN
+F 1 "KEYSW" H 5150 3600 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 5150 3700 60  0001 C CNN
+F 3 "" H 5150 3700 60  0000 C CNN
+	1    5150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D13
+U 1 1 5EF86AC6
+P 4750 4000
+F 0 "D13" H 4878 3950 60  0000 L CNN
+F 1 "D" V 4900 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4750 4000 60  0001 C CNN
+F 3 "" H 4750 4000 60  0000 C CNN
+	1    4750 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K6
+U 1 1 5EF86AD0
+P 6150 2900
+F 0 "K6" H 6150 3133 60  0000 C CNN
+F 1 "KEYSW" H 6150 2800 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6150 2900 60  0001 C CNN
+F 3 "" H 6150 2900 60  0000 C CNN
+	1    6150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D6
+U 1 1 5EF86ADA
+P 5750 3200
+F 0 "D6" H 5878 3150 60  0000 L CNN
+F 1 "D" V 5900 3150 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5750 3200 60  0001 C CNN
+F 3 "" H 5750 3200 60  0000 C CNN
+	1    5750 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K14
+U 1 1 5EF86AE4
+P 6150 3700
+F 0 "K14" H 6150 3933 60  0000 C CNN
+F 1 "KEYSW" H 6150 3600 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6150 3700 60  0001 C CNN
+F 3 "" H 6150 3700 60  0000 C CNN
+	1    6150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D14
+U 1 1 5EF86AEE
+P 5750 4000
+F 0 "D14" H 5878 3950 60  0000 L CNN
+F 1 "D" V 5900 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5750 4000 60  0001 C CNN
+F 3 "" H 5750 4000 60  0000 C CNN
+	1    5750 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 2900 4750 2900
+Wire Wire Line
+	5850 2900 5750 2900
+Wire Wire Line
+	5750 2900 5750 3050
+Wire Wire Line
+	5850 3700 5750 3700
+Wire Wire Line
+	5750 3700 5750 3850
+Wire Wire Line
+	4850 3700 4750 3700
+Wire Wire Line
+	5750 3350 5750 3250
+Wire Wire Line
+	5750 4150 5750 4050
+Wire Wire Line
+	5450 2900 5450 3700
+Connection ~ 5450 3700
+Connection ~ 5750 4150
+$Comp
+L keyboard_parts:KEYSW K24
+U 1 1 5EF86B08
+P 5150 4500
+F 0 "K24" H 5150 4733 60  0000 C CNN
+F 1 "KEYSW" H 5150 4400 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 5150 4500 60  0001 C CNN
+F 3 "" H 5150 4500 60  0000 C CNN
+	1    5150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D24
+U 1 1 5EF86B12
+P 4750 4800
+F 0 "D24" H 4878 4750 60  0000 L CNN
+F 1 "D" V 4900 4750 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4750 4800 60  0001 C CNN
+F 3 "" H 4750 4800 60  0000 C CNN
+	1    4750 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K35
+U 1 1 5EF86B1C
+P 5150 5300
+F 0 "K35" H 5150 5533 60  0000 C CNN
+F 1 "KEYSW" H 5150 5200 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 5150 5300 60  0001 C CNN
+F 3 "" H 5150 5300 60  0000 C CNN
+	1    5150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D35
+U 1 1 5EF86B26
+P 4750 5600
+F 0 "D35" H 4878 5550 60  0000 L CNN
+F 1 "D" V 4900 5550 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4750 5600 60  0001 C CNN
+F 3 "" H 4750 5600 60  0000 C CNN
+	1    4750 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K25
+U 1 1 5EF86B30
+P 6150 4500
+F 0 "K25" H 6150 4733 60  0000 C CNN
+F 1 "KEYSW" H 6150 4400 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6150 4500 60  0001 C CNN
+F 3 "" H 6150 4500 60  0000 C CNN
+	1    6150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D25
+U 1 1 5EF86B3A
+P 5750 4800
+F 0 "D25" H 5878 4750 60  0000 L CNN
+F 1 "D" V 5900 4750 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5750 4800 60  0001 C CNN
+F 3 "" H 5750 4800 60  0000 C CNN
+	1    5750 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K36
+U 1 1 5EF86B44
+P 6150 5300
+F 0 "K36" H 6150 5533 60  0000 C CNN
+F 1 "KEYSW" H 6150 5200 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6150 5300 60  0001 C CNN
+F 3 "" H 6150 5300 60  0000 C CNN
+	1    6150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D36
+U 1 1 5EF86B4E
+P 5750 5600
+F 0 "D36" H 5878 5550 60  0000 L CNN
+F 1 "D" V 5900 5550 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5750 5600 60  0001 C CNN
+F 3 "" H 5750 5600 60  0000 C CNN
+	1    5750 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 4500 4750 4500
+Wire Wire Line
+	5850 4500 5750 4500
+Wire Wire Line
+	5750 4500 5750 4650
+Wire Wire Line
+	5850 5300 5750 5300
+Wire Wire Line
+	5750 5300 5750 5450
+Wire Wire Line
+	4850 5300 4750 5300
+Wire Wire Line
+	5750 4950 5750 4850
+Wire Wire Line
+	5750 5750 5750 5650
+Connection ~ 5750 4950
+Connection ~ 5750 5750
+Wire Wire Line
+	5450 3700 5450 4500
+$Comp
+L keyboard_parts:KEYSW K46
+U 1 1 5EF86B67
+P 5150 6050
+F 0 "K46" H 5150 6283 60  0000 C CNN
+F 1 "KEYSW" H 5150 5950 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 5150 6050 60  0001 C CNN
+F 3 "" H 5150 6050 60  0000 C CNN
+	1    5150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D46
+U 1 1 5EF86B71
+P 4750 6350
+F 0 "D46" H 4878 6300 60  0000 L CNN
+F 1 "D" V 4900 6300 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4750 6350 60  0001 C CNN
+F 3 "" H 4750 6350 60  0000 C CNN
+	1    4750 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K47
+U 1 1 5EF86B7B
+P 6150 6050
+F 0 "K47" H 6150 6283 60  0000 C CNN
+F 1 "KEYSW" H 6150 5950 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6150 6050 60  0001 C CNN
+F 3 "" H 6150 6050 60  0000 C CNN
+	1    6150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D47
+U 1 1 5EF86B85
+P 5750 6350
+F 0 "D47" H 5878 6300 60  0000 L CNN
+F 1 "D" V 5900 6300 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5750 6350 60  0001 C CNN
+F 3 "" H 5750 6350 60  0000 C CNN
+	1    5750 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 6050 5750 6050
+Wire Wire Line
+	5750 6050 5750 6200
+Wire Wire Line
+	4850 6050 4750 6050
+Wire Wire Line
+	5750 6500 5750 6400
+Connection ~ 5750 6500
+Wire Wire Line
+	5450 4500 5450 5300
+Connection ~ 5450 4500
+Wire Wire Line
+	5450 5300 5450 6050
+Connection ~ 5450 5300
+Wire Wire Line
+	1750 5750 2750 5750
+Connection ~ 2750 5750
+Wire Wire Line
+	1750 6500 2750 6500
+Connection ~ 2750 6500
+Wire Wire Line
+	1750 4950 2750 4950
+Connection ~ 2750 4950
+Wire Wire Line
+	1750 4150 2750 4150
+Connection ~ 2750 4150
+Wire Wire Line
+	1750 3350 2750 3350
+Connection ~ 2750 3350
+Wire Wire Line
+	3750 3350 4750 3350
+Wire Wire Line
+	3750 4150 4750 4150
+Wire Wire Line
+	3750 4950 4750 4950
+Wire Wire Line
+	3750 5750 4750 5750
+Wire Wire Line
+	4750 5650 4750 5750
+Connection ~ 4750 5750
+Wire Wire Line
+	4750 5750 5750 5750
+Wire Wire Line
+	4750 4850 4750 4950
+Connection ~ 4750 4950
+Wire Wire Line
+	4750 4950 5750 4950
+Wire Wire Line
+	4750 3700 4750 3850
+Wire Wire Line
+	4750 4050 4750 4150
+Connection ~ 4750 4150
+Wire Wire Line
+	4750 4150 5750 4150
+Wire Wire Line
+	4750 3050 4750 2900
+Wire Wire Line
+	4750 3350 4750 3250
+Connection ~ 4750 3350
+Wire Wire Line
+	4750 3350 5750 3350
+Wire Wire Line
+	3750 6500 4750 6500
+Wire Wire Line
+	4750 6400 4750 6500
+Connection ~ 4750 6500
+Wire Wire Line
+	4750 6500 5750 6500
+Wire Wire Line
+	4750 6200 4750 6050
+Wire Wire Line
+	6450 2900 6450 3700
+Wire Wire Line
+	6450 3700 6450 4500
+Connection ~ 6450 3700
+Wire Wire Line
+	6450 4500 6450 5300
+Connection ~ 6450 4500
+Wire Wire Line
+	6450 6050 6450 5300
+Connection ~ 6450 5300
+$Comp
+L keyboard_parts:KEYSW K15
+U 1 1 5F07E082
+P 7150 3700
+F 0 "K15" H 7150 3933 60  0000 C CNN
+F 1 "KEYSW" H 7150 3600 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7150 3700 60  0001 C CNN
+F 3 "" H 7150 3700 60  0000 C CNN
+	1    7150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D15
+U 1 1 5F07E08C
+P 6750 4000
+F 0 "D15" H 6878 3950 60  0000 L CNN
+F 1 "D" V 6900 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6750 4000 60  0001 C CNN
+F 3 "" H 6750 4000 60  0000 C CNN
+	1    6750 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K16
+U 1 1 5F07E096
+P 8150 3700
+F 0 "K16" H 8150 3933 60  0000 C CNN
+F 1 "KEYSW" H 8150 3600 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 8150 3700 60  0001 C CNN
+F 3 "" H 8150 3700 60  0000 C CNN
+	1    8150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D16
+U 1 1 5F07E0A0
+P 7750 4000
+F 0 "D16" H 7878 3950 60  0000 L CNN
+F 1 "D" V 7900 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7750 4000 60  0001 C CNN
+F 3 "" H 7750 4000 60  0000 C CNN
+	1    7750 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 3700 7750 3700
+Wire Wire Line
+	7750 3700 7750 3850
+Wire Wire Line
+	6850 3700 6750 3700
+Wire Wire Line
+	6750 3700 6750 3850
+Wire Wire Line
+	7750 4150 7750 4050
+Wire Wire Line
+	6750 4050 6750 4150
+Wire Wire Line
+	6750 4150 7750 4150
+Connection ~ 7750 4150
+$Comp
+L keyboard_parts:KEYSW K26
+U 1 1 5F07E0B6
+P 7150 4500
+F 0 "K26" H 7150 4733 60  0000 C CNN
+F 1 "KEYSW" H 7150 4400 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7150 4500 60  0001 C CNN
+F 3 "" H 7150 4500 60  0000 C CNN
+	1    7150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D26
+U 1 1 5F07E0C0
+P 6750 4800
+F 0 "D26" H 6878 4750 60  0000 L CNN
+F 1 "D" V 6900 4750 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6750 4800 60  0001 C CNN
+F 3 "" H 6750 4800 60  0000 C CNN
+	1    6750 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K37
+U 1 1 5F07E0CA
+P 7150 5300
+F 0 "K37" H 7150 5533 60  0000 C CNN
+F 1 "KEYSW" H 7150 5200 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7150 5300 60  0001 C CNN
+F 3 "" H 7150 5300 60  0000 C CNN
+	1    7150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D37
+U 1 1 5F07E0D4
+P 6750 5600
+F 0 "D37" H 6878 5550 60  0000 L CNN
+F 1 "D" V 6900 5550 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6750 5600 60  0001 C CNN
+F 3 "" H 6750 5600 60  0000 C CNN
+	1    6750 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K27
+U 1 1 5F07E0DE
+P 8150 4500
+F 0 "K27" H 8150 4733 60  0000 C CNN
+F 1 "KEYSW" H 8150 4400 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 8150 4500 60  0001 C CNN
+F 3 "" H 8150 4500 60  0000 C CNN
+	1    8150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D27
+U 1 1 5F07E0E8
+P 7750 4800
+F 0 "D27" H 7878 4750 60  0000 L CNN
+F 1 "D" V 7900 4750 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7750 4800 60  0001 C CNN
+F 3 "" H 7750 4800 60  0000 C CNN
+	1    7750 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K38
+U 1 1 5F07E0F2
+P 8150 5300
+F 0 "K38" H 8150 5533 60  0000 C CNN
+F 1 "KEYSW" H 8150 5200 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 8150 5300 60  0001 C CNN
+F 3 "" H 8150 5300 60  0000 C CNN
+	1    8150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D38
+U 1 1 5F07E0FC
+P 7750 5600
+F 0 "D38" H 7878 5550 60  0000 L CNN
+F 1 "D" V 7900 5550 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7750 5600 60  0001 C CNN
+F 3 "" H 7750 5600 60  0000 C CNN
+	1    7750 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 4500 6750 4500
+Wire Wire Line
+	6750 4500 6750 4650
+Wire Wire Line
+	7850 4500 7750 4500
+Wire Wire Line
+	7750 4500 7750 4650
+Wire Wire Line
+	7850 5300 7750 5300
+Wire Wire Line
+	7750 5300 7750 5450
+Wire Wire Line
+	6850 5300 6750 5300
+Wire Wire Line
+	6750 5300 6750 5450
+Wire Wire Line
+	6750 4850 6750 4950
+Wire Wire Line
+	6750 4950 7750 4950
+Wire Wire Line
+	7750 4950 7750 4850
+Wire Wire Line
+	7750 5750 7750 5650
+Wire Wire Line
+	6750 5650 6750 5750
+Wire Wire Line
+	6750 5750 7750 5750
+Connection ~ 7750 4950
+Connection ~ 7750 5750
+Wire Wire Line
+	8450 3700 8450 4500
+Wire Wire Line
+	7450 3700 7450 4500
+$Comp
+L keyboard_parts:KEYSW K48
+U 1 1 5F07E118
+P 7150 6050
+F 0 "K48" H 7150 6283 60  0000 C CNN
+F 1 "KEYSW" H 7150 5950 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7150 6050 60  0001 C CNN
+F 3 "" H 7150 6050 60  0000 C CNN
+	1    7150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D48
+U 1 1 5F07E122
+P 6750 6350
+F 0 "D48" H 6878 6300 60  0000 L CNN
+F 1 "D" V 6900 6300 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6750 6350 60  0001 C CNN
+F 3 "" H 6750 6350 60  0000 C CNN
+	1    6750 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K49
+U 1 1 5F07E12C
+P 8150 6050
+F 0 "K49" H 8150 6283 60  0000 C CNN
+F 1 "KEYSW" H 8150 5950 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 8150 6050 60  0001 C CNN
+F 3 "" H 8150 6050 60  0000 C CNN
+	1    8150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D49
+U 1 1 5F07E136
+P 7750 6350
+F 0 "D49" H 7878 6300 60  0000 L CNN
+F 1 "D" V 7900 6300 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7750 6350 60  0001 C CNN
+F 3 "" H 7750 6350 60  0000 C CNN
+	1    7750 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 6050 7750 6050
+Wire Wire Line
+	7750 6050 7750 6200
+Wire Wire Line
+	6850 6050 6750 6050
+Wire Wire Line
+	6750 6050 6750 6200
+Wire Wire Line
+	7750 6500 7750 6400
+Wire Wire Line
+	6750 6400 6750 6500
+Wire Wire Line
+	6750 6500 7750 6500
+Connection ~ 7750 6500
+Wire Wire Line
+	7450 4500 7450 5300
+Connection ~ 7450 4500
+Wire Wire Line
+	7450 5300 7450 6050
+Connection ~ 7450 5300
+Wire Wire Line
+	8450 4500 8450 5300
+Connection ~ 8450 4500
+Wire Wire Line
+	8450 5300 8450 6050
+Connection ~ 8450 5300
+$Comp
+L keyboard_parts:KEYSW K17
+U 1 1 5F07E150
+P 9150 3700
+F 0 "K17" H 9150 3933 60  0000 C CNN
+F 1 "KEYSW" H 9150 3600 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 9150 3700 60  0001 C CNN
+F 3 "" H 9150 3700 60  0000 C CNN
+	1    9150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D17
+U 1 1 5F07E15A
+P 8750 4000
+F 0 "D17" H 8878 3950 60  0000 L CNN
+F 1 "D" V 8900 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8750 4000 60  0001 C CNN
+F 3 "" H 8750 4000 60  0000 C CNN
+	1    8750 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K18
+U 1 1 5F07E164
+P 10150 3700
+F 0 "K18" H 10150 3933 60  0000 C CNN
+F 1 "KEYSW" H 10150 3600 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 10150 3700 60  0001 C CNN
+F 3 "" H 10150 3700 60  0000 C CNN
+	1    10150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D18
+U 1 1 5F07E16E
+P 9750 4000
+F 0 "D18" H 9878 3950 60  0000 L CNN
+F 1 "D" V 9900 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9750 4000 60  0001 C CNN
+F 3 "" H 9750 4000 60  0000 C CNN
+	1    9750 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9850 3700 9750 3700
+Wire Wire Line
+	9750 3700 9750 3850
+Wire Wire Line
+	8850 3700 8750 3700
+Wire Wire Line
+	9750 4150 9750 4050
+Connection ~ 9750 4150
+$Comp
+L keyboard_parts:KEYSW K28
+U 1 1 5F07E180
+P 9150 4500
+F 0 "K28" H 9150 4733 60  0000 C CNN
+F 1 "KEYSW" H 9150 4400 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 9150 4500 60  0001 C CNN
+F 3 "" H 9150 4500 60  0000 C CNN
+	1    9150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D28
+U 1 1 5F07E18A
+P 8750 4800
+F 0 "D28" H 8878 4750 60  0000 L CNN
+F 1 "D" V 8900 4750 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8750 4800 60  0001 C CNN
+F 3 "" H 8750 4800 60  0000 C CNN
+	1    8750 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K39
+U 1 1 5F07E194
+P 9150 5300
+F 0 "K39" H 9150 5533 60  0000 C CNN
+F 1 "KEYSW" H 9150 5200 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 9150 5300 60  0001 C CNN
+F 3 "" H 9150 5300 60  0000 C CNN
+	1    9150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D39
+U 1 1 5F07E19E
+P 8750 5600
+F 0 "D39" H 8878 5550 60  0000 L CNN
+F 1 "D" V 8900 5550 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8750 5600 60  0001 C CNN
+F 3 "" H 8750 5600 60  0000 C CNN
+	1    8750 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K29
+U 1 1 5F07E1A8
+P 10150 4500
+F 0 "K29" H 10150 4733 60  0000 C CNN
+F 1 "KEYSW" H 10150 4400 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 10150 4500 60  0001 C CNN
+F 3 "" H 10150 4500 60  0000 C CNN
+	1    10150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D29
+U 1 1 5F07E1B2
+P 9750 4800
+F 0 "D29" H 9878 4750 60  0000 L CNN
+F 1 "D" V 9900 4750 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9750 4800 60  0001 C CNN
+F 3 "" H 9750 4800 60  0000 C CNN
+	1    9750 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K40
+U 1 1 5F07E1BC
+P 10150 5300
+F 0 "K40" H 10150 5533 60  0000 C CNN
+F 1 "KEYSW" H 10150 5200 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 10150 5300 60  0001 C CNN
+F 3 "" H 10150 5300 60  0000 C CNN
+	1    10150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D40
+U 1 1 5F07E1C6
+P 9750 5600
+F 0 "D40" H 9878 5550 60  0000 L CNN
+F 1 "D" V 9900 5550 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9750 5600 60  0001 C CNN
+F 3 "" H 9750 5600 60  0000 C CNN
+	1    9750 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8850 4500 8750 4500
+Wire Wire Line
+	9850 4500 9750 4500
+Wire Wire Line
+	9750 4500 9750 4650
+Wire Wire Line
+	9850 5300 9750 5300
+Wire Wire Line
+	9750 5300 9750 5450
+Wire Wire Line
+	8850 5300 8750 5300
+Wire Wire Line
+	9750 4950 9750 4850
+Wire Wire Line
+	9750 5750 9750 5650
+Connection ~ 9750 4950
+Connection ~ 9750 5750
+Wire Wire Line
+	9450 3700 9450 4500
+$Comp
+L keyboard_parts:KEYSW K50
+U 1 1 5F07E1DD
+P 9150 6050
+F 0 "K50" H 9150 6283 60  0000 C CNN
+F 1 "KEYSW" H 9150 5950 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 9150 6050 60  0001 C CNN
+F 3 "" H 9150 6050 60  0000 C CNN
+	1    9150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D50
+U 1 1 5F07E1E7
+P 8750 6350
+F 0 "D50" H 8878 6300 60  0000 L CNN
+F 1 "D" V 8900 6300 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8750 6350 60  0001 C CNN
+F 3 "" H 8750 6350 60  0000 C CNN
+	1    8750 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K51
+U 1 1 5F07E1F1
+P 10150 6050
+F 0 "K51" H 10150 6283 60  0000 C CNN
+F 1 "KEYSW" H 10150 5950 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 10150 6050 60  0001 C CNN
+F 3 "" H 10150 6050 60  0000 C CNN
+	1    10150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D51
+U 1 1 5F07E1FB
+P 9750 6350
+F 0 "D51" H 9878 6300 60  0000 L CNN
+F 1 "D" V 9900 6300 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9750 6350 60  0001 C CNN
+F 3 "" H 9750 6350 60  0000 C CNN
+	1    9750 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9850 6050 9750 6050
+Wire Wire Line
+	9750 6050 9750 6200
+Wire Wire Line
+	8850 6050 8750 6050
+Wire Wire Line
+	9750 6500 9750 6400
+Connection ~ 9750 6500
+Wire Wire Line
+	9450 4500 9450 5300
+Connection ~ 9450 4500
+Wire Wire Line
+	9450 5300 9450 6050
+Connection ~ 9450 5300
+Connection ~ 6750 5750
+Connection ~ 6750 6500
+Connection ~ 6750 4950
+Connection ~ 6750 4150
+Wire Wire Line
+	7750 4150 8750 4150
+Wire Wire Line
+	7750 4950 8750 4950
+Wire Wire Line
+	7750 5750 8750 5750
+Wire Wire Line
+	8750 5650 8750 5750
+Connection ~ 8750 5750
+Wire Wire Line
+	8750 5750 9750 5750
+Wire Wire Line
+	8750 4850 8750 4950
+Connection ~ 8750 4950
+Wire Wire Line
+	8750 4950 9750 4950
+Wire Wire Line
+	8750 3700 8750 3850
+Wire Wire Line
+	8750 4050 8750 4150
+Connection ~ 8750 4150
+Wire Wire Line
+	8750 4150 9750 4150
+Wire Wire Line
+	7750 6500 8750 6500
+Wire Wire Line
+	8750 6400 8750 6500
+Connection ~ 8750 6500
+Wire Wire Line
+	8750 6500 9750 6500
+Wire Wire Line
+	8750 6200 8750 6050
+Wire Wire Line
+	10450 3700 10450 4500
+Wire Wire Line
+	10450 4500 10450 5300
+Connection ~ 10450 4500
+Wire Wire Line
+	10450 6050 10450 5300
+Connection ~ 10450 5300
+Wire Wire Line
+	5750 4150 6750 4150
+Wire Wire Line
+	5750 4950 6750 4950
+Wire Wire Line
+	5750 5750 6750 5750
+Wire Wire Line
+	5750 6500 6750 6500
+Connection ~ 5750 3350
+NoConn ~ 14300 2150
+NoConn ~ 14300 2250
+NoConn ~ 12250 2650
+NoConn ~ 14300 1700
+NoConn ~ 13100 -50 
+NoConn ~ 13450 -50 
+NoConn ~ 13550 -50 
+NoConn ~ 13650 -50 
+NoConn ~ 12250 1550
+NoConn ~ 12250 1650
+NoConn ~ 12250 1750
+NoConn ~ 12250 1850
+Text GLabel 15100 450  0    50   Input ~ 0
+OLEDSDA
+Text GLabel 15100 350  0    50   Input ~ 0
+OLEDSCK
+Text GLabel 15100 250  0    50   Input ~ 0
+VCC
+Wire Wire Line
+	1450 2900 1450 2800
+Connection ~ 1450 2900
+Wire Wire Line
+	2450 2900 2450 2800
+Connection ~ 2450 2900
+Wire Wire Line
+	3450 2900 3450 2800
+Connection ~ 3450 2900
+Wire Wire Line
+	4450 2900 4450 2800
+Connection ~ 4450 2900
+Wire Wire Line
+	5450 2900 5450 2800
+Connection ~ 5450 2900
+Wire Wire Line
+	6450 2900 6450 2800
+Connection ~ 6450 2900
+Wire Wire Line
+	9450 3700 9450 3600
+Connection ~ 9450 3700
+Wire Wire Line
+	10450 3700 10450 3600
+Connection ~ 10450 3700
+Text GLabel 10450 3600 1    50   Input ~ 0
+COL10
+Text GLabel 1450 2800 1    50   Input ~ 0
+COL1
+Text GLabel 2450 2800 1    50   Input ~ 0
+COL2
+Text GLabel 3450 2800 1    50   Input ~ 0
+COL3
+Text GLabel 4450 2800 1    50   Input ~ 0
+COL4
+Text GLabel 5450 2800 1    50   Input ~ 0
+COL5
+Text GLabel 6450 2800 1    50   Input ~ 0
+COL6
+Text GLabel 9450 3600 1    50   Input ~ 0
+COL9
+$Comp
+L keyboard_parts:KEYSW K19
+U 1 1 5F28F892
+P 11150 3700
+F 0 "K19" H 11150 3933 60  0000 C CNN
+F 1 "KEYSW" H 11150 3600 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 11150 3700 60  0001 C CNN
+F 3 "" H 11150 3700 60  0000 C CNN
+	1    11150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D19
+U 1 1 5F28F89C
+P 10750 4000
+F 0 "D19" H 10878 3950 60  0000 L CNN
+F 1 "D" V 10900 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10750 4000 60  0001 C CNN
+F 3 "" H 10750 4000 60  0000 C CNN
+	1    10750 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10850 3700 10750 3700
+Wire Wire Line
+	10750 3700 10750 3850
+Wire Wire Line
+	10750 4150 10750 4050
+$Comp
+L keyboard_parts:KEYSW K30
+U 1 1 5F28F8AB
+P 11150 4500
+F 0 "K30" H 11150 4733 60  0000 C CNN
+F 1 "KEYSW" H 11150 4400 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 11150 4500 60  0001 C CNN
+F 3 "" H 11150 4500 60  0000 C CNN
+	1    11150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D30
+U 1 1 5F28F8B5
+P 10750 4800
+F 0 "D30" H 10878 4750 60  0000 L CNN
+F 1 "D" V 10900 4750 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10750 4800 60  0001 C CNN
+F 3 "" H 10750 4800 60  0000 C CNN
+	1    10750 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K41
+U 1 1 5F28F8BF
+P 11150 5300
+F 0 "K41" H 11150 5533 60  0000 C CNN
+F 1 "KEYSW" H 11150 5200 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 11150 5300 60  0001 C CNN
+F 3 "" H 11150 5300 60  0000 C CNN
+	1    11150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D41
+U 1 1 5F28F8C9
+P 10750 5600
+F 0 "D41" H 10878 5550 60  0000 L CNN
+F 1 "D" V 10900 5550 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10750 5600 60  0001 C CNN
+F 3 "" H 10750 5600 60  0000 C CNN
+	1    10750 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10850 4500 10750 4500
+Wire Wire Line
+	10750 4500 10750 4650
+Wire Wire Line
+	10850 5300 10750 5300
+Wire Wire Line
+	10750 5300 10750 5450
+Wire Wire Line
+	10750 4950 10750 4850
+Wire Wire Line
+	10750 5750 10750 5650
+$Comp
+L keyboard_parts:KEYSW K52
+U 1 1 5F28F8DD
+P 11150 6050
+F 0 "K52" H 11150 6283 60  0000 C CNN
+F 1 "KEYSW" H 11150 5950 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 11150 6050 60  0001 C CNN
+F 3 "" H 11150 6050 60  0000 C CNN
+	1    11150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D52
+U 1 1 5F28F8E7
+P 10750 6350
+F 0 "D52" H 10878 6300 60  0000 L CNN
+F 1 "D" V 10900 6300 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10750 6350 60  0001 C CNN
+F 3 "" H 10750 6350 60  0000 C CNN
+	1    10750 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10850 6050 10750 6050
+Wire Wire Line
+	10750 6050 10750 6200
+Wire Wire Line
+	10750 6500 10750 6400
+Wire Wire Line
+	11450 3700 11450 4500
+Wire Wire Line
+	11450 4500 11450 5300
+Connection ~ 11450 4500
+Wire Wire Line
+	11450 6050 11450 5300
+Connection ~ 11450 5300
+Wire Wire Line
+	11450 3700 11450 3600
+Connection ~ 11450 3700
+Wire Wire Line
+	9750 4150 10750 4150
+Wire Wire Line
+	9750 4950 10750 4950
+Wire Wire Line
+	9750 5750 10750 5750
+Wire Wire Line
+	9750 6500 10750 6500
+Text GLabel 11450 3600 1    50   Input ~ 0
+COL11
+Text GLabel 650  4150 0    50   Input ~ 0
+ROW2
+Text GLabel 650  4950 0    50   Input ~ 0
+ROW3
+Text GLabel 650  5750 0    50   Input ~ 0
+ROW4
+Text GLabel 650  6500 0    50   Input ~ 0
+ROW5
+$Comp
+L keyboard_parts:D D7
+U 1 1 5F2AD5FD
+P 6750 3200
+F 0 "D7" H 6878 3150 60  0000 L CNN
+F 1 "D" V 6900 3150 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6750 3200 60  0001 C CNN
+F 3 "" H 6750 3200 60  0000 C CNN
+	1    6750 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D8
+U 1 1 5F2AFACE
+P 7750 3200
+F 0 "D8" H 7878 3150 60  0000 L CNN
+F 1 "D" V 7900 3150 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7750 3200 60  0001 C CNN
+F 3 "" H 7750 3200 60  0000 C CNN
+	1    7750 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 3350 6750 3250
+Wire Wire Line
+	5750 3350 6750 3350
+Connection ~ 6750 3350
+Text GLabel 650  3350 0    50   Input ~ 0
+ROW1
+Text GLabel 6850 2400 1    50   Input ~ 0
+GND
+Text GLabel 6750 2400 1    50   Input ~ 0
+R1B
+Text GLabel 6950 2400 1    50   Input ~ 0
+R1A
+$Comp
+L Connector_Generic:Conn_01x04 O1
+U 1 1 5F211A45
+P 15300 250
+F 0 "O1" H 15380 242 50  0000 L CNN
+F 1 "OLED" H 15380 151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 15300 250 50  0001 C CNN
+F 3 "~" H 15300 250 50  0001 C CNN
+	1    15300 250 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3000 6750 3050
+Text GLabel 7450 2850 1    50   Input ~ 0
+COL7
+$Comp
+L Device:Rotary_Encoder_Switch K7/SW1
+U 1 1 5F3F8C46
+P 6850 2700
+F 0 "K7/SW1" V 6200 2550 50  0000 L CNN
+F 1 "Rotary_Encoder_Switch" V 6300 2550 50  0000 L CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11" H 6700 2860 50  0001 C CNN
+F 3 "~" H 6850 2960 50  0001 C CNN
+	1    6850 2700
+	0    1    1    0   
+$EndComp
+Text GLabel 7850 2400 1    50   Input ~ 0
+GND
+Text GLabel 7750 2400 1    50   Input ~ 0
+R2B
+Text GLabel 7950 2400 1    50   Input ~ 0
+R2A
+Text GLabel 8450 2850 1    50   Input ~ 0
+COL8
+$Comp
+L Device:Rotary_Encoder_Switch K8/SW2
+U 1 1 5F4B1759
+P 7850 2700
+F 0 "K8/SW2" V 7200 2550 50  0000 L CNN
+F 1 "Rotary_Encoder_Switch" V 7300 2550 50  0000 L CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11" H 7700 2860 50  0001 C CNN
+F 3 "~" H 7850 2960 50  0001 C CNN
+	1    7850 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 3350 7750 3350
+Wire Wire Line
+	7750 3000 7750 3050
+Wire Wire Line
+	7750 3250 7750 3350
+Text GLabel 14300 2650 2    50   Input ~ 0
+COL8
+Text GLabel 14300 2350 2    50   Input ~ 0
+COL9
+Text GLabel 14300 1050 2    50   Input ~ 0
+COL10
+Text GLabel 14300 850  2    50   Input ~ 0
+COL11
+Text GLabel 14300 2550 2    50   Input ~ 0
+ROW1
+Text GLabel 14300 950  2    50   Input ~ 0
+ROW2
+Text GLabel 14300 1150 2    50   Input ~ 0
+ROW3
+Text GLabel 14300 1250 2    50   Input ~ 0
+ROW4
+Text GLabel 14300 1350 2    50   Input ~ 0
+ROW5
+Text GLabel 12250 550  0    50   Input ~ 0
+VCC
+Text GLabel 12250 2250 0    50   Input ~ 0
+R1B
+Text GLabel 12250 2350 0    50   Input ~ 0
+R1A
+Text GLabel 12250 1350 0    50   Input ~ 0
+R2B
+Text GLabel 12250 2150 0    50   Input ~ 0
+R2A
+Text GLabel 14300 650  2    50   Input ~ 0
+OLEDSDA
+Text GLabel 14300 750  2    50   Input ~ 0
+OLEDSCK
+NoConn ~ 12250 250 
+NoConn ~ 12250 450 
+$Comp
+L Connector_Generic:Conn_01x03 RGB1
+U 1 1 5F617A76
+P 12300 -100
+F 0 "RGB1" H 12380 -58 50  0000 L CNN
+F 1 "Conn_01x03" H 12380 -149 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 12300 -100 50  0001 C CNN
+F 3 "~" H 12300 -100 50  0001 C CNN
+	1    12300 -100
+	1    0    0    -1  
+$EndComp
+Text GLabel 12100 -100 0    50   Input ~ 0
+RGB
+Text GLabel 12100 0    0    50   Input ~ 0
+VCC
+Text GLabel 14300 2450 2    50   Input ~ 0
+RGB
+Wire Wire Line
+	650  3350 750  3350
+Connection ~ 750  3350
+Wire Wire Line
+	650  4150 750  4150
+Connection ~ 750  4150
+Wire Wire Line
+	650  4950 750  4950
+Connection ~ 750  4950
+Wire Wire Line
+	650  5750 750  5750
+Connection ~ 750  5750
+Wire Wire Line
+	650  6500 750  6500
+Connection ~ 750  6500
+NoConn ~ 14300 250 
+NoConn ~ 14300 350 
+NoConn ~ 12250 2550
+NoConn ~ 12250 2450
+Wire Wire Line
+	8750 5450 8750 5300
+Wire Wire Line
+	8750 4500 8750 4650
+Wire Wire Line
+	6950 3000 6950 3150
+Wire Wire Line
+	6950 3150 7450 3150
+Wire Wire Line
+	7450 3150 7450 3700
+Connection ~ 7450 3700
+Wire Wire Line
+	7450 2850 7450 3150
+Connection ~ 7450 3150
+Wire Wire Line
+	7950 3000 7950 3150
+Wire Wire Line
+	7950 3150 8450 3150
+Wire Wire Line
+	8450 3150 8450 2850
+Wire Wire Line
+	8450 3700 8450 3150
+Connection ~ 8450 3700
+Connection ~ 8450 3150
+Wire Wire Line
+	4750 4500 4750 4650
+Wire Wire Line
+	4750 5300 4750 5450
+Text GLabel 12250 1250 0    50   Input ~ 0
+COL1
+Text GLabel 12250 1150 0    50   Input ~ 0
+COL2
+Text GLabel 12250 1050 0    50   Input ~ 0
+COL3
+Text GLabel 12250 950  0    50   Input ~ 0
+COL4
+Text GLabel 12250 850  0    50   Input ~ 0
+COL5
+Text GLabel 12250 750  0    50   Input ~ 0
+COL6
+Text GLabel 12250 650  0    50   Input ~ 0
+COL7
+Text GLabel 12250 350  0    50   Input ~ 0
+GND
+Text GLabel 12100 -200 0    50   Input ~ 0
+GND
+Text GLabel 15100 150  0    50   Input ~ 0
+GND
+$Comp
+L proton_c:proton_c U1
+U 1 1 5EF021D0
+P 13250 1250
+F 0 "U1" H 13225 -365 50  0000 C CNN
+F 1 "proton_c" H 13225 -274 50  0000 C CNN
+F 2 "proton_c:proton_c" H 13100 1250 50  0001 C CNN
+F 3 "" H 13100 1250 50  0001 C CNN
+	1    13250 1250
+	-1   0    0    -1  
+$EndComp
+Text GLabel 14300 450  2    50   Input ~ 0
+GND
+Text GLabel 14300 550  2    50   Input ~ 0
+GND
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F059526
+P 2700 1750
+F 0 "H3" H 2800 1796 50  0000 L CNN
+F 1 "MountingHole" H 2800 1705 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 2700 1750 50  0001 C CNN
+F 3 "~" H 2700 1750 50  0001 C CNN
+	1    2700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F05A5C2
+P 2700 1950
+F 0 "H4" H 2800 1996 50  0000 L CNN
+F 1 "MountingHole" H 2800 1905 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 2700 1950 50  0001 C CNN
+F 3 "~" H 2700 1950 50  0001 C CNN
+	1    2700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F05AA3B
+P 2700 1550
+F 0 "H2" H 2800 1596 50  0000 L CNN
+F 1 "MountingHole" H 2800 1505 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 2700 1550 50  0001 C CNN
+F 3 "~" H 2700 1550 50  0001 C CNN
+	1    2700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F05AEE6
+P 2700 1350
+F 0 "H1" H 2800 1396 50  0000 L CNN
+F 1 "MountingHole" H 2800 1305 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 2700 1350 50  0001 C CNN
+F 3 "~" H 2700 1350 50  0001 C CNN
+	1    2700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5F05B3F2
+P 3400 1550
+F 0 "H6" H 3500 1596 50  0000 L CNN
+F 1 "MountingHole" H 3500 1505 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 3400 1550 50  0001 C CNN
+F 3 "~" H 3400 1550 50  0001 C CNN
+	1    3400 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5F05BD42
+P 3400 1750
+F 0 "H7" H 3500 1796 50  0000 L CNN
+F 1 "MountingHole" H 3500 1705 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 3400 1750 50  0001 C CNN
+F 3 "~" H 3400 1750 50  0001 C CNN
+	1    3400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5F05C029
+P 3400 1950
+F 0 "H8" H 3500 1996 50  0000 L CNN
+F 1 "MountingHole" H 3500 1905 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 3400 1950 50  0001 C CNN
+F 3 "~" H 3400 1950 50  0001 C CNN
+	1    3400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5F05C315
+P 3400 1350
+F 0 "H5" H 3500 1396 50  0000 L CNN
+F 1 "MountingHole" H 3500 1305 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 3400 1350 50  0001 C CNN
+F 3 "~" H 3400 1350 50  0001 C CNN
+	1    3400 1350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

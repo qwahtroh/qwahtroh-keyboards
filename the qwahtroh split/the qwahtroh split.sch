@@ -1,0 +1,1204 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keebio:Elite-C U?
+U 1 1 60F7799E
+P 9800 2800
+F 0 "U?" H 9800 3637 60  0000 C CNN
+F 1 "Elite-C" H 9800 3531 60  0000 C CNN
+F 2 "" V 10850 300 60  0001 C CNN
+F 3 "" V 10850 300 60  0001 C CNN
+	1    9800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:Elite-C U?
+U 1 1 60F7E53B
+P 100 -950
+F 0 "U?" H 100 -113 60  0000 C CNN
+F 1 "Elite-C" H 100 -219 60  0000 C CNN
+F 2 "" V 1150 -3450 60  0001 C CNN
+F 3 "" V 1150 -3450 60  0001 C CNN
+	1    100  -950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:TRRS U?
+U 1 1 60F7FF24
+P 9600 4550
+F 0 "U?" H 9828 4853 60  0000 L CNN
+F 1 "TRRS" H 9828 4747 60  0000 L CNN
+F 2 "" H 9750 4550 60  0001 C CNN
+F 3 "" H 9750 4550 60  0001 C CNN
+	1    9600 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L keebio:TRRS U?
+U 1 1 60F80B91
+P -1250 -1100
+F 0 "U?" H -1022 -797 60  0000 L CNN
+F 1 "TRRS" H -1022 -903 60  0000 L CNN
+F 2 "" H -1100 -1100 60  0001 C CNN
+F 3 "" H -1100 -1100 60  0001 C CNN
+	1    -1250 -1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW?
+U 1 1 60F81698
+P 3000 1050
+F 0 "SW?" H 3000 1417 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 3000 1326 50  0000 C CNN
+F 2 "" H 2850 1210 50  0001 C CNN
+F 3 "~" H 3000 1310 50  0001 C CNN
+	1    3000 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K??
+U 1 1 60F84A08
+P 4600 1350
+F 0 "K??" H 4600 1583 60  0000 C CNN
+F 1 "KEYSW" H 4600 1250 60  0001 C CNN
+F 2 "" H 4600 1350 60  0000 C CNN
+F 3 "" H 4600 1350 60  0000 C CNN
+	1    4600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60F85893
+P 4200 1600
+F 0 "D?" H 4328 1550 60  0000 L CNN
+F 1 "D" V 4350 1550 60  0001 C CNN
+F 2 "" H 4200 1600 60  0000 C CNN
+F 3 "" H 4200 1600 60  0000 C CNN
+	1    4200 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60F883A5
+P 2900 1700
+F 0 "D?" H 3028 1650 60  0000 L CNN
+F 1 "D" V 3050 1650 60  0001 C CNN
+F 2 "" H 2900 1700 60  0000 C CNN
+F 3 "" H 2900 1700 60  0000 C CNN
+	1    2900 1700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 1350 4200 1350
+Wire Wire Line
+	4200 1350 4200 1450
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60F8ED37
+P 5500 1350
+F 0 "K?" H 5500 1583 60  0000 C CNN
+F 1 "KEYSW" H 5500 1250 60  0001 C CNN
+F 2 "" H 5500 1350 60  0000 C CNN
+F 3 "" H 5500 1350 60  0000 C CNN
+	1    5500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60F8ED3D
+P 5100 1600
+F 0 "D?" H 5228 1550 60  0000 L CNN
+F 1 "D" V 5250 1550 60  0001 C CNN
+F 2 "" H 5100 1600 60  0000 C CNN
+F 3 "" H 5100 1600 60  0000 C CNN
+	1    5100 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 1350 5100 1350
+Wire Wire Line
+	5100 1350 5100 1450
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60F90C0D
+P 6450 1350
+F 0 "K?" H 6450 1583 60  0000 C CNN
+F 1 "KEYSW" H 6450 1250 60  0001 C CNN
+F 2 "" H 6450 1350 60  0000 C CNN
+F 3 "" H 6450 1350 60  0000 C CNN
+	1    6450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60F90C13
+P 6050 1600
+F 0 "D?" H 6178 1550 60  0000 L CNN
+F 1 "D" V 6200 1550 60  0001 C CNN
+F 2 "" H 6050 1600 60  0000 C CNN
+F 3 "" H 6050 1600 60  0000 C CNN
+	1    6050 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 1350 6050 1350
+Wire Wire Line
+	6050 1350 6050 1450
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60F90C1B
+P 7350 1350
+F 0 "K?" H 7350 1583 60  0000 C CNN
+F 1 "KEYSW" H 7350 1250 60  0001 C CNN
+F 2 "" H 7350 1350 60  0000 C CNN
+F 3 "" H 7350 1350 60  0000 C CNN
+	1    7350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60F90C21
+P 6950 1600
+F 0 "D?" H 7078 1550 60  0000 L CNN
+F 1 "D" V 7100 1550 60  0001 C CNN
+F 2 "" H 6950 1600 60  0000 C CNN
+F 3 "" H 6950 1600 60  0000 C CNN
+	1    6950 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7050 1350 6950 1350
+Wire Wire Line
+	6950 1350 6950 1450
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FBABAB
+P 4250 2600
+F 0 "K?" H 4250 2833 60  0000 C CNN
+F 1 "KEYSW" H 4250 2500 60  0001 C CNN
+F 2 "" H 4250 2600 60  0000 C CNN
+F 3 "" H 4250 2600 60  0000 C CNN
+	1    4250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FBABB1
+P 3850 2850
+F 0 "D?" H 3978 2800 60  0000 L CNN
+F 1 "D" V 4000 2800 60  0001 C CNN
+F 2 "" H 3850 2850 60  0000 C CNN
+F 3 "" H 3850 2850 60  0000 C CNN
+	1    3850 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 2600 3850 2600
+Wire Wire Line
+	3850 2600 3850 2700
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FBABB9
+P 5150 2600
+F 0 "K?" H 5150 2833 60  0000 C CNN
+F 1 "KEYSW" H 5150 2500 60  0001 C CNN
+F 2 "" H 5150 2600 60  0000 C CNN
+F 3 "" H 5150 2600 60  0000 C CNN
+	1    5150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FBABBF
+P 4750 2850
+F 0 "D?" H 4878 2800 60  0000 L CNN
+F 1 "D" V 4900 2800 60  0001 C CNN
+F 2 "" H 4750 2850 60  0000 C CNN
+F 3 "" H 4750 2850 60  0000 C CNN
+	1    4750 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 2600 4750 2600
+Wire Wire Line
+	4750 2600 4750 2700
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FBABC7
+P 6100 2600
+F 0 "K?" H 6100 2833 60  0000 C CNN
+F 1 "KEYSW" H 6100 2500 60  0001 C CNN
+F 2 "" H 6100 2600 60  0000 C CNN
+F 3 "" H 6100 2600 60  0000 C CNN
+	1    6100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FBABCD
+P 5700 2850
+F 0 "D?" H 5828 2800 60  0000 L CNN
+F 1 "D" V 5850 2800 60  0001 C CNN
+F 2 "" H 5700 2850 60  0000 C CNN
+F 3 "" H 5700 2850 60  0000 C CNN
+	1    5700 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 2600 5700 2600
+Wire Wire Line
+	5700 2600 5700 2700
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FBABD5
+P 7000 2600
+F 0 "K?" H 7000 2833 60  0000 C CNN
+F 1 "KEYSW" H 7000 2500 60  0001 C CNN
+F 2 "" H 7000 2600 60  0000 C CNN
+F 3 "" H 7000 2600 60  0000 C CNN
+	1    7000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FBABDB
+P 6600 2850
+F 0 "D?" H 6728 2800 60  0000 L CNN
+F 1 "D" V 6750 2800 60  0001 C CNN
+F 2 "" H 6600 2850 60  0000 C CNN
+F 3 "" H 6600 2850 60  0000 C CNN
+	1    6600 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 2600 6600 2600
+Wire Wire Line
+	6600 2600 6600 2700
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FC5855
+P 4250 3650
+F 0 "K?" H 4250 3883 60  0000 C CNN
+F 1 "KEYSW" H 4250 3550 60  0001 C CNN
+F 2 "" H 4250 3650 60  0000 C CNN
+F 3 "" H 4250 3650 60  0000 C CNN
+	1    4250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FC585B
+P 3850 3900
+F 0 "D?" H 3978 3850 60  0000 L CNN
+F 1 "D" V 4000 3850 60  0001 C CNN
+F 2 "" H 3850 3900 60  0000 C CNN
+F 3 "" H 3850 3900 60  0000 C CNN
+	1    3850 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 3650 3850 3650
+Wire Wire Line
+	3850 3650 3850 3750
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FC5863
+P 5150 3650
+F 0 "K?" H 5150 3883 60  0000 C CNN
+F 1 "KEYSW" H 5150 3550 60  0001 C CNN
+F 2 "" H 5150 3650 60  0000 C CNN
+F 3 "" H 5150 3650 60  0000 C CNN
+	1    5150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FC5869
+P 4750 3900
+F 0 "D?" H 4878 3850 60  0000 L CNN
+F 1 "D" V 4900 3850 60  0001 C CNN
+F 2 "" H 4750 3900 60  0000 C CNN
+F 3 "" H 4750 3900 60  0000 C CNN
+	1    4750 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 3650 4750 3650
+Wire Wire Line
+	4750 3650 4750 3750
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FC5871
+P 6100 3650
+F 0 "K?" H 6100 3883 60  0000 C CNN
+F 1 "KEYSW" H 6100 3550 60  0001 C CNN
+F 2 "" H 6100 3650 60  0000 C CNN
+F 3 "" H 6100 3650 60  0000 C CNN
+	1    6100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FC5877
+P 5700 3900
+F 0 "D?" H 5828 3850 60  0000 L CNN
+F 1 "D" V 5850 3850 60  0001 C CNN
+F 2 "" H 5700 3900 60  0000 C CNN
+F 3 "" H 5700 3900 60  0000 C CNN
+	1    5700 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 3650 5700 3650
+Wire Wire Line
+	5700 3650 5700 3750
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FC587F
+P 7000 3650
+F 0 "K?" H 7000 3883 60  0000 C CNN
+F 1 "KEYSW" H 7000 3550 60  0001 C CNN
+F 2 "" H 7000 3650 60  0000 C CNN
+F 3 "" H 7000 3650 60  0000 C CNN
+	1    7000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FC5885
+P 6600 3900
+F 0 "D?" H 6728 3850 60  0000 L CNN
+F 1 "D" V 6750 3850 60  0001 C CNN
+F 2 "" H 6600 3900 60  0000 C CNN
+F 3 "" H 6600 3900 60  0000 C CNN
+	1    6600 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 3650 6600 3650
+Wire Wire Line
+	6600 3650 6600 3750
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FD16DD
+P 4250 4650
+F 0 "K?" H 4250 4883 60  0000 C CNN
+F 1 "KEYSW" H 4250 4550 60  0001 C CNN
+F 2 "" H 4250 4650 60  0000 C CNN
+F 3 "" H 4250 4650 60  0000 C CNN
+	1    4250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FD16E3
+P 3850 4900
+F 0 "D?" H 3978 4850 60  0000 L CNN
+F 1 "D" V 4000 4850 60  0001 C CNN
+F 2 "" H 3850 4900 60  0000 C CNN
+F 3 "" H 3850 4900 60  0000 C CNN
+	1    3850 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 4650 3850 4650
+Wire Wire Line
+	3850 4650 3850 4750
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FD16EB
+P 5150 4650
+F 0 "K?" H 5150 4883 60  0000 C CNN
+F 1 "KEYSW" H 5150 4550 60  0001 C CNN
+F 2 "" H 5150 4650 60  0000 C CNN
+F 3 "" H 5150 4650 60  0000 C CNN
+	1    5150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FD16F1
+P 4750 4900
+F 0 "D?" H 4878 4850 60  0000 L CNN
+F 1 "D" V 4900 4850 60  0001 C CNN
+F 2 "" H 4750 4900 60  0000 C CNN
+F 3 "" H 4750 4900 60  0000 C CNN
+	1    4750 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 4650 4750 4650
+Wire Wire Line
+	4750 4650 4750 4750
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FD16F9
+P 6100 4650
+F 0 "K?" H 6100 4883 60  0000 C CNN
+F 1 "KEYSW" H 6100 4550 60  0001 C CNN
+F 2 "" H 6100 4650 60  0000 C CNN
+F 3 "" H 6100 4650 60  0000 C CNN
+	1    6100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FD16FF
+P 5700 4900
+F 0 "D?" H 5828 4850 60  0000 L CNN
+F 1 "D" V 5850 4850 60  0001 C CNN
+F 2 "" H 5700 4900 60  0000 C CNN
+F 3 "" H 5700 4900 60  0000 C CNN
+	1    5700 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 4650 5700 4650
+Wire Wire Line
+	5700 4650 5700 4750
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FD1707
+P 7000 4650
+F 0 "K?" H 7000 4883 60  0000 C CNN
+F 1 "KEYSW" H 7000 4550 60  0001 C CNN
+F 2 "" H 7000 4650 60  0000 C CNN
+F 3 "" H 7000 4650 60  0000 C CNN
+	1    7000 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FD170D
+P 6600 4900
+F 0 "D?" H 6728 4850 60  0000 L CNN
+F 1 "D" V 6750 4850 60  0001 C CNN
+F 2 "" H 6600 4900 60  0000 C CNN
+F 3 "" H 6600 4900 60  0000 C CNN
+	1    6600 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 4650 6600 4650
+Wire Wire Line
+	6600 4650 6600 4750
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FD5F09
+P 7900 2600
+F 0 "K?" H 7900 2833 60  0000 C CNN
+F 1 "KEYSW" H 7900 2500 60  0001 C CNN
+F 2 "" H 7900 2600 60  0000 C CNN
+F 3 "" H 7900 2600 60  0000 C CNN
+	1    7900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FD5F0F
+P 7500 2850
+F 0 "D?" H 7628 2800 60  0000 L CNN
+F 1 "D" V 7650 2800 60  0001 C CNN
+F 2 "" H 7500 2850 60  0000 C CNN
+F 3 "" H 7500 2850 60  0000 C CNN
+	1    7500 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7600 2600 7500 2600
+Wire Wire Line
+	7500 2600 7500 2700
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FD5F17
+P 7900 3650
+F 0 "K?" H 7900 3883 60  0000 C CNN
+F 1 "KEYSW" H 7900 3550 60  0001 C CNN
+F 2 "" H 7900 3650 60  0000 C CNN
+F 3 "" H 7900 3650 60  0000 C CNN
+	1    7900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FD5F1D
+P 7500 3900
+F 0 "D?" H 7628 3850 60  0000 L CNN
+F 1 "D" V 7650 3850 60  0001 C CNN
+F 2 "" H 7500 3900 60  0000 C CNN
+F 3 "" H 7500 3900 60  0000 C CNN
+	1    7500 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7600 3650 7500 3650
+Wire Wire Line
+	7500 3650 7500 3750
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FD5F25
+P 7900 4650
+F 0 "K?" H 7900 4883 60  0000 C CNN
+F 1 "KEYSW" H 7900 4550 60  0001 C CNN
+F 2 "" H 7900 4650 60  0000 C CNN
+F 3 "" H 7900 4650 60  0000 C CNN
+	1    7900 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FD5F2B
+P 7500 4900
+F 0 "D?" H 7628 4850 60  0000 L CNN
+F 1 "D" V 7650 4850 60  0001 C CNN
+F 2 "" H 7500 4900 60  0000 C CNN
+F 3 "" H 7500 4900 60  0000 C CNN
+	1    7500 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7600 4650 7500 4650
+Wire Wire Line
+	7500 4650 7500 4750
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FE49B5
+P 2200 2600
+F 0 "K?" H 2200 2833 60  0000 C CNN
+F 1 "KEYSW" H 2200 2500 60  0001 C CNN
+F 2 "" H 2200 2600 60  0000 C CNN
+F 3 "" H 2200 2600 60  0000 C CNN
+	1    2200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FE49BB
+P 1800 2850
+F 0 "D?" H 1928 2800 60  0000 L CNN
+F 1 "D" V 1950 2800 60  0001 C CNN
+F 2 "" H 1800 2850 60  0000 C CNN
+F 3 "" H 1800 2850 60  0000 C CNN
+	1    1800 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 2600 1800 2600
+Wire Wire Line
+	1800 2600 1800 2700
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FE49C3
+P 2200 3650
+F 0 "K?" H 2200 3883 60  0000 C CNN
+F 1 "KEYSW" H 2200 3550 60  0001 C CNN
+F 2 "" H 2200 3650 60  0000 C CNN
+F 3 "" H 2200 3650 60  0000 C CNN
+	1    2200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FE49C9
+P 1800 3900
+F 0 "D?" H 1928 3850 60  0000 L CNN
+F 1 "D" V 1950 3850 60  0001 C CNN
+F 2 "" H 1800 3900 60  0000 C CNN
+F 3 "" H 1800 3900 60  0000 C CNN
+	1    1800 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 3650 1800 3650
+Wire Wire Line
+	1800 3650 1800 3750
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FE49D1
+P 3100 2600
+F 0 "K?" H 3100 2833 60  0000 C CNN
+F 1 "KEYSW" H 3100 2500 60  0001 C CNN
+F 2 "" H 3100 2600 60  0000 C CNN
+F 3 "" H 3100 2600 60  0000 C CNN
+	1    3100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FE49D7
+P 2700 2850
+F 0 "D?" H 2828 2800 60  0000 L CNN
+F 1 "D" V 2850 2800 60  0001 C CNN
+F 2 "" H 2700 2850 60  0000 C CNN
+F 3 "" H 2700 2850 60  0000 C CNN
+	1    2700 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 2600 2700 2600
+Wire Wire Line
+	2700 2600 2700 2700
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FE49DF
+P 3100 3650
+F 0 "K?" H 3100 3883 60  0000 C CNN
+F 1 "KEYSW" H 3100 3550 60  0001 C CNN
+F 2 "" H 3100 3650 60  0000 C CNN
+F 3 "" H 3100 3650 60  0000 C CNN
+	1    3100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FE49E5
+P 2700 3900
+F 0 "D?" H 2828 3850 60  0000 L CNN
+F 1 "D" V 2850 3850 60  0001 C CNN
+F 2 "" H 2700 3900 60  0000 C CNN
+F 3 "" H 2700 3900 60  0000 C CNN
+	1    2700 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 3650 2700 3650
+Wire Wire Line
+	2700 3650 2700 3750
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FFFBC3
+P 6000 5900
+F 0 "K?" H 6000 6133 60  0000 C CNN
+F 1 "KEYSW" H 6000 5800 60  0001 C CNN
+F 2 "" H 6000 5900 60  0000 C CNN
+F 3 "" H 6000 5900 60  0000 C CNN
+	1    6000 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5900 5600 5900
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FFFBD0
+P 6950 5900
+F 0 "K?" H 6950 6133 60  0000 C CNN
+F 1 "KEYSW" H 6950 5800 60  0001 C CNN
+F 2 "" H 6950 5900 60  0000 C CNN
+F 3 "" H 6950 5900 60  0000 C CNN
+	1    6950 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5900 6550 5900
+Wire Wire Line
+	6550 5900 6550 6000
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FFFBDE
+P 7850 5900
+F 0 "K?" H 7850 6133 60  0000 C CNN
+F 1 "KEYSW" H 7850 5800 60  0001 C CNN
+F 2 "" H 7850 5900 60  0000 C CNN
+F 3 "" H 7850 5900 60  0000 C CNN
+	1    7850 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 5900 7450 5900
+Wire Wire Line
+	7450 5900 7450 6000
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60FFFBEC
+P 8750 5900
+F 0 "K?" H 8750 6133 60  0000 C CNN
+F 1 "KEYSW" H 8750 5800 60  0001 C CNN
+F 2 "" H 8750 5900 60  0000 C CNN
+F 3 "" H 8750 5900 60  0000 C CNN
+	1    8750 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 5900 8350 5900
+Wire Wire Line
+	8350 5900 8350 6000
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 61004B73
+P 3100 4900
+F 0 "K?" H 3100 5133 60  0000 C CNN
+F 1 "KEYSW" H 3100 4800 60  0001 C CNN
+F 2 "" H 3100 4900 60  0000 C CNN
+F 3 "" H 3100 4900 60  0000 C CNN
+	1    3100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 61004B79
+P 2650 5150
+F 0 "D?" H 2778 5100 60  0000 L CNN
+F 1 "D" V 2800 5100 60  0001 C CNN
+F 2 "" H 2650 5150 60  0000 C CNN
+F 3 "" H 2650 5150 60  0000 C CNN
+	1    2650 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 4900 2650 4900
+Wire Wire Line
+	2650 4900 2650 5000
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 61004B81
+P 3050 5600
+F 0 "K?" H 3050 5833 60  0000 C CNN
+F 1 "KEYSW" H 3050 5500 60  0001 C CNN
+F 2 "" H 3050 5600 60  0000 C CNN
+F 3 "" H 3050 5600 60  0000 C CNN
+	1    3050 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 61004B87
+P 2650 6000
+F 0 "D?" H 2778 5950 60  0000 L CNN
+F 1 "D" V 2800 5950 60  0001 C CNN
+F 2 "" H 2650 6000 60  0000 C CNN
+F 3 "" H 2650 6000 60  0000 C CNN
+	1    2650 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 5600 2650 5600
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 6100965C
+P 2200 5600
+F 0 "K?" H 2200 5833 60  0000 C CNN
+F 1 "KEYSW" H 2200 5500 60  0001 C CNN
+F 2 "" H 2200 5600 60  0000 C CNN
+F 3 "" H 2200 5600 60  0000 C CNN
+	1    2200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 61009662
+P 1800 6000
+F 0 "D?" H 1928 5950 60  0000 L CNN
+F 1 "D" V 1950 5950 60  0001 C CNN
+F 2 "" H 1800 6000 60  0000 C CNN
+F 3 "" H 1800 6000 60  0000 C CNN
+	1    1800 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 5600 1800 5600
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 6100B22B
+P 3950 5600
+F 0 "K?" H 3950 5833 60  0000 C CNN
+F 1 "KEYSW" H 3950 5500 60  0001 C CNN
+F 2 "" H 3950 5600 60  0000 C CNN
+F 3 "" H 3950 5600 60  0000 C CNN
+	1    3950 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 6100B231
+P 3550 6000
+F 0 "D?" H 3678 5950 60  0000 L CNN
+F 1 "D" V 3700 5950 60  0001 C CNN
+F 2 "" H 3550 6000 60  0000 C CNN
+F 3 "" H 3550 6000 60  0000 C CNN
+	1    3550 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 5600 3550 5600
+Wire Wire Line
+	1800 6050 1800 6450
+Wire Wire Line
+	1800 6450 2650 6450
+Wire Wire Line
+	2650 6050 2650 6450
+Connection ~ 2650 6450
+Wire Wire Line
+	2650 6450 3550 6450
+Wire Wire Line
+	3550 6050 3550 6450
+Connection ~ 3550 6450
+Wire Wire Line
+	3550 6450 5600 6450
+Connection ~ 5600 6450
+Wire Wire Line
+	5600 6450 6550 6450
+Wire Wire Line
+	6550 6200 6550 6450
+Connection ~ 6550 6450
+Wire Wire Line
+	6550 6450 7450 6450
+Wire Wire Line
+	7450 6200 7450 6450
+Connection ~ 7450 6450
+Wire Wire Line
+	7450 6450 8350 6450
+Wire Wire Line
+	2650 5200 2650 5300
+Wire Wire Line
+	2650 5300 3850 5300
+Wire Wire Line
+	7500 5300 7500 4950
+Wire Wire Line
+	6600 4950 6600 5300
+Connection ~ 6600 5300
+Wire Wire Line
+	6600 5300 7500 5300
+Wire Wire Line
+	5700 4950 5700 5300
+Connection ~ 5700 5300
+Wire Wire Line
+	5700 5300 6600 5300
+Wire Wire Line
+	4750 4950 4750 5300
+Connection ~ 4750 5300
+Wire Wire Line
+	4750 5300 5700 5300
+Wire Wire Line
+	3850 4950 3850 5300
+Connection ~ 3850 5300
+Wire Wire Line
+	3850 5300 4750 5300
+Wire Wire Line
+	1800 3950 1800 4100
+Wire Wire Line
+	7500 4100 7500 3950
+Wire Wire Line
+	6600 4000 6600 4100
+Wire Wire Line
+	5700 3950 5700 4100
+Wire Wire Line
+	4750 3950 4750 4100
+Wire Wire Line
+	3850 3950 3850 4100
+Wire Wire Line
+	2700 3950 2700 4100
+Wire Wire Line
+	1800 5600 1800 5850
+Wire Wire Line
+	2650 5600 2650 5850
+Wire Wire Line
+	3550 5600 3550 5850
+Wire Wire Line
+	1800 4100 2700 4100
+Connection ~ 2700 4100
+Wire Wire Line
+	2700 4100 3850 4100
+Connection ~ 3850 4100
+Wire Wire Line
+	3850 4100 4750 4100
+Connection ~ 4750 4100
+Wire Wire Line
+	4750 4100 5700 4100
+Connection ~ 5700 4100
+Wire Wire Line
+	5700 4100 6600 4100
+Connection ~ 6600 4100
+Wire Wire Line
+	6600 4100 7500 4100
+Wire Wire Line
+	1800 2900 1800 3100
+Wire Wire Line
+	1800 3100 2700 3100
+Wire Wire Line
+	7500 3100 7500 2900
+Wire Wire Line
+	6600 3100 6600 2900
+Connection ~ 6600 3100
+Wire Wire Line
+	6600 3100 7500 3100
+Wire Wire Line
+	5700 2900 5700 3100
+Connection ~ 5700 3100
+Wire Wire Line
+	5700 3100 6600 3100
+Wire Wire Line
+	4750 2900 4750 3100
+Connection ~ 4750 3100
+Wire Wire Line
+	4750 3100 5700 3100
+Wire Wire Line
+	3850 2900 3850 3100
+Connection ~ 3850 3100
+Wire Wire Line
+	3850 3100 4750 3100
+Wire Wire Line
+	2700 2900 2700 3100
+Connection ~ 2700 3100
+Wire Wire Line
+	2700 3100 3850 3100
+Wire Wire Line
+	6950 1650 6950 1800
+Wire Wire Line
+	6950 1800 6050 1800
+Wire Wire Line
+	4200 1800 4200 1650
+Wire Wire Line
+	5100 1650 5100 1800
+Connection ~ 5100 1800
+Wire Wire Line
+	5100 1800 4200 1800
+Wire Wire Line
+	6050 1650 6050 1800
+Connection ~ 6050 1800
+Wire Wire Line
+	6050 1800 5100 1800
+Wire Wire Line
+	3450 4900 3450 3650
+Wire Wire Line
+	3450 2600 3400 2600
+Wire Wire Line
+	3400 3650 3450 3650
+Connection ~ 3450 3650
+Wire Wire Line
+	3450 3650 3450 2600
+Wire Wire Line
+	3400 4900 3450 4900
+Wire Wire Line
+	3450 4900 3450 5600
+Wire Wire Line
+	3450 5600 3350 5600
+Connection ~ 3450 4900
+Wire Wire Line
+	4550 2600 4550 3650
+Wire Wire Line
+	4550 3650 4550 4650
+Connection ~ 4550 3650
+Wire Wire Line
+	4550 4650 4550 5600
+Wire Wire Line
+	4550 5600 4250 5600
+Connection ~ 4550 4650
+Wire Wire Line
+	5450 2600 5450 3650
+Wire Wire Line
+	5450 3650 5450 4650
+Connection ~ 5450 3650
+Wire Wire Line
+	6400 4650 6400 3650
+Wire Wire Line
+	6400 3650 6400 2600
+Connection ~ 6400 3650
+Wire Wire Line
+	7300 2600 7300 3650
+Wire Wire Line
+	7300 3650 7300 4650
+Connection ~ 7300 3650
+Wire Wire Line
+	7300 4650 7300 5400
+Wire Wire Line
+	7300 5400 8150 5400
+Wire Wire Line
+	8150 5400 8150 5900
+Connection ~ 7300 4650
+Wire Wire Line
+	7250 5900 7250 5500
+Wire Wire Line
+	7250 5500 6400 5500
+Wire Wire Line
+	6400 5500 6400 4650
+Connection ~ 6400 4650
+Wire Wire Line
+	6300 5900 6300 5550
+Wire Wire Line
+	6300 5550 5450 5550
+Wire Wire Line
+	5450 5550 5450 4650
+Connection ~ 5450 4650
+Wire Wire Line
+	8200 2600 8200 3650
+Wire Wire Line
+	8200 4650 8200 3650
+Connection ~ 8200 3650
+Wire Wire Line
+	8200 4650 8200 5250
+Wire Wire Line
+	8200 5250 9050 5250
+Wire Wire Line
+	9050 5250 9050 5900
+Connection ~ 8200 4650
+Wire Wire Line
+	2500 5600 2500 3650
+Wire Wire Line
+	2500 3650 2500 2600
+Connection ~ 2500 3650
+Wire Wire Line
+	2900 1750 2900 1800
+Wire Wire Line
+	2900 1800 4200 1800
+Connection ~ 4200 1800
+Connection ~ 3450 2600
+Wire Wire Line
+	2900 1350 2900 1550
+Wire Wire Line
+	3450 1600 3450 2600
+Wire Wire Line
+	3100 1600 3450 1600
+Wire Wire Line
+	3100 1350 3100 1600
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FFFBD6
+P 6550 6150
+F 0 "D?" H 6678 6100 60  0000 L CNN
+F 1 "D" V 6700 6100 60  0001 C CNN
+F 2 "" H 6550 6150 60  0000 C CNN
+F 3 "" H 6550 6150 60  0000 C CNN
+	1    6550 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8350 6450 8350 6200
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FFFBF2
+P 8350 6150
+F 0 "D?" H 8478 6100 60  0000 L CNN
+F 1 "D" V 8500 6100 60  0001 C CNN
+F 2 "" H 8350 6150 60  0000 C CNN
+F 3 "" H 8350 6150 60  0000 C CNN
+	1    8350 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FFFBE4
+P 7450 6150
+F 0 "D?" H 7578 6100 60  0000 L CNN
+F 1 "D" V 7600 6100 60  0001 C CNN
+F 2 "" H 7450 6150 60  0000 C CNN
+F 3 "" H 7450 6150 60  0000 C CNN
+	1    7450 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 6000 5600 5900
+Wire Wire Line
+	5600 6200 5600 6450
+$Comp
+L keyboard_parts:D D?
+U 1 1 60FFFBC9
+P 5600 6150
+F 0 "D?" H 5728 6100 60  0000 L CNN
+F 1 "D" V 5750 6100 60  0001 C CNN
+F 2 "" H 5600 6150 60  0000 C CNN
+F 3 "" H 5600 6150 60  0000 C CNN
+	1    5600 6150
+	-1   0    0    1   
+$EndComp
+Text GLabel 8450 6450 2    50   Input ~ 0
+Row5
+Wire Wire Line
+	8350 6450 8450 6450
+Connection ~ 8350 6450
+Text GLabel 7650 5300 2    50   Input ~ 0
+Row4
+Text GLabel 7600 4100 2    50   Input ~ 0
+Row3
+Text GLabel 7600 3100 2    50   Input ~ 0
+Row2
+Text GLabel 7200 1800 2    50   Input ~ 0
+Row1
+Wire Wire Line
+	7500 5300 7650 5300
+Connection ~ 7500 5300
+Wire Wire Line
+	7600 4100 7500 4100
+Connection ~ 7500 4100
+Wire Wire Line
+	7500 3100 7600 3100
+Connection ~ 7500 3100
+Wire Wire Line
+	6950 1800 7200 1800
+Connection ~ 6950 1800
+Text GLabel 2500 2400 1    50   Input ~ 0
+Col1
+Wire Wire Line
+	2500 2600 2500 2400
+Connection ~ 2500 2600
+Text GLabel 3450 1450 1    50   Input ~ 0
+Col2
+Text GLabel 4900 1100 1    50   Input ~ 0
+Col3
+Text GLabel 5800 1100 1    50   Input ~ 0
+Col4
+Text GLabel 6750 1100 1    50   Input ~ 0
+Col5
+Text GLabel 8200 2350 1    50   Input ~ 0
+Col7
+Wire Wire Line
+	8200 2600 8200 2350
+Connection ~ 8200 2600
+Wire Wire Line
+	7650 1100 7650 1350
+Wire Wire Line
+	6750 1350 6750 1100
+Wire Wire Line
+	5800 1350 5800 1100
+Wire Wire Line
+	4900 1100 4900 1350
+Wire Wire Line
+	3450 1600 3450 1450
+Connection ~ 3450 1600
+Text GLabel 7650 1100 1    50   Input ~ 0
+Col6
+Wire Wire Line
+	4550 2600 4550 2050
+Wire Wire Line
+	4550 2050 4900 2050
+Wire Wire Line
+	4900 2050 4900 1350
+Connection ~ 4550 2600
+Connection ~ 4900 1350
+Wire Wire Line
+	5800 1350 5800 2050
+Wire Wire Line
+	5800 2050 5450 2050
+Wire Wire Line
+	5450 2050 5450 2600
+Connection ~ 5800 1350
+Connection ~ 5450 2600
+Wire Wire Line
+	6750 1350 6750 2050
+Wire Wire Line
+	6750 2050 6400 2050
+Wire Wire Line
+	6400 2050 6400 2600
+Connection ~ 6750 1350
+Connection ~ 6400 2600
+Wire Wire Line
+	7650 1350 7650 2150
+Wire Wire Line
+	7650 2150 7300 2150
+Wire Wire Line
+	7300 2150 7300 2600
+Connection ~ 7650 1350
+Connection ~ 7300 2600
+$EndSCHEMATC

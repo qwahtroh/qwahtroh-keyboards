@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name proton_c)(type Legacy)(uri C:/Users/qwahtroh/Desktop/proton_c.lib)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type Legacy)(uri "C:/Users/qwahtroh/Documents/GitHub/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name ws2812b)(type Legacy)(uri C:/Users/qwahtroh/Documents/GitHub/WS2812B.pretty/Schematic-Symbol/ws2812b.lib)(options "")(descr ""))
+  (lib (name keebio)(type Legacy)(uri C:/Users/qwahtroh/Documents/GitHub/keebio-components/keebio.lib)(options "")(descr ""))
+  (lib (name keyboard_parts)(type Legacy)(uri C:/Users/qwahtroh/Documents/GitHub/kicad_lib_tmk/keyboard_parts.lib)(options "")(descr ""))
+  (lib (name mkl27z256vfm4)(type Legacy)(uri C:/Users/qwahtroh/Documents/GitHub/kicad_lib_tmk/mkl27z256vfm4.lib)(options "")(descr ""))
+)
