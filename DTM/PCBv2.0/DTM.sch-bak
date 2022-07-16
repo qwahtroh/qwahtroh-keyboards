@@ -1847,4 +1847,15 @@ F 3 "~" H 1500 1800 50  0001 C CNN
 	1    1500 1800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 6176C477
+P 3050 1000
+F 0 "H5" H 3150 1046 50  0000 L CNN
+F 1 "MountingHole" H 3150 955 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 3050 1000 50  0001 C CNN
+F 3 "~" H 3050 1000 50  0001 C CNN
+	1    3050 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

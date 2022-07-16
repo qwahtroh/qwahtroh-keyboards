@@ -4,20 +4,20 @@
 
 /* USB Devic descriptor parameter */
 #define VENDOR_ID     0xFEED
-#define PRODUCT_ID    0x4444
+#define PRODUCT_ID    0x7777
 #define DEVICE_VER    0x0001
 #define MANUFACTURER  qwahtroh
-#define PRODUCT       DTM
-#define DESCRIPTION   a 4x11(+6) keyboard
+#define PRODUCT       OShambles
+#define DESCRIPTION   a 5x12 keyboard
 
 
 /* key matrix size */
-#define MATRIX_ROWS 5
-#define MATRIX_COLS 11
+#define MATRIX_ROWS 8
+#define MATRIX_COLS 8
 
  /* key matrix pins */
-#define MATRIX_ROW_PINS { A6, B0, B1, B2, B3 }
-#define MATRIX_COL_PINS { A13, A14, B12, B11, B10, B15, A15, A8, A7, B4, B5 }
+#define MATRIX_ROW_PINS { C6, D7, B5, D4, D0, D1, D2, D3 }
+#define MATRIX_COL_PINS { B2, B6, B3, F6, F5, F7, F4, B1 }
 
 #define UNUSED_PINS //{ B8, B9, A9, A10, B7, B6, A4, A5 }
 
@@ -26,26 +26,13 @@
 
 #define FORCE_NKRO
 
-/* ws2812 RGB LED */
-#define RGB_DI_PIN A9
-#define RGBLED_NUM 18    // Number of LEDs
-#define RGBLIGHT_ANIMATIONS
-
  /* encoder pins */ 
-#define ENCODERS_PAD_A { B12, B10 }
-#define ENCODERS_PAD_B { B11, B9 }
+#define ENCODERS_PAD_A { B4 }
+#define ENCODERS_PAD_B { E6 }
 #define ENCODER_RESOLUTION 4
 
- /* audio pins */
-#define A4_AUDIO
-#define A5_AUDIO
-
 #define TAP_CODE_DELAY 10
-
-//#ifdef AUDIO_ENABLE
-    #define AUDIO_CLICKY
-
-//#endif
+#define TAPPING_TERM 150
 
  /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
@@ -55,6 +42,3 @@
 
 /* maximum power consumption */
 #define USB_MAX_POWER_CONSUMPTION 500
-
-#define TAPPING_TERM 150
-

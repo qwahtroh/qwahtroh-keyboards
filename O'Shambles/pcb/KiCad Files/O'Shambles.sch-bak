@@ -1,0 +1,3896 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keebio:ProMicro U2
+U 1 1 61B1D287
+P 9950 1700
+F 0 "U2" H 9950 2537 60  0000 C CNN
+F 1 "ProMicro" H 9950 2431 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" V 11000 -800 60  0001 C CNN
+F 3 "" V 11000 -800 60  0001 C CNN
+	1    9950 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW62
+U 1 1 61B339D1
+P -2100 7850
+F 0 "SW62" H -2100 8105 50  0000 C CNN
+F 1 "SW_PUSH" H -2100 8014 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2100 7850 60  0001 C CNN
+F 3 "" H -2100 7850 60  0000 C CNN
+	1    -2100 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D60
+U 1 1 61B339D7
+P -2400 8000
+F 0 "D60" V -2354 7920 50  0000 R CNN
+F 1 "D" V -2445 7920 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -2400 8000 50  0001 C CNN
+F 3 "~" H -2400 8000 50  0001 C CNN
+	1    -2400 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW63
+U 1 1 61B339E1
+P -2100 8650
+F 0 "SW63" H -2100 8905 50  0000 C CNN
+F 1 "SW_PUSH" H -2100 8814 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2100 8650 60  0001 C CNN
+F 3 "" H -2100 8650 60  0000 C CNN
+	1    -2100 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D61
+U 1 1 61B339E7
+P -2400 8800
+F 0 "D61" V -2354 8720 50  0000 R CNN
+F 1 "D" V -2445 8720 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -2400 8800 50  0001 C CNN
+F 3 "~" H -2400 8800 50  0001 C CNN
+	1    -2400 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW64
+U 1 1 61BAB53A
+P -2100 9350
+F 0 "SW64" H -2100 9605 50  0000 C CNN
+F 1 "SW_PUSH" H -2100 9514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2100 9350 60  0001 C CNN
+F 3 "" H -2100 9350 60  0000 C CNN
+	1    -2100 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D62
+U 1 1 61BAB540
+P -2400 9500
+F 0 "D62" V -2354 9420 50  0000 R CNN
+F 1 "D" V -2445 9420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -2400 9500 50  0001 C CNN
+F 3 "~" H -2400 9500 50  0001 C CNN
+	1    -2400 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW65
+U 1 1 61BAB549
+P -5600 8650
+F 0 "SW65" H -5600 8905 50  0000 C CNN
+F 1 "SW_PUSH" H -5600 8814 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -5600 8650 60  0001 C CNN
+F 3 "" H -5600 8650 60  0000 C CNN
+	1    -5600 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D63
+U 1 1 61BAB54F
+P -5900 8800
+F 0 "D63" V -5854 8720 50  0000 R CNN
+F 1 "D" V -5945 8720 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5900 8800 50  0001 C CNN
+F 3 "~" H -5900 8800 50  0001 C CNN
+	1    -5900 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW4
+U 1 1 61BB5A6B
+P 6150 3350
+F 0 "SW4" H 6150 3605 50  0000 C CNN
+F 1 "SW_PUSH" H 6150 3514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 6150 3350 60  0001 C CNN
+F 3 "" H 6150 3350 60  0000 C CNN
+	1    6150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 61BB5A71
+P 5850 3500
+F 0 "D2" V 5896 3420 50  0000 R CNN
+F 1 "D" V 5805 3420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 5850 3500 50  0001 C CNN
+F 3 "~" H 5850 3500 50  0001 C CNN
+	1    5850 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5150 5450 5850 5450
+$Comp
+L keyboard_parts:SW_PUSH SW54
+U 1 1 61BB5AD8
+P 5450 5750
+F 0 "SW54" H 5450 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 5450 5914 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 5450 5750 60  0001 C CNN
+F 3 "" H 5450 5750 60  0000 C CNN
+	1    5450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D52
+U 1 1 61BB5ADE
+P 5150 5900
+F 0 "D52" V 5196 5820 50  0000 R CNN
+F 1 "D" V 5105 5820 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 5150 5900 50  0001 C CNN
+F 3 "~" H 5150 5900 50  0001 C CNN
+	1    5150 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW55
+U 1 1 61BB5AE7
+P 6150 5750
+F 0 "SW55" H 6150 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 6150 5914 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 6150 5750 60  0001 C CNN
+F 3 "" H 6150 5750 60  0000 C CNN
+	1    6150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D53
+U 1 1 61BB5AED
+P 5850 5900
+F 0 "D53" V 5896 5820 50  0000 R CNN
+F 1 "D" V 5805 5820 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 5850 5900 50  0001 C CNN
+F 3 "~" H 5850 5900 50  0001 C CNN
+	1    5850 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 5150 6450 5750
+$Comp
+L keyboard_parts:SW_PUSH SW5
+U 1 1 61BC1F75
+P 6850 3350
+F 0 "SW5" H 6850 3605 50  0000 C CNN
+F 1 "SW_PUSH" H 6850 3514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 6850 3350 60  0001 C CNN
+F 3 "" H 6850 3350 60  0000 C CNN
+	1    6850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 61BC1F7B
+P 6550 3500
+F 0 "D3" V 6596 3420 50  0000 R CNN
+F 1 "D" V 6505 3420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 6550 3500 50  0001 C CNN
+F 3 "~" H 6550 3500 50  0001 C CNN
+	1    6550 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 3350 7150 3100
+Connection ~ 7150 3350
+Wire Wire Line
+	6550 3650 7250 3650
+Connection ~ 6550 3650
+$Comp
+L keyboard_parts:SW_PUSH SW16
+U 1 1 61BC1F85
+P 6150 3950
+F 0 "SW16" H 6150 4205 50  0000 C CNN
+F 1 "SW_PUSH" H 6150 4114 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 6150 3950 60  0001 C CNN
+F 3 "" H 6150 3950 60  0000 C CNN
+	1    6150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 61BC1F8B
+P 5850 4100
+F 0 "D14" V 5896 4020 50  0000 R CNN
+F 1 "D" V 5805 4020 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 5850 4100 50  0001 C CNN
+F 3 "~" H 5850 4100 50  0001 C CNN
+	1    5850 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6450 3950
+Wire Wire Line
+	5850 4250 6550 4250
+$Comp
+L keyboard_parts:SW_PUSH SW17
+U 1 1 61BC1F93
+P 6850 3950
+F 0 "SW17" H 6850 4205 50  0000 C CNN
+F 1 "SW_PUSH" H 6850 4114 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 6850 3950 60  0001 C CNN
+F 3 "" H 6850 3950 60  0000 C CNN
+	1    6850 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 61BC1F99
+P 6550 4100
+F 0 "D15" V 6596 4020 50  0000 R CNN
+F 1 "D" V 6505 4020 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 6550 4100 50  0001 C CNN
+F 3 "~" H 6550 4100 50  0001 C CNN
+	1    6550 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7150 3950
+Wire Wire Line
+	6550 4250 7250 4250
+Connection ~ 6550 4250
+Wire Wire Line
+	7150 3350 7150 3950
+$Comp
+L keyboard_parts:SW_PUSH SW29
+U 1 1 61BC1FA4
+P 6150 4550
+F 0 "SW29" H 6150 4805 50  0000 C CNN
+F 1 "SW_PUSH" H 6150 4714 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 6150 4550 60  0001 C CNN
+F 3 "" H 6150 4550 60  0000 C CNN
+	1    6150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 61BC1FAA
+P 5850 4700
+F 0 "D27" V 5896 4620 50  0000 R CNN
+F 1 "D" V 5805 4620 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 5850 4700 50  0001 C CNN
+F 3 "~" H 5850 4700 50  0001 C CNN
+	1    5850 4700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6450 4550
+Wire Wire Line
+	5850 4850 6550 4850
+$Comp
+L keyboard_parts:SW_PUSH SW30
+U 1 1 61BC1FB2
+P 6850 4550
+F 0 "SW30" H 6850 4805 50  0000 C CNN
+F 1 "SW_PUSH" H 6850 4714 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 6850 4550 60  0001 C CNN
+F 3 "" H 6850 4550 60  0000 C CNN
+	1    6850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 61BC1FB8
+P 6550 4700
+F 0 "D28" V 6596 4620 50  0000 R CNN
+F 1 "D" V 6505 4620 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 6550 4700 50  0001 C CNN
+F 3 "~" H 6550 4700 50  0001 C CNN
+	1    6550 4700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7150 4550
+Wire Wire Line
+	6550 4850 7250 4850
+Connection ~ 6550 4850
+Wire Wire Line
+	6450 3950 6450 4550
+Wire Wire Line
+	7150 3950 7150 4550
+$Comp
+L keyboard_parts:SW_PUSH SW42
+U 1 1 61BC1FC3
+P 6150 5150
+F 0 "SW42" H 6150 5405 50  0000 C CNN
+F 1 "SW_PUSH" H 6150 5314 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 6150 5150 60  0001 C CNN
+F 3 "" H 6150 5150 60  0000 C CNN
+	1    6150 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 61BC1FC9
+P 5850 5300
+F 0 "D40" V 5896 5220 50  0000 R CNN
+F 1 "D" V 5805 5220 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 5850 5300 50  0001 C CNN
+F 3 "~" H 5850 5300 50  0001 C CNN
+	1    5850 5300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6450 5150
+Wire Wire Line
+	5850 5450 6550 5450
+$Comp
+L keyboard_parts:SW_PUSH SW43
+U 1 1 61BC1FD1
+P 6850 5150
+F 0 "SW43" H 6850 5405 50  0000 C CNN
+F 1 "SW_PUSH" H 6850 5314 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 6850 5150 60  0001 C CNN
+F 3 "" H 6850 5150 60  0000 C CNN
+	1    6850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 61BC1FD7
+P 6550 5300
+F 0 "D41" V 6596 5220 50  0000 R CNN
+F 1 "D" V 6505 5220 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 6550 5300 50  0001 C CNN
+F 3 "~" H 6550 5300 50  0001 C CNN
+	1    6550 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 5450 7250 5450
+Connection ~ 6550 5450
+Wire Wire Line
+	6450 4550 6450 5150
+Wire Wire Line
+	7150 4550 7150 5150
+$Comp
+L keyboard_parts:SW_PUSH SW56
+U 1 1 61BC1FE2
+P 6850 5750
+F 0 "SW56" H 6850 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 6850 5914 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 6850 5750 60  0001 C CNN
+F 3 "" H 6850 5750 60  0000 C CNN
+	1    6850 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D54
+U 1 1 61BC1FE8
+P 6550 5900
+F 0 "D54" V 6596 5820 50  0000 R CNN
+F 1 "D" V 6505 5820 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 6550 5900 50  0001 C CNN
+F 3 "~" H 6550 5900 50  0001 C CNN
+	1    6550 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 5150 7150 5750
+$Comp
+L keyboard_parts:SW_PUSH SW6
+U 1 1 61BC947B
+P 7550 3350
+F 0 "SW6" H 7550 3605 50  0000 C CNN
+F 1 "SW_PUSH" H 7550 3514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 7550 3350 60  0001 C CNN
+F 3 "" H 7550 3350 60  0000 C CNN
+	1    7550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 61BC9481
+P 7250 3500
+F 0 "D4" V 7296 3420 50  0000 R CNN
+F 1 "D" V 7205 3420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 7250 3500 50  0001 C CNN
+F 3 "~" H 7250 3500 50  0001 C CNN
+	1    7250 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7850 3350 7850 3100
+Connection ~ 7850 3350
+Wire Wire Line
+	7250 3650 7950 3650
+$Comp
+L keyboard_parts:SW_PUSH SW7
+U 1 1 61BC948A
+P 8250 3350
+F 0 "SW7" H 8250 3605 50  0000 C CNN
+F 1 "SW_PUSH" H 8250 3514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 8250 3350 60  0001 C CNN
+F 3 "" H 8250 3350 60  0000 C CNN
+	1    8250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 61BC9490
+P 7950 3500
+F 0 "D5" V 7996 3420 50  0000 R CNN
+F 1 "D" V 7905 3420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 7950 3500 50  0001 C CNN
+F 3 "~" H 7950 3500 50  0001 C CNN
+	1    7950 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 3350 8550 3100
+Connection ~ 8550 3350
+Wire Wire Line
+	7950 3650 8650 3650
+Connection ~ 7950 3650
+$Comp
+L keyboard_parts:SW_PUSH SW18
+U 1 1 61BC949A
+P 7550 3950
+F 0 "SW18" H 7550 4205 50  0000 C CNN
+F 1 "SW_PUSH" H 7550 4114 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 7550 3950 60  0001 C CNN
+F 3 "" H 7550 3950 60  0000 C CNN
+	1    7550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 61BC94A0
+P 7250 4100
+F 0 "D16" V 7296 4020 50  0000 R CNN
+F 1 "D" V 7205 4020 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 7250 4100 50  0001 C CNN
+F 3 "~" H 7250 4100 50  0001 C CNN
+	1    7250 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7850 3950
+Wire Wire Line
+	7250 4250 7950 4250
+$Comp
+L keyboard_parts:SW_PUSH SW19
+U 1 1 61BC94A8
+P 8250 3950
+F 0 "SW19" H 8250 4205 50  0000 C CNN
+F 1 "SW_PUSH" H 8250 4114 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 8250 3950 60  0001 C CNN
+F 3 "" H 8250 3950 60  0000 C CNN
+	1    8250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 61BC94AE
+P 7950 4100
+F 0 "D17" V 7996 4020 50  0000 R CNN
+F 1 "D" V 7905 4020 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 7950 4100 50  0001 C CNN
+F 3 "~" H 7950 4100 50  0001 C CNN
+	1    7950 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8550 3950
+Wire Wire Line
+	7950 4250 8650 4250
+Connection ~ 7950 4250
+Wire Wire Line
+	7850 3350 7850 3950
+Wire Wire Line
+	8550 3350 8550 3950
+$Comp
+L keyboard_parts:SW_PUSH SW31
+U 1 1 61BC94B9
+P 7550 4550
+F 0 "SW31" H 7550 4805 50  0000 C CNN
+F 1 "SW_PUSH" H 7550 4714 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 7550 4550 60  0001 C CNN
+F 3 "" H 7550 4550 60  0000 C CNN
+	1    7550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 61BC94BF
+P 7250 4700
+F 0 "D29" V 7296 4620 50  0000 R CNN
+F 1 "D" V 7205 4620 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 7250 4700 50  0001 C CNN
+F 3 "~" H 7250 4700 50  0001 C CNN
+	1    7250 4700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7850 4550
+Wire Wire Line
+	7250 4850 7950 4850
+$Comp
+L keyboard_parts:SW_PUSH SW32
+U 1 1 61BC94C7
+P 8250 4550
+F 0 "SW32" H 8250 4805 50  0000 C CNN
+F 1 "SW_PUSH" H 8250 4714 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 8250 4550 60  0001 C CNN
+F 3 "" H 8250 4550 60  0000 C CNN
+	1    8250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 61BC94CD
+P 7950 4700
+F 0 "D30" V 7996 4620 50  0000 R CNN
+F 1 "D" V 7905 4620 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 7950 4700 50  0001 C CNN
+F 3 "~" H 7950 4700 50  0001 C CNN
+	1    7950 4700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8550 4550
+Wire Wire Line
+	7950 4850 8650 4850
+Connection ~ 7950 4850
+Wire Wire Line
+	7850 3950 7850 4550
+Wire Wire Line
+	8550 3950 8550 4550
+$Comp
+L keyboard_parts:SW_PUSH SW44
+U 1 1 61BC94D8
+P 7550 5150
+F 0 "SW44" H 7550 5405 50  0000 C CNN
+F 1 "SW_PUSH" H 7550 5314 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 7550 5150 60  0001 C CNN
+F 3 "" H 7550 5150 60  0000 C CNN
+	1    7550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 61BC94DE
+P 7250 5300
+F 0 "D42" V 7296 5220 50  0000 R CNN
+F 1 "D" V 7205 5220 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 7250 5300 50  0001 C CNN
+F 3 "~" H 7250 5300 50  0001 C CNN
+	1    7250 5300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7850 5150
+Wire Wire Line
+	7250 5450 7950 5450
+$Comp
+L keyboard_parts:SW_PUSH SW45
+U 1 1 61BC94E6
+P 8250 5150
+F 0 "SW45" H 8250 5405 50  0000 C CNN
+F 1 "SW_PUSH" H 8250 5314 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 8250 5150 60  0001 C CNN
+F 3 "" H 8250 5150 60  0000 C CNN
+	1    8250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 61BC94EC
+P 7950 5300
+F 0 "D43" V 7996 5220 50  0000 R CNN
+F 1 "D" V 7905 5220 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 7950 5300 50  0001 C CNN
+F 3 "~" H 7950 5300 50  0001 C CNN
+	1    7950 5300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8550 5150
+Wire Wire Line
+	7950 5450 8650 5450
+Connection ~ 7950 5450
+Wire Wire Line
+	7850 4550 7850 5150
+Wire Wire Line
+	8550 4550 8550 5150
+$Comp
+L keyboard_parts:SW_PUSH SW57
+U 1 1 61BC94F7
+P 7550 5750
+F 0 "SW57" H 7550 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 7550 5914 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 7550 5750 60  0001 C CNN
+F 3 "" H 7550 5750 60  0000 C CNN
+	1    7550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D55
+U 1 1 61BC94FD
+P 7250 5900
+F 0 "D55" V 7296 5820 50  0000 R CNN
+F 1 "D" V 7205 5820 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 7250 5900 50  0001 C CNN
+F 3 "~" H 7250 5900 50  0001 C CNN
+	1    7250 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7250 6050 7950 6050
+$Comp
+L keyboard_parts:SW_PUSH SW58
+U 1 1 61BC9506
+P 8250 5750
+F 0 "SW58" H 8250 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 8250 5914 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 8250 5750 60  0001 C CNN
+F 3 "" H 8250 5750 60  0000 C CNN
+	1    8250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D56
+U 1 1 61BC950C
+P 7950 5900
+F 0 "D56" V 7996 5820 50  0000 R CNN
+F 1 "D" V 7905 5820 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 7950 5900 50  0001 C CNN
+F 3 "~" H 7950 5900 50  0001 C CNN
+	1    7950 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7950 6050 8650 6050
+Connection ~ 7950 6050
+Wire Wire Line
+	7850 5150 7850 5750
+Wire Wire Line
+	8550 5150 8550 5750
+$Comp
+L Device:D D6
+U 1 1 61BDD838
+P 8650 3500
+F 0 "D6" V 8696 3420 50  0000 R CNN
+F 1 "D" V 8605 3420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 8650 3500 50  0001 C CNN
+F 3 "~" H 8650 3500 50  0001 C CNN
+	1    8650 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8650 3650 9350 3650
+$Comp
+L keyboard_parts:SW_PUSH SW9
+U 1 1 61BDD841
+P 9650 3350
+F 0 "SW9" H 9650 3605 50  0000 C CNN
+F 1 "SW_PUSH" H 9650 3514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 9650 3350 60  0001 C CNN
+F 3 "" H 9650 3350 60  0000 C CNN
+	1    9650 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 61BDD847
+P 9350 3500
+F 0 "D7" V 9396 3420 50  0000 R CNN
+F 1 "D" V 9305 3420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 9350 3500 50  0001 C CNN
+F 3 "~" H 9350 3500 50  0001 C CNN
+	1    9350 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9950 3350 9950 3100
+Connection ~ 9950 3350
+Wire Wire Line
+	9350 3650 10050 3650
+Connection ~ 9350 3650
+$Comp
+L keyboard_parts:SW_PUSH SW20
+U 1 1 61BDD851
+P 8950 3950
+F 0 "SW20" H 8950 4205 50  0000 C CNN
+F 1 "SW_PUSH" H 8950 4114 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 8950 3950 60  0001 C CNN
+F 3 "" H 8950 3950 60  0000 C CNN
+	1    8950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 61BDD857
+P 8650 4100
+F 0 "D18" V 8696 4020 50  0000 R CNN
+F 1 "D" V 8605 4020 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 8650 4100 50  0001 C CNN
+F 3 "~" H 8650 4100 50  0001 C CNN
+	1    8650 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9250 3950
+Wire Wire Line
+	8650 4250 9350 4250
+$Comp
+L keyboard_parts:SW_PUSH SW21
+U 1 1 61BDD85F
+P 9650 3950
+F 0 "SW21" H 9650 4205 50  0000 C CNN
+F 1 "SW_PUSH" H 9650 4114 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 9650 3950 60  0001 C CNN
+F 3 "" H 9650 3950 60  0000 C CNN
+	1    9650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 61BDD865
+P 9350 4100
+F 0 "D19" V 9396 4020 50  0000 R CNN
+F 1 "D" V 9305 4020 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 9350 4100 50  0001 C CNN
+F 3 "~" H 9350 4100 50  0001 C CNN
+	1    9350 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9950 3950
+Wire Wire Line
+	9350 4250 10050 4250
+Connection ~ 9350 4250
+Wire Wire Line
+	9950 3350 9950 3950
+$Comp
+L keyboard_parts:SW_PUSH SW33
+U 1 1 61BDD870
+P 8950 4550
+F 0 "SW33" H 8950 4805 50  0000 C CNN
+F 1 "SW_PUSH" H 8950 4714 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 8950 4550 60  0001 C CNN
+F 3 "" H 8950 4550 60  0000 C CNN
+	1    8950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 61BDD876
+P 8650 4700
+F 0 "D31" V 8696 4620 50  0000 R CNN
+F 1 "D" V 8605 4620 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 8650 4700 50  0001 C CNN
+F 3 "~" H 8650 4700 50  0001 C CNN
+	1    8650 4700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9250 4550
+Wire Wire Line
+	8650 4850 9350 4850
+$Comp
+L keyboard_parts:SW_PUSH SW34
+U 1 1 61BDD87E
+P 9650 4550
+F 0 "SW34" H 9650 4805 50  0000 C CNN
+F 1 "SW_PUSH" H 9650 4714 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 9650 4550 60  0001 C CNN
+F 3 "" H 9650 4550 60  0000 C CNN
+	1    9650 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 61BDD884
+P 9350 4700
+F 0 "D32" V 9396 4620 50  0000 R CNN
+F 1 "D" V 9305 4620 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 9350 4700 50  0001 C CNN
+F 3 "~" H 9350 4700 50  0001 C CNN
+	1    9350 4700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9950 4550
+Wire Wire Line
+	9350 4850 10050 4850
+Connection ~ 9350 4850
+Wire Wire Line
+	9250 3950 9250 4550
+Wire Wire Line
+	9950 3950 9950 4550
+$Comp
+L keyboard_parts:SW_PUSH SW46
+U 1 1 61BDD88F
+P 8950 5150
+F 0 "SW46" H 8950 5405 50  0000 C CNN
+F 1 "SW_PUSH" H 8950 5314 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 8950 5150 60  0001 C CNN
+F 3 "" H 8950 5150 60  0000 C CNN
+	1    8950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 61BDD895
+P 8650 5300
+F 0 "D44" V 8696 5220 50  0000 R CNN
+F 1 "D" V 8605 5220 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 8650 5300 50  0001 C CNN
+F 3 "~" H 8650 5300 50  0001 C CNN
+	1    8650 5300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9250 5150
+Wire Wire Line
+	8650 5450 9350 5450
+$Comp
+L keyboard_parts:SW_PUSH SW47
+U 1 1 61BDD89D
+P 9650 5150
+F 0 "SW47" H 9650 5405 50  0000 C CNN
+F 1 "SW_PUSH" H 9650 5314 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 9650 5150 60  0001 C CNN
+F 3 "" H 9650 5150 60  0000 C CNN
+	1    9650 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 61BDD8A3
+P 9350 5300
+F 0 "D45" V 9396 5220 50  0000 R CNN
+F 1 "D" V 9305 5220 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 9350 5300 50  0001 C CNN
+F 3 "~" H 9350 5300 50  0001 C CNN
+	1    9350 5300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9950 5150
+Connection ~ 9350 5450
+Wire Wire Line
+	9250 4550 9250 5150
+Wire Wire Line
+	9950 4550 9950 5150
+$Comp
+L keyboard_parts:SW_PUSH SW59
+U 1 1 61BDD8AE
+P 8950 5750
+F 0 "SW59" H 8950 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 8950 5914 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 8950 5750 60  0001 C CNN
+F 3 "" H 8950 5750 60  0000 C CNN
+	1    8950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D57
+U 1 1 61BDD8B4
+P 8650 5900
+F 0 "D57" V 8696 5820 50  0000 R CNN
+F 1 "D" V 8605 5820 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 8650 5900 50  0001 C CNN
+F 3 "~" H 8650 5900 50  0001 C CNN
+	1    8650 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8650 6050 9350 6050
+$Comp
+L keyboard_parts:SW_PUSH SW60
+U 1 1 61BDD8BD
+P 9650 5750
+F 0 "SW60" H 9650 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 9650 5914 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 9650 5750 60  0001 C CNN
+F 3 "" H 9650 5750 60  0000 C CNN
+	1    9650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D58
+U 1 1 61BDD8C3
+P 9350 5900
+F 0 "D58" V 9396 5820 50  0000 R CNN
+F 1 "D" V 9305 5820 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 9350 5900 50  0001 C CNN
+F 3 "~" H 9350 5900 50  0001 C CNN
+	1    9350 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9350 6050 10050 6050
+Connection ~ 9350 6050
+Wire Wire Line
+	9250 5150 9250 5750
+Wire Wire Line
+	9950 5150 9950 5750
+$Comp
+L keyboard_parts:SW_PUSH SW10
+U 1 1 61BEF19B
+P 10350 3350
+F 0 "SW10" H 10350 3605 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 3514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 10350 3350 60  0001 C CNN
+F 3 "" H 10350 3350 60  0000 C CNN
+	1    10350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 61BEF1A1
+P 10050 3500
+F 0 "D8" V 10096 3420 50  0000 R CNN
+F 1 "D" V 10005 3420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 10050 3500 50  0001 C CNN
+F 3 "~" H 10050 3500 50  0001 C CNN
+	1    10050 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10650 3350 10650 3100
+$Comp
+L keyboard_parts:SW_PUSH SW22
+U 1 1 61BEF1BA
+P 10350 3950
+F 0 "SW22" H 10350 4205 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 4114 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 10350 3950 60  0001 C CNN
+F 3 "" H 10350 3950 60  0000 C CNN
+	1    10350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 61BEF1C0
+P 10050 4100
+F 0 "D20" V 10096 4020 50  0000 R CNN
+F 1 "D" V 10005 4020 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 10050 4100 50  0001 C CNN
+F 3 "~" H 10050 4100 50  0001 C CNN
+	1    10050 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10650 3950
+Wire Wire Line
+	10650 3350 10650 3950
+$Comp
+L keyboard_parts:SW_PUSH SW35
+U 1 1 61BEF1D9
+P 10350 4550
+F 0 "SW35" H 10350 4805 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 4714 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 10350 4550 60  0001 C CNN
+F 3 "" H 10350 4550 60  0000 C CNN
+	1    10350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 61BEF1DF
+P 10050 4700
+F 0 "D33" V 10096 4620 50  0000 R CNN
+F 1 "D" V 10005 4620 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 10050 4700 50  0001 C CNN
+F 3 "~" H 10050 4700 50  0001 C CNN
+	1    10050 4700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10650 4550
+Wire Wire Line
+	10650 3950 10650 4550
+$Comp
+L keyboard_parts:SW_PUSH SW48
+U 1 1 61BEF1F8
+P 10350 5150
+F 0 "SW48" H 10350 5405 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 5314 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 10350 5150 60  0001 C CNN
+F 3 "" H 10350 5150 60  0000 C CNN
+	1    10350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D46
+U 1 1 61BEF1FE
+P 10050 5300
+F 0 "D46" V 10096 5220 50  0000 R CNN
+F 1 "D" V 10005 5220 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 10050 5300 50  0001 C CNN
+F 3 "~" H 10050 5300 50  0001 C CNN
+	1    10050 5300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10650 5150
+Wire Wire Line
+	10650 4550 10650 5150
+$Comp
+L keyboard_parts:SW_PUSH SW61
+U 1 1 61BEF217
+P 10350 5750
+F 0 "SW61" H 10350 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 5914 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 10350 5750 60  0001 C CNN
+F 3 "" H 10350 5750 60  0000 C CNN
+	1    10350 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D59
+U 1 1 61BEF21D
+P 10050 5900
+F 0 "D59" V 10096 5820 50  0000 R CNN
+F 1 "D" V 10005 5820 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 10050 5900 50  0001 C CNN
+F 3 "~" H 10050 5900 50  0001 C CNN
+	1    10050 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10650 5150 10650 5750
+Wire Wire Line
+	10050 3650 10750 3650
+Connection ~ 10050 3650
+Wire Wire Line
+	10050 4250 10750 4250
+Connection ~ 10050 4250
+Wire Wire Line
+	10050 4850 10750 4850
+Connection ~ 10050 4850
+Wire Wire Line
+	10050 6050 10750 6050
+Connection ~ 10050 6050
+Text GLabel 5750 3100 1    50   Input ~ 0
+COL1
+Text GLabel 6450 3100 1    50   Input ~ 0
+COL2
+Text GLabel 7150 3100 1    50   Input ~ 0
+COL3
+Text GLabel 7850 3100 1    50   Input ~ 0
+COL4
+Text GLabel 8550 3100 1    50   Input ~ 0
+COL5
+Text GLabel 9250 3100 1    50   Input ~ 0
+COL6
+Text GLabel 9950 3100 1    50   Input ~ 0
+COL7
+Text GLabel 10650 3100 1    50   Input ~ 0
+COL8
+Wire Wire Line
+	6450 3100 6450 3350
+Wire Wire Line
+	9250 3100 9250 3350
+$Comp
+L keyboard_parts:SW_PUSH SW8
+U 1 1 61C4B129
+P 8950 3350
+F 0 "SW8" H 8950 3605 50  0000 C CNN
+F 1 "SW_PUSH" H 8950 3514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 8950 3350 60  0001 C CNN
+F 3 "" H 8950 3350 60  0000 C CNN
+	1    8950 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 10750 3650 2    50   Input ~ 0
+ROW4
+Text GLabel 10750 4250 2    50   Input ~ 0
+ROW5
+Connection ~ 7250 3650
+Connection ~ 7250 4250
+Connection ~ 7250 4850
+Connection ~ 7250 5450
+Connection ~ 7250 6050
+Connection ~ 8650 3650
+Connection ~ 8650 4250
+Connection ~ 8650 4850
+Connection ~ 8650 5450
+Connection ~ 8650 6050
+Connection ~ 9250 3350
+Wire Wire Line
+	9250 3350 9250 3950
+Wire Wire Line
+	5850 6050 6550 6050
+$Comp
+L Device:Rotary_Encoder_Switch SW2
+U 1 1 61D0CDE8
+P 6500 1750
+F 0 "SW2" H 6500 2117 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 6500 2026 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11" H 6350 1910 50  0001 C CNN
+F 3 "~" H 6500 2010 50  0001 C CNN
+	1    6500 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 10750 4850 2    50   Input ~ 0
+ROW6
+Text GLabel 10750 5450 2    50   Input ~ 0
+ROW7
+Text GLabel 10750 6050 2    50   Input ~ 0
+ROW8
+Wire Wire Line
+	5850 3650 6550 3650
+Connection ~ 6450 3350
+Wire Wire Line
+	6450 3350 6450 3950
+Connection ~ 6550 6050
+Wire Wire Line
+	6550 6050 7250 6050
+Connection ~ 7150 5150
+Wire Wire Line
+	9350 5450 10050 5450
+Wire Wire Line
+	5150 6050 5850 6050
+Connection ~ 5850 6050
+Connection ~ 5850 5450
+Connection ~ 10050 5450
+Wire Wire Line
+	10050 5450 10750 5450
+Connection ~ 10650 3350
+Text GLabel 10100 2400 3    50   Input ~ 0
+COL7
+Text GLabel 9700 2400 3    50   Input ~ 0
+COL8
+Text GLabel 10400 2400 3    50   Input ~ 0
+GND
+Connection ~ 5750 5150
+Wire Wire Line
+	5750 5750 5750 5150
+Connection ~ 5850 4850
+Connection ~ 5850 4250
+Connection ~ 5750 3350
+Wire Wire Line
+	5750 3350 5750 3950
+Wire Wire Line
+	5750 3100 5750 3350
+Connection ~ 5850 3650
+Wire Wire Line
+	5750 4550 5750 5150
+Wire Wire Line
+	5750 3950 5750 4550
+Connection ~ 5750 4550
+Connection ~ 5750 3950
+$Comp
+L keebio:ProMicro U1
+U 1 1 62218F14
+P 8050 1700
+F 0 "U1" H 8050 2537 60  0000 C CNN
+F 1 "ProMicro" H 8050 2431 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" V 9100 -800 60  0001 C CNN
+F 3 "" V 9100 -800 60  0001 C CNN
+	1    8050 1700
+	0    1    1    0   
+$EndComp
+Text GLabel 7600 2400 3    50   Input ~ 0
+COL1
+Text GLabel 7500 2400 3    50   Input ~ 0
+COL2
+Text GLabel 7700 2400 3    50   Input ~ 0
+COL3
+Text GLabel 8000 2400 3    50   Input ~ 0
+COL4
+Text GLabel 8100 2400 3    50   Input ~ 0
+COL5
+Text GLabel 7900 2400 3    50   Input ~ 0
+COL6
+Text GLabel 8200 2400 3    50   Input ~ 0
+COL7
+Text GLabel 7800 2400 3    50   Input ~ 0
+COL8
+Text GLabel 6200 1750 0    50   Input ~ 0
+GND
+Wire Wire Line
+	5150 3650 5850 3650
+$Comp
+L Device:D D39
+U 1 1 61BB5ACD
+P 5150 5300
+F 0 "D39" V 5196 5220 50  0000 R CNN
+F 1 "D" V 5105 5220 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 5150 5300 50  0001 C CNN
+F 3 "~" H 5150 5300 50  0001 C CNN
+	1    5150 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW41
+U 1 1 61BB5AC7
+P 5450 5150
+F 0 "SW41" H 5450 5405 50  0000 C CNN
+F 1 "SW_PUSH" H 5450 5314 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 5450 5150 60  0001 C CNN
+F 3 "" H 5450 5150 60  0000 C CNN
+	1    5450 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D51
+U 1 1 61BB5ABF
+P -5900 8000
+F 0 "D51" V -5854 7920 50  0000 R CNN
+F 1 "D" V -5945 7920 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5900 8000 50  0001 C CNN
+F 3 "~" H -5900 8000 50  0001 C CNN
+	1    -5900 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW53
+U 1 1 61BB5AB9
+P -5600 7850
+F 0 "SW53" H -5600 8105 50  0000 C CNN
+F 1 "SW_PUSH" H -5600 8014 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -5600 7850 60  0001 C CNN
+F 3 "" H -5600 7850 60  0000 C CNN
+	1    -5600 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4850 5850 4850
+$Comp
+L Device:D D26
+U 1 1 61BB5AAE
+P 5150 4700
+F 0 "D26" V 5196 4620 50  0000 R CNN
+F 1 "D" V 5105 4620 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 5150 4700 50  0001 C CNN
+F 3 "~" H 5150 4700 50  0001 C CNN
+	1    5150 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW28
+U 1 1 61BB5AA8
+P 5450 4550
+F 0 "SW28" H 5450 4805 50  0000 C CNN
+F 1 "SW_PUSH" H 5450 4714 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 5450 4550 60  0001 C CNN
+F 3 "" H 5450 4550 60  0000 C CNN
+	1    5450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 61BB5AA0
+P -7300 8000
+F 0 "D38" V -7254 7920 50  0000 R CNN
+F 1 "D" V -7345 7920 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -7300 8000 50  0001 C CNN
+F 3 "~" H -7300 8000 50  0001 C CNN
+	1    -7300 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW40
+U 1 1 61BB5A9A
+P -7000 7850
+F 0 "SW40" H -7000 8105 50  0000 C CNN
+F 1 "SW_PUSH" H -7000 8014 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -7000 7850 60  0001 C CNN
+F 3 "" H -7000 7850 60  0000 C CNN
+	1    -7000 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4250 5850 4250
+$Comp
+L Device:D D13
+U 1 1 61BB5A8F
+P 5150 4100
+F 0 "D13" V 5196 4020 50  0000 R CNN
+F 1 "D" V 5105 4020 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 5150 4100 50  0001 C CNN
+F 3 "~" H 5150 4100 50  0001 C CNN
+	1    5150 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW15
+U 1 1 61BB5A89
+P 5450 3950
+F 0 "SW15" H 5450 4205 50  0000 C CNN
+F 1 "SW_PUSH" H 5450 4114 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 5450 3950 60  0001 C CNN
+F 3 "" H 5450 3950 60  0000 C CNN
+	1    5450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 61BB5A81
+P -6600 8000
+F 0 "D25" V -6554 7920 50  0000 R CNN
+F 1 "D" V -6645 7920 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -6600 8000 50  0001 C CNN
+F 3 "~" H -6600 8000 50  0001 C CNN
+	1    -6600 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW27
+U 1 1 61BB5A7B
+P -6300 7850
+F 0 "SW27" H -6300 8105 50  0000 C CNN
+F 1 "SW_PUSH" H -6300 8014 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -6300 7850 60  0001 C CNN
+F 3 "" H -6300 7850 60  0000 C CNN
+	1    -6300 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 61BB5A62
+P 5150 3500
+F 0 "D1" V 5196 3420 50  0000 R CNN
+F 1 "D" V 5105 3420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 5150 3500 50  0001 C CNN
+F 3 "~" H 5150 3500 50  0001 C CNN
+	1    5150 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW3
+U 1 1 61BB5A5C
+P 5450 3350
+F 0 "SW3" H 5450 3605 50  0000 C CNN
+F 1 "SW_PUSH" H 5450 3514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 5450 3350 60  0001 C CNN
+F 3 "" H 5450 3350 60  0000 C CNN
+	1    5450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D50
+U 1 1 61BAB52F
+P -5900 9500
+F 0 "D50" V -5854 9420 50  0000 R CNN
+F 1 "D" V -5945 9420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5900 9500 50  0001 C CNN
+F 3 "~" H -5900 9500 50  0001 C CNN
+	1    -5900 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW52
+U 1 1 61BAB529
+P -5600 9350
+F 0 "SW52" H -5600 9605 50  0000 C CNN
+F 1 "SW_PUSH" H -5600 9514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -5600 9350 60  0001 C CNN
+F 3 "" H -5600 9350 60  0000 C CNN
+	1    -5600 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D49
+U 1 1 61BAB521
+P -3800 9500
+F 0 "D49" V -3754 9420 50  0000 R CNN
+F 1 "D" V -3845 9420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3800 9500 50  0001 C CNN
+F 3 "~" H -3800 9500 50  0001 C CNN
+	1    -3800 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW51
+U 1 1 61BAB51B
+P -3500 9350
+F 0 "SW51" H -3500 9605 50  0000 C CNN
+F 1 "SW_PUSH" H -3500 9514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -3500 9350 60  0001 C CNN
+F 3 "" H -3500 9350 60  0000 C CNN
+	1    -3500 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 61BAB510
+P -7300 9500
+F 0 "D37" V -7254 9420 50  0000 R CNN
+F 1 "D" V -7345 9420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -7300 9500 50  0001 C CNN
+F 3 "~" H -7300 9500 50  0001 C CNN
+	1    -7300 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW39
+U 1 1 61BAB50A
+P -7000 9350
+F 0 "SW39" H -7000 9605 50  0000 C CNN
+F 1 "SW_PUSH" H -7000 9514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -7000 9350 60  0001 C CNN
+F 3 "" H -7000 9350 60  0000 C CNN
+	1    -7000 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 61BAB502
+P -5200 9500
+F 0 "D36" V -5154 9420 50  0000 R CNN
+F 1 "D" V -5245 9420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5200 9500 50  0001 C CNN
+F 3 "~" H -5200 9500 50  0001 C CNN
+	1    -5200 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW38
+U 1 1 61BAB4FC
+P -4900 9350
+F 0 "SW38" H -4900 9605 50  0000 C CNN
+F 1 "SW_PUSH" H -4900 9514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4900 9350 60  0001 C CNN
+F 3 "" H -4900 9350 60  0000 C CNN
+	1    -4900 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 61BAB4F1
+P -6600 9500
+F 0 "D24" V -6554 9420 50  0000 R CNN
+F 1 "D" V -6645 9420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -6600 9500 50  0001 C CNN
+F 3 "~" H -6600 9500 50  0001 C CNN
+	1    -6600 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW26
+U 1 1 61BAB4EB
+P -6300 9350
+F 0 "SW26" H -6300 9605 50  0000 C CNN
+F 1 "SW_PUSH" H -6300 9514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -6300 9350 60  0001 C CNN
+F 3 "" H -6300 9350 60  0000 C CNN
+	1    -6300 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 61BAB4E3
+P -4500 9500
+F 0 "D23" V -4454 9420 50  0000 R CNN
+F 1 "D" V -4545 9420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -4500 9500 50  0001 C CNN
+F 3 "~" H -4500 9500 50  0001 C CNN
+	1    -4500 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW25
+U 1 1 61BAB4DD
+P -4200 9350
+F 0 "SW25" H -4200 9605 50  0000 C CNN
+F 1 "SW_PUSH" H -4200 9514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4200 9350 60  0001 C CNN
+F 3 "" H -4200 9350 60  0000 C CNN
+	1    -4200 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 61BAB4D3
+P -6600 8800
+F 0 "D12" V -6554 8720 50  0000 R CNN
+F 1 "D" V -6645 8720 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -6600 8800 50  0001 C CNN
+F 3 "~" H -6600 8800 50  0001 C CNN
+	1    -6600 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW14
+U 1 1 61BAB4CD
+P -6300 8650
+F 0 "SW14" H -6300 8905 50  0000 C CNN
+F 1 "SW_PUSH" H -6300 8814 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -6300 8650 60  0001 C CNN
+F 3 "" H -6300 8650 60  0000 C CNN
+	1    -6300 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 61BAB4C4
+P -3100 9500
+F 0 "D11" V -3054 9420 50  0000 R CNN
+F 1 "D" V -3145 9420 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3100 9500 50  0001 C CNN
+F 3 "~" H -3100 9500 50  0001 C CNN
+	1    -3100 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW13
+U 1 1 61BAB4BE
+P -2800 9350
+F 0 "SW13" H -2800 9605 50  0000 C CNN
+F 1 "SW_PUSH" H -2800 9514 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2800 9350 60  0001 C CNN
+F 3 "" H -2800 9350 60  0000 C CNN
+	1    -2800 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D48
+U 1 1 61B32CFB
+P -3800 8800
+F 0 "D48" V -3754 8720 50  0000 R CNN
+F 1 "D" V -3845 8720 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3800 8800 50  0001 C CNN
+F 3 "~" H -3800 8800 50  0001 C CNN
+	1    -3800 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW50
+U 1 1 61B32CF5
+P -3500 8650
+F 0 "SW50" H -3500 8905 50  0000 C CNN
+F 1 "SW_PUSH" H -3500 8814 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -3500 8650 60  0001 C CNN
+F 3 "" H -3500 8650 60  0000 C CNN
+	1    -3500 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D47
+U 1 1 61B32CEB
+P -3800 8000
+F 0 "D47" V -3754 7920 50  0000 R CNN
+F 1 "D" V -3845 7920 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3800 8000 50  0001 C CNN
+F 3 "~" H -3800 8000 50  0001 C CNN
+	1    -3800 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW49
+U 1 1 61B32CE5
+P -3500 7850
+F 0 "SW49" H -3500 8105 50  0000 C CNN
+F 1 "SW_PUSH" H -3500 8014 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -3500 7850 60  0001 C CNN
+F 3 "" H -3500 7850 60  0000 C CNN
+	1    -3500 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 61B30EB6
+P -5200 8800
+F 0 "D35" V -5154 8720 50  0000 R CNN
+F 1 "D" V -5245 8720 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5200 8800 50  0001 C CNN
+F 3 "~" H -5200 8800 50  0001 C CNN
+	1    -5200 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW37
+U 1 1 61B30EB0
+P -4900 8650
+F 0 "SW37" H -4900 8905 50  0000 C CNN
+F 1 "SW_PUSH" H -4900 8814 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4900 8650 60  0001 C CNN
+F 3 "" H -4900 8650 60  0000 C CNN
+	1    -4900 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 61B30EA6
+P -5200 8000
+F 0 "D34" V -5154 7920 50  0000 R CNN
+F 1 "D" V -5245 7920 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5200 8000 50  0001 C CNN
+F 3 "~" H -5200 8000 50  0001 C CNN
+	1    -5200 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW36
+U 1 1 61B30EA0
+P -4900 7850
+F 0 "SW36" H -4900 8105 50  0000 C CNN
+F 1 "SW_PUSH" H -4900 8014 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4900 7850 60  0001 C CNN
+F 3 "" H -4900 7850 60  0000 C CNN
+	1    -4900 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 61B301EA
+P -4500 8800
+F 0 "D22" V -4454 8720 50  0000 R CNN
+F 1 "D" V -4545 8720 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -4500 8800 50  0001 C CNN
+F 3 "~" H -4500 8800 50  0001 C CNN
+	1    -4500 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW24
+U 1 1 61B301E4
+P -4200 8650
+F 0 "SW24" H -4200 8905 50  0000 C CNN
+F 1 "SW_PUSH" H -4200 8814 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4200 8650 60  0001 C CNN
+F 3 "" H -4200 8650 60  0000 C CNN
+	1    -4200 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 61B301DA
+P -4500 8000
+F 0 "D21" V -4454 7920 50  0000 R CNN
+F 1 "D" V -4545 7920 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -4500 8000 50  0001 C CNN
+F 3 "~" H -4500 8000 50  0001 C CNN
+	1    -4500 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW23
+U 1 1 61B301D4
+P -4200 7850
+F 0 "SW23" H -4200 8105 50  0000 C CNN
+F 1 "SW_PUSH" H -4200 8014 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4200 7850 60  0001 C CNN
+F 3 "" H -4200 7850 60  0000 C CNN
+	1    -4200 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 61B256AB
+P -3100 8800
+F 0 "D10" V -3054 8720 50  0000 R CNN
+F 1 "D" V -3145 8720 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3100 8800 50  0001 C CNN
+F 3 "~" H -3100 8800 50  0001 C CNN
+	1    -3100 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW12
+U 1 1 61B256A5
+P -2800 8650
+F 0 "SW12" H -2800 8905 50  0000 C CNN
+F 1 "SW_PUSH" H -2800 8814 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2800 8650 60  0001 C CNN
+F 3 "" H -2800 8650 60  0000 C CNN
+	1    -2800 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 61B1B484
+P -3100 8000
+F 0 "D9" V -3054 7920 50  0000 R CNN
+F 1 "D" V -3145 7920 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3100 8000 50  0001 C CNN
+F 3 "~" H -3100 8000 50  0001 C CNN
+	1    -3100 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW11
+U 1 1 61B1A99E
+P -2800 7850
+F 0 "SW11" H -2800 8105 50  0000 C CNN
+F 1 "SW_PUSH" H -2800 8014 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2800 7850 60  0001 C CNN
+F 3 "" H -2800 7850 60  0000 C CNN
+	1    -2800 7850
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 1650 0    50   Input ~ 0
+R1
+Text GLabel 6200 1850 0    50   Input ~ 0
+R2
+Text GLabel 6800 1850 2    50   Input ~ 0
+COL4
+Text GLabel 6800 1650 2    50   Input ~ 0
+Row2Diode
+Text GLabel -5200 8650 1    50   Input ~ 0
+Row2Diode
+Text GLabel 9500 2400 3    50   Input ~ 0
+COL1
+Text GLabel 9400 2400 3    50   Input ~ 0
+COL2
+Text GLabel 9600 2400 3    50   Input ~ 0
+COL3
+Text GLabel 9900 2400 3    50   Input ~ 0
+COL4
+Text GLabel 10000 2400 3    50   Input ~ 0
+COL5
+Text GLabel 9800 2400 3    50   Input ~ 0
+COL6
+Text GLabel 7500 1000 1    50   Input ~ 0
+ROW3
+Text GLabel 7800 1000 1    50   Input ~ 0
+ROW2
+Text GLabel 7900 1000 1    50   Input ~ 0
+ROW1
+Text GLabel 8600 1000 1    50   Input ~ 0
+ROW8
+Text GLabel 8500 1000 1    50   Input ~ 0
+ROW7
+Text GLabel 8200 1000 1    50   Input ~ 0
+ROW6
+Text GLabel 8100 1000 1    50   Input ~ 0
+ROW5
+Text GLabel 8000 1000 1    50   Input ~ 0
+ROW4
+Text GLabel 7600 1000 1    50   Input ~ 0
+R1
+Text GLabel 7700 1000 1    50   Input ~ 0
+R2
+Text GLabel 8300 1000 1    50   Input ~ 0
+GND
+Text GLabel 8500 2400 3    50   Input ~ 0
+GND
+Text GLabel 9400 1000 1    50   Input ~ 0
+ROW3
+Text GLabel 9700 1000 1    50   Input ~ 0
+ROW2
+Text GLabel 9800 1000 1    50   Input ~ 0
+ROW1
+Text GLabel 10500 1000 1    50   Input ~ 0
+ROW8
+Text GLabel 10400 1000 1    50   Input ~ 0
+ROW7
+Text GLabel 10100 1000 1    50   Input ~ 0
+ROW6
+Text GLabel 10000 1000 1    50   Input ~ 0
+ROW5
+Text GLabel 9900 1000 1    50   Input ~ 0
+ROW4
+Text GLabel 9500 1000 1    50   Input ~ 0
+R1
+Text GLabel 9600 1000 1    50   Input ~ 0
+R2
+Text GLabel 10200 1000 1    50   Input ~ 0
+GND
+Text GLabel 10300 1000 1    50   Input ~ 0
+GND
+Text GLabel 8400 1000 1    50   Input ~ 0
+GND
+$Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 62431E6C
+P 6500 900
+F 0 "SW1" H 6500 1267 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 6500 1176 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11" H 6350 1060 50  0001 C CNN
+F 3 "~" H 6500 1160 50  0001 C CNN
+	1    6500 900 
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 900  0    50   Input ~ 0
+GND
+Text GLabel 6200 800  0    50   Input ~ 0
+R1
+Text GLabel 6200 1000 0    50   Input ~ 0
+R2
+Text GLabel 6800 1000 2    50   Input ~ 0
+COL7
+Text GLabel 6800 800  2    50   Input ~ 0
+Row1Diode
+Text GLabel -3100 7850 1    50   Input ~ 0
+Row1Diode
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61E2A579
+P 600 600
+F 0 "H1" H 700 646 50  0000 L CNN
+F 1 "MountingHole" H 700 555 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 600 600 50  0001 C CNN
+F 3 "~" H 600 600 50  0001 C CNN
+	1    600  600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61E2B59D
+P 600 800
+F 0 "H3" H 700 846 50  0000 L CNN
+F 1 "MountingHole" H 700 755 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 600 800 50  0001 C CNN
+F 3 "~" H 600 800 50  0001 C CNN
+	1    600  800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 61E3452E
+P 600 1000
+F 0 "H5" H 700 1046 50  0000 L CNN
+F 1 "MountingHole" H 700 955 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 600 1000 50  0001 C CNN
+F 3 "~" H 600 1000 50  0001 C CNN
+	1    600  1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 61E3D394
+P 600 1200
+F 0 "H6" H 700 1246 50  0000 L CNN
+F 1 "MountingHole" H 700 1155 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 600 1200 50  0001 C CNN
+F 3 "~" H 600 1200 50  0001 C CNN
+	1    600  1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61E46557
+P 1350 600
+F 0 "H2" H 1450 646 50  0000 L CNN
+F 1 "MountingHole" H 1450 555 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 1350 600 50  0001 C CNN
+F 3 "~" H 1350 600 50  0001 C CNN
+	1    1350 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61E50E12
+P 1350 800
+F 0 "H4" H 1450 846 50  0000 L CNN
+F 1 "MountingHole" H 1450 755 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 1350 800 50  0001 C CNN
+F 3 "~" H 1350 800 50  0001 C CNN
+	1    1350 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 61E9B2F1
+P 1350 1000
+F 0 "H7" H 1450 1046 50  0000 L CNN
+F 1 "MountingHole" H 1450 955 50  0000 L CNN
+F 2 "keyboard_parts:HOLE_M3" H 1350 1000 50  0001 C CNN
+F 3 "~" H 1350 1000 50  0001 C CNN
+	1    1350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62171681
+P 1450 5700
+F 0 "SW?" H 1450 5955 50  0000 C CNN
+F 1 "SW_PUSH" H 1450 5864 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 1450 5700 60  0001 C CNN
+F 3 "" H 1450 5700 60  0000 C CNN
+	1    1450 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62171687
+P 1150 5850
+F 0 "D?" V 1196 5770 50  0000 R CNN
+F 1 "D" V 1105 5770 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 1150 5850 50  0001 C CNN
+F 3 "~" H 1150 5850 50  0001 C CNN
+	1    1150 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 6217168D
+P 2250 5700
+F 0 "SW?" H 2250 5955 50  0000 C CNN
+F 1 "SW_PUSH" H 2250 5864 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 2250 5700 60  0001 C CNN
+F 3 "" H 2250 5700 60  0000 C CNN
+	1    2250 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62171693
+P 1950 5850
+F 0 "D?" V 1996 5770 50  0000 R CNN
+F 1 "D" V 1905 5770 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 1950 5850 50  0001 C CNN
+F 3 "~" H 1950 5850 50  0001 C CNN
+	1    1950 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62171699
+P 3000 5700
+F 0 "SW?" H 3000 5955 50  0000 C CNN
+F 1 "SW_PUSH" H 3000 5864 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 3000 5700 60  0001 C CNN
+F 3 "" H 3000 5700 60  0000 C CNN
+	1    3000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6217169F
+P 2700 5850
+F 0 "D?" V 2746 5770 50  0000 R CNN
+F 1 "D" V 2655 5770 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 2700 5850 50  0001 C CNN
+F 3 "~" H 2700 5850 50  0001 C CNN
+	1    2700 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 621716A5
+P 3800 5700
+F 0 "SW?" H 3800 5955 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 5864 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 3800 5700 60  0001 C CNN
+F 3 "" H 3800 5700 60  0000 C CNN
+	1    3800 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 621716AB
+P 3500 5850
+F 0 "D?" V 3546 5770 50  0000 R CNN
+F 1 "D" V 3455 5770 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 3500 5850 50  0001 C CNN
+F 3 "~" H 3500 5850 50  0001 C CNN
+	1    3500 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 5400 4150 5400
+Wire Wire Line
+	3300 5700 3300 5600
+Wire Wire Line
+	3300 5600 2550 5600
+Wire Wire Line
+	1750 5600 1750 5700
+Wire Wire Line
+	2700 6000 2600 6000
+Wire Wire Line
+	2600 6000 2600 5400
+Wire Wire Line
+	2700 5400 2600 5400
+Wire Wire Line
+	3500 6050 3500 6000
+Wire Wire Line
+	3400 6000 2700 6000
+Connection ~ 2700 6000
+Wire Wire Line
+	1100 6100 1100 6000
+Wire Wire Line
+	4150 5400 4150 6100
+Wire Wire Line
+	1150 5400 1100 5400
+Wire Wire Line
+	1150 6000 1100 6000
+Connection ~ 1100 6000
+Wire Wire Line
+	1100 6000 1100 5400
+Wire Wire Line
+	1950 6000 1850 6000
+Wire Wire Line
+	1850 6000 1850 5400
+Wire Wire Line
+	1950 5400 1850 5400
+Wire Wire Line
+	3350 6050 3500 6050
+Wire Wire Line
+	3400 5400 3500 5400
+Wire Wire Line
+	3400 5400 3400 6000
+Wire Wire Line
+	1100 6100 4150 6100
+Text GLabel 1750 5600 1    50   Input ~ 0
+COL8
+Wire Wire Line
+	2550 5700 2550 5600
+Connection ~ 2550 5600
+Wire Wire Line
+	2550 5600 1750 5600
+Wire Wire Line
+	1850 6000 1850 6200
+Wire Wire Line
+	1850 6200 3350 6200
+Wire Wire Line
+	3350 6200 3350 6050
+Connection ~ 1850 6000
+Connection ~ 3350 6050
+Connection ~ 3400 5400
+Connection ~ 1850 5400
+Connection ~ 1100 5400
+Connection ~ 2600 5400
+Connection ~ 4150 5400
+Wire Wire Line
+	2550 5000 3300 5000
+Connection ~ 2550 5000
+Wire Wire Line
+	2550 5100 2550 5000
+Wire Wire Line
+	2550 4400 1750 4400
+Connection ~ 2550 4400
+Wire Wire Line
+	2550 4500 2550 4400
+Wire Wire Line
+	2550 3800 3300 3800
+Connection ~ 2550 3800
+Wire Wire Line
+	2550 3900 2550 3800
+Text GLabel 1750 3200 1    50   Input ~ 0
+COL7
+Text GLabel 1750 5000 1    50   Input ~ 0
+COL6
+Text GLabel 1750 3800 1    50   Input ~ 0
+COL5
+Text GLabel 1750 4400 1    50   Input ~ 0
+COL4
+Connection ~ 2600 3600
+Wire Wire Line
+	2600 2850 2600 3600
+Connection ~ 1850 3600
+Wire Wire Line
+	1850 3600 1850 2850
+Connection ~ 1100 3600
+Wire Wire Line
+	1100 3600 1100 2850
+Wire Wire Line
+	3350 3600 3500 3600
+Wire Wire Line
+	3400 4800 3400 5400
+Connection ~ 3400 4800
+Wire Wire Line
+	3500 4800 3400 4800
+Wire Wire Line
+	3400 4200 3500 4200
+Wire Wire Line
+	3400 4200 3400 4800
+Wire Wire Line
+	1850 5400 1850 4800
+Wire Wire Line
+	1850 4800 1850 4200
+Connection ~ 1850 4800
+Wire Wire Line
+	1950 4800 1850 4800
+Wire Wire Line
+	1850 4200 1850 3600
+Connection ~ 1850 4200
+Wire Wire Line
+	1950 4200 1850 4200
+Wire Wire Line
+	1850 3600 1950 3600
+Wire Wire Line
+	1100 5400 1100 4800
+Wire Wire Line
+	1100 4800 1100 4200
+Connection ~ 1100 4800
+Wire Wire Line
+	1150 4800 1100 4800
+Wire Wire Line
+	1100 4200 1100 3600
+Connection ~ 1100 4200
+Wire Wire Line
+	1150 4200 1100 4200
+Wire Wire Line
+	1100 3600 1150 3600
+Wire Wire Line
+	3350 3600 3350 6050
+Wire Wire Line
+	2600 5400 2600 4800
+Wire Wire Line
+	2600 4800 2600 4200
+Connection ~ 2600 4800
+Wire Wire Line
+	2700 4800 2600 4800
+Wire Wire Line
+	2600 4200 2600 3600
+Connection ~ 2600 4200
+Wire Wire Line
+	2700 4200 2600 4200
+Wire Wire Line
+	2600 3600 2700 3600
+Wire Wire Line
+	3300 5000 3300 5100
+Wire Wire Line
+	1750 5000 2550 5000
+Wire Wire Line
+	1750 5100 1750 5000
+Wire Wire Line
+	1750 4400 1750 4500
+Wire Wire Line
+	3300 4400 2550 4400
+Wire Wire Line
+	3300 4500 3300 4400
+Wire Wire Line
+	3300 3800 3300 3900
+Wire Wire Line
+	1750 3800 2550 3800
+Wire Wire Line
+	1750 3900 1750 3800
+Wire Wire Line
+	2550 3200 1750 3200
+Connection ~ 2550 3200
+Wire Wire Line
+	2550 3300 2550 3200
+Wire Wire Line
+	1750 3300 1750 3200
+Wire Wire Line
+	3300 3200 2550 3200
+Wire Wire Line
+	3300 3300 3300 3200
+Text GLabel 4850 4850 1    50   Input ~ 0
+COL3
+Text GLabel 4850 3450 1    50   Input ~ 0
+COL2
+Text GLabel 4850 4250 1    50   Input ~ 0
+COL1
+Wire Wire Line
+	4150 4800 4150 5400
+Connection ~ 4150 4800
+Wire Wire Line
+	4250 4800 4150 4800
+Wire Wire Line
+	4150 4200 4150 4800
+Wire Wire Line
+	4250 4200 4150 4200
+Connection ~ 4850 5000
+Wire Wire Line
+	4850 4850 4850 5000
+Connection ~ 4850 4400
+Wire Wire Line
+	4850 4250 4850 4400
+Connection ~ 4850 3600
+Wire Wire Line
+	4850 3450 4850 3600
+Wire Wire Line
+	4100 5100 4100 5700
+Connection ~ 4100 5100
+Wire Wire Line
+	4100 5000 4100 5100
+Wire Wire Line
+	4850 5000 4100 5000
+Wire Wire Line
+	4850 5100 4850 5000
+Wire Wire Line
+	4850 4400 4850 4500
+Wire Wire Line
+	4100 4400 4850 4400
+Wire Wire Line
+	4100 4500 4100 4400
+Wire Wire Line
+	4100 3600 4100 3900
+Connection ~ 4100 3600
+Wire Wire Line
+	4850 3600 4100 3600
+Wire Wire Line
+	4850 3900 4850 3600
+Wire Wire Line
+	4100 3300 4100 3600
+Text GLabel -1700 9650 2    50   Input ~ 0
+ROW3
+Text GLabel -1700 8950 2    50   Input ~ 0
+ROW2
+Text GLabel -1700 8150 2    50   Input ~ 0
+ROW1
+$Comp
+L Device:D D?
+U 1 1 62171735
+P 4250 5250
+F 0 "D?" V 4296 5170 50  0000 R CNN
+F 1 "D" V 4205 5170 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 4250 5250 50  0001 C CNN
+F 3 "~" H 4250 5250 50  0001 C CNN
+	1    4250 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 6217173B
+P 4550 5100
+F 0 "SW?" H 4550 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 4550 5264 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 4550 5100 60  0001 C CNN
+F 3 "" H 4550 5100 60  0000 C CNN
+	1    4550 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62171741
+P 4250 4650
+F 0 "D?" V 4296 4570 50  0000 R CNN
+F 1 "D" V 4205 4570 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 4250 4650 50  0001 C CNN
+F 3 "~" H 4250 4650 50  0001 C CNN
+	1    4250 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62171747
+P 4550 4500
+F 0 "SW?" H 4550 4755 50  0000 C CNN
+F 1 "SW_PUSH" H 4550 4664 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 4550 4500 60  0001 C CNN
+F 3 "" H 4550 4500 60  0000 C CNN
+	1    4550 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6217174D
+P 4250 4050
+F 0 "D?" V 4296 3970 50  0000 R CNN
+F 1 "D" V 4205 3970 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 4250 4050 50  0001 C CNN
+F 3 "~" H 4250 4050 50  0001 C CNN
+	1    4250 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62171753
+P 4550 3900
+F 0 "SW?" H 4550 4155 50  0000 C CNN
+F 1 "SW_PUSH" H 4550 4064 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 4550 3900 60  0001 C CNN
+F 3 "" H 4550 3900 60  0000 C CNN
+	1    4550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62171759
+P 3500 5250
+F 0 "D?" V 3546 5170 50  0000 R CNN
+F 1 "D" V 3455 5170 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 3500 5250 50  0001 C CNN
+F 3 "~" H 3500 5250 50  0001 C CNN
+	1    3500 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 6217175F
+P 3800 5100
+F 0 "SW?" H 3800 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 5264 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 3800 5100 60  0001 C CNN
+F 3 "" H 3800 5100 60  0000 C CNN
+	1    3800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62171765
+P 2700 5250
+F 0 "D?" V 2746 5170 50  0000 R CNN
+F 1 "D" V 2655 5170 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 2700 5250 50  0001 C CNN
+F 3 "~" H 2700 5250 50  0001 C CNN
+	1    2700 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 6217176B
+P 3000 5100
+F 0 "SW?" H 3000 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 3000 5264 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 3000 5100 60  0001 C CNN
+F 3 "" H 3000 5100 60  0000 C CNN
+	1    3000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62171771
+P 3500 4650
+F 0 "D?" V 3546 4570 50  0000 R CNN
+F 1 "D" V 3455 4570 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 3500 4650 50  0001 C CNN
+F 3 "~" H 3500 4650 50  0001 C CNN
+	1    3500 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62171777
+P 3800 4500
+F 0 "SW?" H 3800 4755 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 4664 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 3800 4500 60  0001 C CNN
+F 3 "" H 3800 4500 60  0000 C CNN
+	1    3800 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6217177D
+P 2700 4650
+F 0 "D?" V 2746 4570 50  0000 R CNN
+F 1 "D" V 2655 4570 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 2700 4650 50  0001 C CNN
+F 3 "~" H 2700 4650 50  0001 C CNN
+	1    2700 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62171783
+P 3000 4500
+F 0 "SW?" H 3000 4755 50  0000 C CNN
+F 1 "SW_PUSH" H 3000 4664 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 3000 4500 60  0001 C CNN
+F 3 "" H 3000 4500 60  0000 C CNN
+	1    3000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62171789
+P 3500 4050
+F 0 "D?" V 3546 3970 50  0000 R CNN
+F 1 "D" V 3455 3970 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 3500 4050 50  0001 C CNN
+F 3 "~" H 3500 4050 50  0001 C CNN
+	1    3500 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 6217178F
+P 3800 3900
+F 0 "SW?" H 3800 4155 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 4064 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 3800 3900 60  0001 C CNN
+F 3 "" H 3800 3900 60  0000 C CNN
+	1    3800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62171795
+P 2700 4050
+F 0 "D?" V 2746 3970 50  0000 R CNN
+F 1 "D" V 2655 3970 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 2700 4050 50  0001 C CNN
+F 3 "~" H 2700 4050 50  0001 C CNN
+	1    2700 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 6217179B
+P 3000 3900
+F 0 "SW?" H 3000 4155 50  0000 C CNN
+F 1 "SW_PUSH" H 3000 4064 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 3000 3900 60  0001 C CNN
+F 3 "" H 3000 3900 60  0000 C CNN
+	1    3000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 621717A1
+P 3500 3450
+F 0 "D?" V 3546 3370 50  0000 R CNN
+F 1 "D" V 3455 3370 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 3500 3450 50  0001 C CNN
+F 3 "~" H 3500 3450 50  0001 C CNN
+	1    3500 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 621717A7
+P 3800 3300
+F 0 "SW?" H 3800 3555 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 3464 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 3800 3300 60  0001 C CNN
+F 3 "" H 3800 3300 60  0000 C CNN
+	1    3800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 621717AD
+P 2700 3450
+F 0 "D?" V 2746 3370 50  0000 R CNN
+F 1 "D" V 2655 3370 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 2700 3450 50  0001 C CNN
+F 3 "~" H 2700 3450 50  0001 C CNN
+	1    2700 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 621717B3
+P 3000 3300
+F 0 "SW?" H 3000 3555 50  0000 C CNN
+F 1 "SW_PUSH" H 3000 3464 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 3000 3300 60  0001 C CNN
+F 3 "" H 3000 3300 60  0000 C CNN
+	1    3000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 621717B9
+P 1950 5250
+F 0 "D?" V 1996 5170 50  0000 R CNN
+F 1 "D" V 1905 5170 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 1950 5250 50  0001 C CNN
+F 3 "~" H 1950 5250 50  0001 C CNN
+	1    1950 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 621717BF
+P 2250 5100
+F 0 "SW?" H 2250 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 2250 5264 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 2250 5100 60  0001 C CNN
+F 3 "" H 2250 5100 60  0000 C CNN
+	1    2250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 621717C5
+P 1150 5250
+F 0 "D?" V 1196 5170 50  0000 R CNN
+F 1 "D" V 1105 5170 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 1150 5250 50  0001 C CNN
+F 3 "~" H 1150 5250 50  0001 C CNN
+	1    1150 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 621717CB
+P 1450 5100
+F 0 "SW?" H 1450 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 1450 5264 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 1450 5100 60  0001 C CNN
+F 3 "" H 1450 5100 60  0000 C CNN
+	1    1450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 621717D1
+P 1950 4650
+F 0 "D?" V 1996 4570 50  0000 R CNN
+F 1 "D" V 1905 4570 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 1950 4650 50  0001 C CNN
+F 3 "~" H 1950 4650 50  0001 C CNN
+	1    1950 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 621717D7
+P 2250 4500
+F 0 "SW?" H 2250 4755 50  0000 C CNN
+F 1 "SW_PUSH" H 2250 4664 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 2250 4500 60  0001 C CNN
+F 3 "" H 2250 4500 60  0000 C CNN
+	1    2250 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 621717DD
+P 1150 4650
+F 0 "D?" V 1196 4570 50  0000 R CNN
+F 1 "D" V 1105 4570 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 1150 4650 50  0001 C CNN
+F 3 "~" H 1150 4650 50  0001 C CNN
+	1    1150 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 621717E3
+P 1450 4500
+F 0 "SW?" H 1450 4755 50  0000 C CNN
+F 1 "SW_PUSH" H 1450 4664 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 1450 4500 60  0001 C CNN
+F 3 "" H 1450 4500 60  0000 C CNN
+	1    1450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 621717E9
+P 1950 4050
+F 0 "D?" V 1996 3970 50  0000 R CNN
+F 1 "D" V 1905 3970 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 1950 4050 50  0001 C CNN
+F 3 "~" H 1950 4050 50  0001 C CNN
+	1    1950 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 621717EF
+P 2250 3900
+F 0 "SW?" H 2250 4155 50  0000 C CNN
+F 1 "SW_PUSH" H 2250 4064 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 2250 3900 60  0001 C CNN
+F 3 "" H 2250 3900 60  0000 C CNN
+	1    2250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 621717F5
+P 1150 4050
+F 0 "D?" V 1196 3970 50  0000 R CNN
+F 1 "D" V 1105 3970 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 1150 4050 50  0001 C CNN
+F 3 "~" H 1150 4050 50  0001 C CNN
+	1    1150 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 621717FB
+P 1450 3900
+F 0 "SW?" H 1450 4155 50  0000 C CNN
+F 1 "SW_PUSH" H 1450 4064 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 1450 3900 60  0001 C CNN
+F 3 "" H 1450 3900 60  0000 C CNN
+	1    1450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62171801
+P 1950 3450
+F 0 "D?" V 1996 3370 50  0000 R CNN
+F 1 "D" V 1905 3370 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 1950 3450 50  0001 C CNN
+F 3 "~" H 1950 3450 50  0001 C CNN
+	1    1950 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62171807
+P 2250 3300
+F 0 "SW?" H 2250 3555 50  0000 C CNN
+F 1 "SW_PUSH" H 2250 3464 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 2250 3300 60  0001 C CNN
+F 3 "" H 2250 3300 60  0000 C CNN
+	1    2250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6217180D
+P 1150 3450
+F 0 "D?" V 1196 3370 50  0000 R CNN
+F 1 "D" V 1105 3370 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H 1150 3450 50  0001 C CNN
+F 3 "~" H 1150 3450 50  0001 C CNN
+	1    1150 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62171813
+P 1450 3300
+F 0 "SW?" H 1450 3555 50  0000 C CNN
+F 1 "SW_PUSH" H 1450 3464 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H 1450 3300 60  0001 C CNN
+F 3 "" H 1450 3300 60  0000 C CNN
+	1    1450 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 1950 4500 0    50   Input ~ 0
+Row2Diode
+Text GLabel 1150 3300 0    50   Input ~ 0
+Row1Diode
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206D75
+P -6300 10200
+F 0 "SW?" H -6300 10455 50  0000 C CNN
+F 1 "SW_PUSH" H -6300 10364 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -6300 10200 60  0001 C CNN
+F 3 "" H -6300 10200 60  0000 C CNN
+	1    -6300 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206D7B
+P -6600 10350
+F 0 "D?" V -6554 10270 50  0000 R CNN
+F 1 "D" V -6645 10270 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -6600 10350 50  0001 C CNN
+F 3 "~" H -6600 10350 50  0001 C CNN
+	1    -6600 10350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-7300 12300 -6600 12300
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206D82
+P -7000 12600
+F 0 "SW?" H -7000 12855 50  0000 C CNN
+F 1 "SW_PUSH" H -7000 12764 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -7000 12600 60  0001 C CNN
+F 3 "" H -7000 12600 60  0000 C CNN
+	1    -7000 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206D88
+P -7300 12750
+F 0 "D?" V -7254 12670 50  0000 R CNN
+F 1 "D" V -7345 12670 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -7300 12750 50  0001 C CNN
+F 3 "~" H -7300 12750 50  0001 C CNN
+	1    -7300 12750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206D8E
+P -6300 12600
+F 0 "SW?" H -6300 12855 50  0000 C CNN
+F 1 "SW_PUSH" H -6300 12764 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -6300 12600 60  0001 C CNN
+F 3 "" H -6300 12600 60  0000 C CNN
+	1    -6300 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206D94
+P -6600 12750
+F 0 "D?" V -6554 12670 50  0000 R CNN
+F 1 "D" V -6645 12670 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -6600 12750 50  0001 C CNN
+F 3 "~" H -6600 12750 50  0001 C CNN
+	1    -6600 12750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-6000 12000 -6000 12600
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206D9B
+P -5600 10200
+F 0 "SW?" H -5600 10455 50  0000 C CNN
+F 1 "SW_PUSH" H -5600 10364 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -5600 10200 60  0001 C CNN
+F 3 "" H -5600 10200 60  0000 C CNN
+	1    -5600 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206DA1
+P -5900 10350
+F 0 "D?" V -5854 10270 50  0000 R CNN
+F 1 "D" V -5945 10270 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5900 10350 50  0001 C CNN
+F 3 "~" H -5900 10350 50  0001 C CNN
+	1    -5900 10350
+	0    -1   -1   0   
+$EndComp
+Connection ~ -5300 10200
+Wire Wire Line
+	-5900 10500 -5200 10500
+Connection ~ -5900 10500
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206DAB
+P -6300 10800
+F 0 "SW?" H -6300 11055 50  0000 C CNN
+F 1 "SW_PUSH" H -6300 10964 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -6300 10800 60  0001 C CNN
+F 3 "" H -6300 10800 60  0000 C CNN
+	1    -6300 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206DB1
+P -6600 10950
+F 0 "D?" V -6554 10870 50  0000 R CNN
+F 1 "D" V -6645 10870 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -6600 10950 50  0001 C CNN
+F 3 "~" H -6600 10950 50  0001 C CNN
+	1    -6600 10950
+	0    -1   -1   0   
+$EndComp
+Connection ~ -6000 10800
+Wire Wire Line
+	-6600 11100 -5900 11100
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206DB9
+P -5600 10800
+F 0 "SW?" H -5600 11055 50  0000 C CNN
+F 1 "SW_PUSH" H -5600 10964 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -5600 10800 60  0001 C CNN
+F 3 "" H -5600 10800 60  0000 C CNN
+	1    -5600 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206DBF
+P -5900 10950
+F 0 "D?" V -5854 10870 50  0000 R CNN
+F 1 "D" V -5945 10870 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5900 10950 50  0001 C CNN
+F 3 "~" H -5900 10950 50  0001 C CNN
+	1    -5900 10950
+	0    -1   -1   0   
+$EndComp
+Connection ~ -5300 10800
+Wire Wire Line
+	-5900 11100 -5200 11100
+Connection ~ -5900 11100
+Wire Wire Line
+	-5300 10200 -5300 10800
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206DC9
+P -6300 11400
+F 0 "SW?" H -6300 11655 50  0000 C CNN
+F 1 "SW_PUSH" H -6300 11564 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -6300 11400 60  0001 C CNN
+F 3 "" H -6300 11400 60  0000 C CNN
+	1    -6300 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206DCF
+P -6600 11550
+F 0 "D?" V -6554 11470 50  0000 R CNN
+F 1 "D" V -6645 11470 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -6600 11550 50  0001 C CNN
+F 3 "~" H -6600 11550 50  0001 C CNN
+	1    -6600 11550
+	0    -1   -1   0   
+$EndComp
+Connection ~ -6000 11400
+Wire Wire Line
+	-6600 11700 -5900 11700
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206DD7
+P -5600 11400
+F 0 "SW?" H -5600 11655 50  0000 C CNN
+F 1 "SW_PUSH" H -5600 11564 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -5600 11400 60  0001 C CNN
+F 3 "" H -5600 11400 60  0000 C CNN
+	1    -5600 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206DDD
+P -5900 11550
+F 0 "D?" V -5854 11470 50  0000 R CNN
+F 1 "D" V -5945 11470 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5900 11550 50  0001 C CNN
+F 3 "~" H -5900 11550 50  0001 C CNN
+	1    -5900 11550
+	0    -1   -1   0   
+$EndComp
+Connection ~ -5300 11400
+Wire Wire Line
+	-5900 11700 -5200 11700
+Connection ~ -5900 11700
+Wire Wire Line
+	-6000 10800 -6000 11400
+Wire Wire Line
+	-5300 10800 -5300 11400
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206DE8
+P -6300 12000
+F 0 "SW?" H -6300 12255 50  0000 C CNN
+F 1 "SW_PUSH" H -6300 12164 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -6300 12000 60  0001 C CNN
+F 3 "" H -6300 12000 60  0000 C CNN
+	1    -6300 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206DEE
+P -6600 12150
+F 0 "D?" V -6554 12070 50  0000 R CNN
+F 1 "D" V -6645 12070 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -6600 12150 50  0001 C CNN
+F 3 "~" H -6600 12150 50  0001 C CNN
+	1    -6600 12150
+	0    -1   -1   0   
+$EndComp
+Connection ~ -6000 12000
+Wire Wire Line
+	-6600 12300 -5900 12300
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206DF6
+P -5600 12000
+F 0 "SW?" H -5600 12255 50  0000 C CNN
+F 1 "SW_PUSH" H -5600 12164 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -5600 12000 60  0001 C CNN
+F 3 "" H -5600 12000 60  0000 C CNN
+	1    -5600 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206DFC
+P -5900 12150
+F 0 "D?" V -5854 12070 50  0000 R CNN
+F 1 "D" V -5945 12070 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5900 12150 50  0001 C CNN
+F 3 "~" H -5900 12150 50  0001 C CNN
+	1    -5900 12150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-5900 12300 -5200 12300
+Connection ~ -5900 12300
+Wire Wire Line
+	-6000 11400 -6000 12000
+Wire Wire Line
+	-5300 11400 -5300 12000
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206E06
+P -5600 12600
+F 0 "SW?" H -5600 12855 50  0000 C CNN
+F 1 "SW_PUSH" H -5600 12764 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -5600 12600 60  0001 C CNN
+F 3 "" H -5600 12600 60  0000 C CNN
+	1    -5600 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206E0C
+P -5900 12750
+F 0 "D?" V -5854 12670 50  0000 R CNN
+F 1 "D" V -5945 12670 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5900 12750 50  0001 C CNN
+F 3 "~" H -5900 12750 50  0001 C CNN
+	1    -5900 12750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-5300 12000 -5300 12600
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206E13
+P -4900 10200
+F 0 "SW?" H -4900 10455 50  0000 C CNN
+F 1 "SW_PUSH" H -4900 10364 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4900 10200 60  0001 C CNN
+F 3 "" H -4900 10200 60  0000 C CNN
+	1    -4900 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206E19
+P -5200 10350
+F 0 "D?" V -5154 10270 50  0000 R CNN
+F 1 "D" V -5245 10270 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5200 10350 50  0001 C CNN
+F 3 "~" H -5200 10350 50  0001 C CNN
+	1    -5200 10350
+	0    -1   -1   0   
+$EndComp
+Connection ~ -4600 10200
+Wire Wire Line
+	-5200 10500 -4500 10500
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206E22
+P -4200 10200
+F 0 "SW?" H -4200 10455 50  0000 C CNN
+F 1 "SW_PUSH" H -4200 10364 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4200 10200 60  0001 C CNN
+F 3 "" H -4200 10200 60  0000 C CNN
+	1    -4200 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206E28
+P -4500 10350
+F 0 "D?" V -4454 10270 50  0000 R CNN
+F 1 "D" V -4545 10270 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -4500 10350 50  0001 C CNN
+F 3 "~" H -4500 10350 50  0001 C CNN
+	1    -4500 10350
+	0    -1   -1   0   
+$EndComp
+Connection ~ -3900 10200
+Wire Wire Line
+	-4500 10500 -3800 10500
+Connection ~ -4500 10500
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206E32
+P -4900 10800
+F 0 "SW?" H -4900 11055 50  0000 C CNN
+F 1 "SW_PUSH" H -4900 10964 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4900 10800 60  0001 C CNN
+F 3 "" H -4900 10800 60  0000 C CNN
+	1    -4900 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206E38
+P -5200 10950
+F 0 "D?" V -5154 10870 50  0000 R CNN
+F 1 "D" V -5245 10870 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5200 10950 50  0001 C CNN
+F 3 "~" H -5200 10950 50  0001 C CNN
+	1    -5200 10950
+	0    -1   -1   0   
+$EndComp
+Connection ~ -4600 10800
+Wire Wire Line
+	-5200 11100 -4500 11100
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206E40
+P -4200 10800
+F 0 "SW?" H -4200 11055 50  0000 C CNN
+F 1 "SW_PUSH" H -4200 10964 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4200 10800 60  0001 C CNN
+F 3 "" H -4200 10800 60  0000 C CNN
+	1    -4200 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206E46
+P -4500 10950
+F 0 "D?" V -4454 10870 50  0000 R CNN
+F 1 "D" V -4545 10870 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -4500 10950 50  0001 C CNN
+F 3 "~" H -4500 10950 50  0001 C CNN
+	1    -4500 10950
+	0    -1   -1   0   
+$EndComp
+Connection ~ -3900 10800
+Wire Wire Line
+	-4500 11100 -3800 11100
+Connection ~ -4500 11100
+Wire Wire Line
+	-4600 10200 -4600 10800
+Wire Wire Line
+	-3900 10200 -3900 10800
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206E51
+P -4900 11400
+F 0 "SW?" H -4900 11655 50  0000 C CNN
+F 1 "SW_PUSH" H -4900 11564 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4900 11400 60  0001 C CNN
+F 3 "" H -4900 11400 60  0000 C CNN
+	1    -4900 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206E57
+P -5200 11550
+F 0 "D?" V -5154 11470 50  0000 R CNN
+F 1 "D" V -5245 11470 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5200 11550 50  0001 C CNN
+F 3 "~" H -5200 11550 50  0001 C CNN
+	1    -5200 11550
+	0    -1   -1   0   
+$EndComp
+Connection ~ -4600 11400
+Wire Wire Line
+	-5200 11700 -4500 11700
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206E5F
+P -4200 11400
+F 0 "SW?" H -4200 11655 50  0000 C CNN
+F 1 "SW_PUSH" H -4200 11564 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4200 11400 60  0001 C CNN
+F 3 "" H -4200 11400 60  0000 C CNN
+	1    -4200 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206E65
+P -4500 11550
+F 0 "D?" V -4454 11470 50  0000 R CNN
+F 1 "D" V -4545 11470 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -4500 11550 50  0001 C CNN
+F 3 "~" H -4500 11550 50  0001 C CNN
+	1    -4500 11550
+	0    -1   -1   0   
+$EndComp
+Connection ~ -3900 11400
+Wire Wire Line
+	-4500 11700 -3800 11700
+Connection ~ -4500 11700
+Wire Wire Line
+	-4600 10800 -4600 11400
+Wire Wire Line
+	-3900 10800 -3900 11400
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206E70
+P -4900 12000
+F 0 "SW?" H -4900 12255 50  0000 C CNN
+F 1 "SW_PUSH" H -4900 12164 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4900 12000 60  0001 C CNN
+F 3 "" H -4900 12000 60  0000 C CNN
+	1    -4900 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206E76
+P -5200 12150
+F 0 "D?" V -5154 12070 50  0000 R CNN
+F 1 "D" V -5245 12070 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5200 12150 50  0001 C CNN
+F 3 "~" H -5200 12150 50  0001 C CNN
+	1    -5200 12150
+	0    -1   -1   0   
+$EndComp
+Connection ~ -4600 12000
+Wire Wire Line
+	-5200 12300 -4500 12300
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206E7E
+P -4200 12000
+F 0 "SW?" H -4200 12255 50  0000 C CNN
+F 1 "SW_PUSH" H -4200 12164 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4200 12000 60  0001 C CNN
+F 3 "" H -4200 12000 60  0000 C CNN
+	1    -4200 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206E84
+P -4500 12150
+F 0 "D?" V -4454 12070 50  0000 R CNN
+F 1 "D" V -4545 12070 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -4500 12150 50  0001 C CNN
+F 3 "~" H -4500 12150 50  0001 C CNN
+	1    -4500 12150
+	0    -1   -1   0   
+$EndComp
+Connection ~ -3900 12000
+Wire Wire Line
+	-4500 12300 -3800 12300
+Connection ~ -4500 12300
+Wire Wire Line
+	-4600 11400 -4600 12000
+Wire Wire Line
+	-3900 11400 -3900 12000
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206E8F
+P -4900 12600
+F 0 "SW?" H -4900 12855 50  0000 C CNN
+F 1 "SW_PUSH" H -4900 12764 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4900 12600 60  0001 C CNN
+F 3 "" H -4900 12600 60  0000 C CNN
+	1    -4900 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206E95
+P -5200 12750
+F 0 "D?" V -5154 12670 50  0000 R CNN
+F 1 "D" V -5245 12670 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -5200 12750 50  0001 C CNN
+F 3 "~" H -5200 12750 50  0001 C CNN
+	1    -5200 12750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-5200 12900 -4500 12900
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206E9C
+P -4200 12600
+F 0 "SW?" H -4200 12855 50  0000 C CNN
+F 1 "SW_PUSH" H -4200 12764 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -4200 12600 60  0001 C CNN
+F 3 "" H -4200 12600 60  0000 C CNN
+	1    -4200 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206EA2
+P -4500 12750
+F 0 "D?" V -4454 12670 50  0000 R CNN
+F 1 "D" V -4545 12670 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -4500 12750 50  0001 C CNN
+F 3 "~" H -4500 12750 50  0001 C CNN
+	1    -4500 12750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-4500 12900 -3800 12900
+Connection ~ -4500 12900
+Wire Wire Line
+	-4600 12000 -4600 12600
+Wire Wire Line
+	-3900 12000 -3900 12600
+$Comp
+L Device:D D?
+U 1 1 62206EAC
+P -3800 10350
+F 0 "D?" V -3754 10270 50  0000 R CNN
+F 1 "D" V -3845 10270 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3800 10350 50  0001 C CNN
+F 3 "~" H -3800 10350 50  0001 C CNN
+	1    -3800 10350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-3800 10500 -3100 10500
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206EB3
+P -2800 10200
+F 0 "SW?" H -2800 10455 50  0000 C CNN
+F 1 "SW_PUSH" H -2800 10364 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2800 10200 60  0001 C CNN
+F 3 "" H -2800 10200 60  0000 C CNN
+	1    -2800 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206EB9
+P -3100 10350
+F 0 "D?" V -3054 10270 50  0000 R CNN
+F 1 "D" V -3145 10270 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3100 10350 50  0001 C CNN
+F 3 "~" H -3100 10350 50  0001 C CNN
+	1    -3100 10350
+	0    -1   -1   0   
+$EndComp
+Connection ~ -2500 10200
+Wire Wire Line
+	-3100 10500 -2400 10500
+Connection ~ -3100 10500
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206EC3
+P -3500 10800
+F 0 "SW?" H -3500 11055 50  0000 C CNN
+F 1 "SW_PUSH" H -3500 10964 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -3500 10800 60  0001 C CNN
+F 3 "" H -3500 10800 60  0000 C CNN
+	1    -3500 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206EC9
+P -3800 10950
+F 0 "D?" V -3754 10870 50  0000 R CNN
+F 1 "D" V -3845 10870 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3800 10950 50  0001 C CNN
+F 3 "~" H -3800 10950 50  0001 C CNN
+	1    -3800 10950
+	0    -1   -1   0   
+$EndComp
+Connection ~ -3200 10800
+Wire Wire Line
+	-3800 11100 -3100 11100
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206ED1
+P -2800 10800
+F 0 "SW?" H -2800 11055 50  0000 C CNN
+F 1 "SW_PUSH" H -2800 10964 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2800 10800 60  0001 C CNN
+F 3 "" H -2800 10800 60  0000 C CNN
+	1    -2800 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206ED7
+P -3100 10950
+F 0 "D?" V -3054 10870 50  0000 R CNN
+F 1 "D" V -3145 10870 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3100 10950 50  0001 C CNN
+F 3 "~" H -3100 10950 50  0001 C CNN
+	1    -3100 10950
+	0    -1   -1   0   
+$EndComp
+Connection ~ -2500 10800
+Wire Wire Line
+	-3100 11100 -2400 11100
+Connection ~ -3100 11100
+Wire Wire Line
+	-2500 10200 -2500 10800
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206EE1
+P -3500 11400
+F 0 "SW?" H -3500 11655 50  0000 C CNN
+F 1 "SW_PUSH" H -3500 11564 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -3500 11400 60  0001 C CNN
+F 3 "" H -3500 11400 60  0000 C CNN
+	1    -3500 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206EE7
+P -3800 11550
+F 0 "D?" V -3754 11470 50  0000 R CNN
+F 1 "D" V -3845 11470 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3800 11550 50  0001 C CNN
+F 3 "~" H -3800 11550 50  0001 C CNN
+	1    -3800 11550
+	0    -1   -1   0   
+$EndComp
+Connection ~ -3200 11400
+Wire Wire Line
+	-3800 11700 -3100 11700
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206EEF
+P -2800 11400
+F 0 "SW?" H -2800 11655 50  0000 C CNN
+F 1 "SW_PUSH" H -2800 11564 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2800 11400 60  0001 C CNN
+F 3 "" H -2800 11400 60  0000 C CNN
+	1    -2800 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206EF5
+P -3100 11550
+F 0 "D?" V -3054 11470 50  0000 R CNN
+F 1 "D" V -3145 11470 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3100 11550 50  0001 C CNN
+F 3 "~" H -3100 11550 50  0001 C CNN
+	1    -3100 11550
+	0    -1   -1   0   
+$EndComp
+Connection ~ -2500 11400
+Wire Wire Line
+	-3100 11700 -2400 11700
+Connection ~ -3100 11700
+Wire Wire Line
+	-3200 10800 -3200 11400
+Wire Wire Line
+	-2500 10800 -2500 11400
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206F00
+P -3500 12000
+F 0 "SW?" H -3500 12255 50  0000 C CNN
+F 1 "SW_PUSH" H -3500 12164 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -3500 12000 60  0001 C CNN
+F 3 "" H -3500 12000 60  0000 C CNN
+	1    -3500 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206F06
+P -3800 12150
+F 0 "D?" V -3754 12070 50  0000 R CNN
+F 1 "D" V -3845 12070 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3800 12150 50  0001 C CNN
+F 3 "~" H -3800 12150 50  0001 C CNN
+	1    -3800 12150
+	0    -1   -1   0   
+$EndComp
+Connection ~ -3200 12000
+Wire Wire Line
+	-3800 12300 -3100 12300
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206F0E
+P -2800 12000
+F 0 "SW?" H -2800 12255 50  0000 C CNN
+F 1 "SW_PUSH" H -2800 12164 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2800 12000 60  0001 C CNN
+F 3 "" H -2800 12000 60  0000 C CNN
+	1    -2800 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206F14
+P -3100 12150
+F 0 "D?" V -3054 12070 50  0000 R CNN
+F 1 "D" V -3145 12070 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3100 12150 50  0001 C CNN
+F 3 "~" H -3100 12150 50  0001 C CNN
+	1    -3100 12150
+	0    -1   -1   0   
+$EndComp
+Connection ~ -2500 12000
+Connection ~ -3100 12300
+Wire Wire Line
+	-3200 11400 -3200 12000
+Wire Wire Line
+	-2500 11400 -2500 12000
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206F1E
+P -3500 12600
+F 0 "SW?" H -3500 12855 50  0000 C CNN
+F 1 "SW_PUSH" H -3500 12764 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -3500 12600 60  0001 C CNN
+F 3 "" H -3500 12600 60  0000 C CNN
+	1    -3500 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206F24
+P -3800 12750
+F 0 "D?" V -3754 12670 50  0000 R CNN
+F 1 "D" V -3845 12670 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3800 12750 50  0001 C CNN
+F 3 "~" H -3800 12750 50  0001 C CNN
+	1    -3800 12750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-3800 12900 -3100 12900
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206F2B
+P -2800 12600
+F 0 "SW?" H -2800 12855 50  0000 C CNN
+F 1 "SW_PUSH" H -2800 12764 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2800 12600 60  0001 C CNN
+F 3 "" H -2800 12600 60  0000 C CNN
+	1    -2800 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206F31
+P -3100 12750
+F 0 "D?" V -3054 12670 50  0000 R CNN
+F 1 "D" V -3145 12670 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -3100 12750 50  0001 C CNN
+F 3 "~" H -3100 12750 50  0001 C CNN
+	1    -3100 12750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-3100 12900 -2400 12900
+Connection ~ -3100 12900
+Wire Wire Line
+	-3200 12000 -3200 12600
+Wire Wire Line
+	-2500 12000 -2500 12600
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206F3B
+P -2100 10200
+F 0 "SW?" H -2100 10455 50  0000 C CNN
+F 1 "SW_PUSH" H -2100 10364 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2100 10200 60  0001 C CNN
+F 3 "" H -2100 10200 60  0000 C CNN
+	1    -2100 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206F41
+P -2400 10350
+F 0 "D?" V -2354 10270 50  0000 R CNN
+F 1 "D" V -2445 10270 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -2400 10350 50  0001 C CNN
+F 3 "~" H -2400 10350 50  0001 C CNN
+	1    -2400 10350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206F48
+P -2100 10800
+F 0 "SW?" H -2100 11055 50  0000 C CNN
+F 1 "SW_PUSH" H -2100 10964 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2100 10800 60  0001 C CNN
+F 3 "" H -2100 10800 60  0000 C CNN
+	1    -2100 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206F4E
+P -2400 10950
+F 0 "D?" V -2354 10870 50  0000 R CNN
+F 1 "D" V -2445 10870 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -2400 10950 50  0001 C CNN
+F 3 "~" H -2400 10950 50  0001 C CNN
+	1    -2400 10950
+	0    -1   -1   0   
+$EndComp
+Connection ~ -1800 10800
+Wire Wire Line
+	-1800 10200 -1800 10800
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206F56
+P -2100 11400
+F 0 "SW?" H -2100 11655 50  0000 C CNN
+F 1 "SW_PUSH" H -2100 11564 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2100 11400 60  0001 C CNN
+F 3 "" H -2100 11400 60  0000 C CNN
+	1    -2100 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206F5C
+P -2400 11550
+F 0 "D?" V -2354 11470 50  0000 R CNN
+F 1 "D" V -2445 11470 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -2400 11550 50  0001 C CNN
+F 3 "~" H -2400 11550 50  0001 C CNN
+	1    -2400 11550
+	0    -1   -1   0   
+$EndComp
+Connection ~ -1800 11400
+Wire Wire Line
+	-1800 10800 -1800 11400
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206F64
+P -2100 12000
+F 0 "SW?" H -2100 12255 50  0000 C CNN
+F 1 "SW_PUSH" H -2100 12164 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2100 12000 60  0001 C CNN
+F 3 "" H -2100 12000 60  0000 C CNN
+	1    -2100 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206F6A
+P -2400 12150
+F 0 "D?" V -2354 12070 50  0000 R CNN
+F 1 "D" V -2445 12070 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -2400 12150 50  0001 C CNN
+F 3 "~" H -2400 12150 50  0001 C CNN
+	1    -2400 12150
+	0    -1   -1   0   
+$EndComp
+Connection ~ -1800 12000
+Wire Wire Line
+	-1800 11400 -1800 12000
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206F72
+P -2100 12600
+F 0 "SW?" H -2100 12855 50  0000 C CNN
+F 1 "SW_PUSH" H -2100 12764 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -2100 12600 60  0001 C CNN
+F 3 "" H -2100 12600 60  0000 C CNN
+	1    -2100 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206F78
+P -2400 12750
+F 0 "D?" V -2354 12670 50  0000 R CNN
+F 1 "D" V -2445 12670 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -2400 12750 50  0001 C CNN
+F 3 "~" H -2400 12750 50  0001 C CNN
+	1    -2400 12750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-1800 12000 -1800 12600
+Wire Wire Line
+	-2400 10500 -1700 10500
+Connection ~ -2400 10500
+Wire Wire Line
+	-2400 11100 -1700 11100
+Connection ~ -2400 11100
+Wire Wire Line
+	-2400 11700 -1700 11700
+Connection ~ -2400 11700
+Wire Wire Line
+	-2400 12900 -1700 12900
+Connection ~ -2400 12900
+Text GLabel -6700 7500 1    50   Input ~ 0
+COL1
+Text GLabel -6000 7500 1    50   Input ~ 0
+COL2
+Text GLabel -5300 7500 1    50   Input ~ 0
+COL3
+Text GLabel -4600 7500 1    50   Input ~ 0
+COL4
+Text GLabel -3900 7500 1    50   Input ~ 0
+COL5
+Text GLabel -3200 7500 1    50   Input ~ 0
+COL6
+Text GLabel -2500 7500 1    50   Input ~ 0
+COL7
+Text GLabel -1800 7500 1    50   Input ~ 0
+COL8
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206F91
+P -3500 10200
+F 0 "SW?" H -3500 10455 50  0000 C CNN
+F 1 "SW_PUSH" H -3500 10364 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -3500 10200 60  0001 C CNN
+F 3 "" H -3500 10200 60  0000 C CNN
+	1    -3500 10200
+	1    0    0    -1  
+$EndComp
+Text GLabel -1700 10500 2    50   Input ~ 0
+ROW4
+Text GLabel -1700 11100 2    50   Input ~ 0
+ROW5
+Connection ~ -5200 10500
+Connection ~ -5200 11100
+Connection ~ -5200 11700
+Connection ~ -5200 12300
+Connection ~ -5200 12900
+Connection ~ -3800 10500
+Connection ~ -3800 11100
+Connection ~ -3800 11700
+Connection ~ -3800 12300
+Connection ~ -3800 12900
+Connection ~ -3200 10200
+Wire Wire Line
+	-3200 10200 -3200 10800
+Wire Wire Line
+	-6600 12900 -5900 12900
+Text GLabel -1700 11700 2    50   Input ~ 0
+ROW6
+Text GLabel -1700 12300 2    50   Input ~ 0
+ROW7
+Text GLabel -1700 12900 2    50   Input ~ 0
+ROW8
+Wire Wire Line
+	-6600 10500 -5900 10500
+Connection ~ -6000 10200
+Wire Wire Line
+	-6000 10200 -6000 10800
+Connection ~ -5900 12900
+Wire Wire Line
+	-5900 12900 -5200 12900
+Connection ~ -5300 12000
+Wire Wire Line
+	-3100 12300 -2400 12300
+Wire Wire Line
+	-7300 12900 -6600 12900
+Connection ~ -6600 12900
+Connection ~ -6600 12300
+Connection ~ -2400 12300
+Wire Wire Line
+	-2400 12300 -1700 12300
+Connection ~ -1800 10200
+Connection ~ -6700 12000
+Wire Wire Line
+	-6700 12600 -6700 12000
+Connection ~ -6600 11700
+Connection ~ -6600 11100
+Connection ~ -6700 10200
+Wire Wire Line
+	-6700 10200 -6700 10800
+Connection ~ -6600 10500
+Wire Wire Line
+	-6700 11400 -6700 12000
+Wire Wire Line
+	-6700 10800 -6700 11400
+Connection ~ -6700 11400
+Connection ~ -6700 10800
+Wire Wire Line
+	-7300 10500 -6600 10500
+$Comp
+L Device:D D?
+U 1 1 62206FC3
+P -7300 12150
+F 0 "D?" V -7254 12070 50  0000 R CNN
+F 1 "D" V -7345 12070 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -7300 12150 50  0001 C CNN
+F 3 "~" H -7300 12150 50  0001 C CNN
+	1    -7300 12150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206FC9
+P -7000 12000
+F 0 "SW?" H -7000 12255 50  0000 C CNN
+F 1 "SW_PUSH" H -7000 12164 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -7000 12000 60  0001 C CNN
+F 3 "" H -7000 12000 60  0000 C CNN
+	1    -7000 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7300 11700 -6600 11700
+$Comp
+L Device:D D?
+U 1 1 62206FD0
+P -7300 11550
+F 0 "D?" V -7254 11470 50  0000 R CNN
+F 1 "D" V -7345 11470 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -7300 11550 50  0001 C CNN
+F 3 "~" H -7300 11550 50  0001 C CNN
+	1    -7300 11550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206FD6
+P -7000 11400
+F 0 "SW?" H -7000 11655 50  0000 C CNN
+F 1 "SW_PUSH" H -7000 11564 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -7000 11400 60  0001 C CNN
+F 3 "" H -7000 11400 60  0000 C CNN
+	1    -7000 11400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7300 11100 -6600 11100
+$Comp
+L Device:D D?
+U 1 1 62206FDD
+P -7300 10950
+F 0 "D?" V -7254 10870 50  0000 R CNN
+F 1 "D" V -7345 10870 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -7300 10950 50  0001 C CNN
+F 3 "~" H -7300 10950 50  0001 C CNN
+	1    -7300 10950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206FE3
+P -7000 10800
+F 0 "SW?" H -7000 11055 50  0000 C CNN
+F 1 "SW_PUSH" H -7000 10964 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -7000 10800 60  0001 C CNN
+F 3 "" H -7000 10800 60  0000 C CNN
+	1    -7000 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62206FE9
+P -7300 10350
+F 0 "D?" V -7254 10270 50  0000 R CNN
+F 1 "D" V -7345 10270 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" H -7300 10350 50  0001 C CNN
+F 3 "~" H -7300 10350 50  0001 C CNN
+	1    -7300 10350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 62206FEF
+P -7000 10200
+F 0 "SW?" H -7000 10455 50  0000 C CNN
+F 1 "SW_PUSH" H -7000 10364 50  0000 C CNN
+F 2 "keyboard_parts:Kailh_MX_Socket_reversible" H -7000 10200 60  0001 C CNN
+F 3 "" H -7000 10200 60  0000 C CNN
+	1    -7000 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1800 7500 -1800 7850
+Connection ~ -1800 7850
+Wire Wire Line
+	-1800 7850 -1800 8650
+Connection ~ -1800 8650
+Wire Wire Line
+	-1800 8650 -1800 9350
+Connection ~ -1800 9350
+Wire Wire Line
+	-1800 9350 -1800 10200
+Wire Wire Line
+	-2500 7500 -2500 7850
+Connection ~ -2500 7850
+Wire Wire Line
+	-2500 7850 -2500 8650
+Connection ~ -2500 8650
+Wire Wire Line
+	-2500 8650 -2500 9350
+Connection ~ -2500 9350
+Wire Wire Line
+	-2500 9350 -2500 10200
+Wire Wire Line
+	-3200 7500 -3200 7850
+Connection ~ -3200 7850
+Wire Wire Line
+	-3200 7850 -3200 8650
+Connection ~ -3200 8650
+Wire Wire Line
+	-3200 8650 -3200 9350
+Connection ~ -3200 9350
+Wire Wire Line
+	-3200 9350 -3200 10200
+Wire Wire Line
+	-3900 7500 -3900 7850
+Connection ~ -3900 7850
+Wire Wire Line
+	-3900 7850 -3900 8650
+Connection ~ -3900 8650
+Wire Wire Line
+	-3900 8650 -3900 9350
+Connection ~ -3900 9350
+Wire Wire Line
+	-3900 9350 -3900 10200
+Wire Wire Line
+	-4600 7500 -4600 7850
+Connection ~ -4600 7850
+Wire Wire Line
+	-4600 7850 -4600 8650
+Connection ~ -4600 8650
+Wire Wire Line
+	-4600 8650 -4600 9350
+Connection ~ -4600 9350
+Wire Wire Line
+	-4600 9350 -4600 10200
+Wire Wire Line
+	-5300 7500 -5300 7850
+Connection ~ -5300 7850
+Wire Wire Line
+	-5300 7850 -5300 8650
+Connection ~ -5300 8650
+Wire Wire Line
+	-5300 8650 -5300 9350
+Connection ~ -5300 9350
+Wire Wire Line
+	-5300 9350 -5300 10200
+Wire Wire Line
+	-6000 7500 -6000 7850
+Connection ~ -6000 7850
+Wire Wire Line
+	-6000 7850 -6000 8650
+Connection ~ -6000 8650
+Wire Wire Line
+	-6000 8650 -6000 9350
+Connection ~ -6000 9350
+Wire Wire Line
+	-6000 9350 -6000 10200
+Wire Wire Line
+	-6700 7500 -6700 7850
+Connection ~ -6700 7850
+Wire Wire Line
+	-6700 7850 -6700 9350
+Connection ~ -6700 9350
+Wire Wire Line
+	-6700 9350 -6700 10200
+Wire Wire Line
+	-1700 8950 -2400 8950
+Connection ~ -5900 8950
+Wire Wire Line
+	-5900 8950 -6600 8950
+Connection ~ -5200 8950
+Wire Wire Line
+	-5200 8950 -5900 8950
+Connection ~ -4500 8950
+Wire Wire Line
+	-4500 8950 -5200 8950
+Connection ~ -3800 8950
+Wire Wire Line
+	-3800 8950 -4500 8950
+Connection ~ -3100 8950
+Wire Wire Line
+	-3100 8950 -3800 8950
+Connection ~ -2400 8950
+Wire Wire Line
+	-2400 8950 -3100 8950
+Wire Wire Line
+	-7300 9650 -6600 9650
+Connection ~ -6600 9650
+Wire Wire Line
+	-6600 9650 -5900 9650
+Connection ~ -5900 9650
+Wire Wire Line
+	-5900 9650 -5200 9650
+Connection ~ -5200 9650
+Wire Wire Line
+	-5200 9650 -4500 9650
+Connection ~ -4500 9650
+Wire Wire Line
+	-4500 9650 -3800 9650
+Connection ~ -3800 9650
+Wire Wire Line
+	-3800 9650 -3100 9650
+Connection ~ -3100 9650
+Wire Wire Line
+	-3100 9650 -2400 9650
+Connection ~ -2400 9650
+Wire Wire Line
+	-2400 9650 -1700 9650
+Wire Wire Line
+	-1700 8150 -2400 8150
+Connection ~ -6600 8150
+Wire Wire Line
+	-6600 8150 -7300 8150
+Connection ~ -5900 8150
+Wire Wire Line
+	-5900 8150 -6600 8150
+Connection ~ -5200 8150
+Wire Wire Line
+	-5200 8150 -5900 8150
+Connection ~ -4500 8150
+Wire Wire Line
+	-4500 8150 -5200 8150
+Connection ~ -3800 8150
+Wire Wire Line
+	-3800 8150 -4500 8150
+Connection ~ -3100 8150
+Wire Wire Line
+	-3100 8150 -3800 8150
+Connection ~ -2400 8150
+Wire Wire Line
+	-2400 8150 -3100 8150
+$EndSCHEMATC

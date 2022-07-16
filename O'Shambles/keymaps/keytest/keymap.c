@@ -21,6 +21,19 @@
 #define _DVORAK 1
 #define _LEFT 2
 #define _RIGHT 3
+#define _SETTINGS 4
+
+// Tap Dance Declarations
+enum {
+  ESC_CAPS = 0,
+  MEDIA = 0
+};
+
+enum my_keycodes {
+  FOO = SAFE_RANGE,
+  BAR
+};
+
 
 //#define LOWER MO(_LEFT)/
 //#define RAISE MO(_RIGHT)/
@@ -38,11 +51,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 */
   	[_QWERTY] = LAYOUT (
-    TD(MEDIA),    TD(ESC_CAPS),  KC_MNXT,   KC_VOLD,          KC_VOLU,   KC_VOLU,     DF(_DVORAK),  CK_TOGG,
-    KC_Q,         KC_W,          KC_E,      KC_R,             KC_T,      KC_DEL,      KC_Y,         KC_U,               KC_I,    KC_O,    KC_P,
-    KC_A,         KC_S,          KC_D,      LT(_LEFT, KC_F),  KC_G,      KC_TAB,      KC_H,         LT(_RIGHT, KC_J),   KC_K,    KC_L,    KC_SCLN,
-    KC_Z,         KC_X,          KC_C,      KC_V,             KC_B,      KC_ENT,      KC_N,         KC_M,               KC_COMM, KC_DOT,  KC_SLSH,
-    KC_LEAD,      KC_LALT,       KC_LGUI,   KC_LCTRL,         KC_BSPC,   TT(_RIGHT),  KC_SPC,       KC_LSFT,            KC_UP,   KC_DOWN, KC_RIGHT
+    KC_1,     KC_2,     KC_3,      KC_4,     KC_5,      KC_6,     KC_7,    KC_8,
+    KC_Q,     KC_W,     KC_E,      KC_R,     KC_T,      KC_TAB,   KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,
+    KC_A,     KC_S,     KC_D,      KC_F,     KC_G,      KC_CAPS,  KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN,
+    KC_Z,     KC_X,     KC_C,      KC_V,     KC_B,      KC_ENT,   KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH,
+    KC_9,     KC_LALT,  KC_LGUI,   KC_LCTRL, KC_BSPC,   KC_QUOT,  KC_SPC,  KC_LEFT, KC_UP,   KC_DOWN, KC_RIGHT
     ),
 
 /* DVORAK
@@ -55,9 +68,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 */
   	[_DVORAK] = LAYOUT (
-    TD(MEDIA),    TD(ESC_CAPS),   KC_MNXT,  KC_VOLD,           KC_VOLU,  KC_VOLU,     DF(_QWERTY),  CK_TOGG,
+    RGB_TOG,    RGB_MOD,  RGB_HUI,   RGB_HUD,          RGB_SAI,   RGB_SAD,     DF(_QWERTY),  CK_TOGG,
     KC_QUOT,      KC_COMM,        KC_DOT,   KC_P,              KC_Y,     KC_DEL,      KC_F,         KC_G,                KC_C,    KC_R,    KC_L,
-    KC_A,         KC_O,           KC_E,     LT(_LEFT, KC_U),   KC_I,     KC_TAB,      KC_D,         LT(_RIGHT, KC_H),    KC_T,    KC_N,    KC_S,
+    KC_A,         KC_O,           KC_E,     LT(_LEFT, KC_U),   KC_I,     KC_TAB,      KC_D,         LT(_RIGHT, KC_H),     KC_T,    KC_N,    KC_S,
     KC_SCLN,      KC_Q,           KC_J,     KC_K,              KC_X,     KC_ENT,      KC_B,         KC_M,                KC_W,    KC_V,    KC_Z,
     KC_LEAD,      KC_LALT,        KC_LGUI,  KC_LCTRL,          KC_BSPC,  TT(_RIGHT),  KC_SPC,       KC_LSFT,             KC_UP,   KC_DOWN, KC_RIGHT
     ),
@@ -133,6 +146,42 @@ void encoder_update_user(uint8_t index, bool clockwise) {
     }
 }
 
+
+//Tap Dance Definitions
+qk_tap_dance_action_t tap_dance_actions[] = {
+  //Tap once for Esc, twice for Caps Lock
+  [ESC_CAPS]  = ACTION_TAP_DANCE_DOUBLE(KC_ESC, KC_CAPS),
+  //Tap once for Play/Pause, twice for Next Track
+  [MEDIA] = ACTION_TAP_DANCE_DOUBLE(KC_MPLY, KC_MNXT)
+};
+
+//Tri-Layer
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+  switch (keycode) {
+    case _LEFT:
+      if (record->event.pressed) {
+        layer_on(_LEFT);
+        update_tri_layer(_LEFT, _RIGHT, _SETTINGS);
+      } else {
+        layer_off(_LEFT);
+        update_tri_layer(_LEFT, _RIGHT, _SETTINGS);
+      }
+      return false;
+      break;
+    case _RIGHT:
+      if (record->event.pressed) {
+        layer_on(_RIGHT);
+        update_tri_layer(_LEFT, _RIGHT, _SETTINGS);
+      } else {
+        layer_off(_RIGHT);
+        update_tri_layer(_LEFT, _RIGHT, _SETTINGS);
+      }
+      return false;
+      break;
+    }
+  return true;
+}
+
 #ifdef OLED_DRIVER_ENABLE
 void oled_task_user(void) {
     // Host Keyboard Layer Status
@@ -150,7 +199,10 @@ void oled_task_user(void) {
             break;
         case _RIGHT:
             oled_write_P(PSTR("RIGHT\n"), false);
-            break;      
+            break;
+        case _SETTINGS:
+            oled_write_P(PSTR("SETTINGS\n"), false);
+            break;         
         default:
             // Or use the write_ln shortcut over adding '\n' to the end of your string
             oled_write_ln_P(PSTR("Undefined"), false);

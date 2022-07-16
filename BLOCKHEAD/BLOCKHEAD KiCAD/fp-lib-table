@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name Keebio-Parts)(type KiCad)(uri C:/Users/qwahtroh/Documents/GitHub/Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name Desktop)(type KiCad)(uri C:/Users/qwahtroh/Desktop)(options "")(descr ""))
+  (lib (name proton_c)(type KiCad)(uri C:/Users/qwahtroh/Documents/GitHub/qmk_hardware/kicad/proton_c)(options "")(descr ""))
+  (lib (name mxchoc)(type KiCad)(uri ${KIPRJMOD}/mxchoc.pretty)(options "")(descr ""))
+)
